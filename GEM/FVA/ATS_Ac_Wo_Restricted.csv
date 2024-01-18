@@ -1,0 +1,16 @@
+LogFC_ATS_AC_wo,Reaction,NAME,EQUATION,SUBSYSTEM
+-6.72329105904663,r_0664,isoleucine transaminase,2-oxoglutarate[m] + L-isoleucine[m] <=> (S)-3-methyl-2-oxopentanoate[m] + L-glutamate[m],"2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids;Biosynthesis of antibiotics;Biosynthesis of secondary metabolites;Cysteine and methionine metabolism;Pantothenate and CoA biosynthesis;Valine, leucine and isoleucine biosynthesis;Valine, leucine and isoleucine degradation"
+-1.35694720317718,r_1184,L-arganine transport,H+[e] + L-arginine[e] <=> H+[c] + L-arginine[c],
+-44.2466115232844,r_1697,CO2 transport,carbon dioxide[c] <=> carbon dioxide[e],
+-2.32192809488736,r_1718,D-xylose exchange,D-xylose[e] <=>,
+-13.0870802357736,r_1811,glycine transport,L-glycine[c] <=> L-glycine[m],
+-4.63425009206487,r_1827,H+ diffusion,H+[c] <=> H+[lp],
+-10.05397434553,r_1980,O2 transport,oxygen[c] <=> oxygen[p],
+-4.01727737932004,r_3533,"NAD transport, cytoplasm-ER membrane",NAD[c] <=> NAD[erm],
+-1.39570185938128,r_3538,"CTP transport, cytoplasm-ER membrane",CTP[c] <=> CTP[erm],
+-11.9355992835322,r_3652,"ADP transport, cytoplasm-vacuolar membrane",ADP[c] <=> ADP[vm],
+-13.937877818435,r_3751,"1-acylglycerophosphoethanolamine (16:0) transport, ER membrane-lipid particle",1-acylglycerophosphoethanolamine (16:0)[erm] <=> 1-acylglycerophosphoethanolamine (16:0)[lp],
+-1.49125426811952,t_0351,"PE (1-16:0, 2-18:2) diacylglycerol (1-16:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane","diglyceride (1-16:0, 2-18:2)[erm] + phosphatidylethanolamine (1-16:0, 2-18:2)[erm] <=> triglyceride (1-16:0, 2-18:2, 3-18:2)[erm] + 1-acylglycerophosphoethanolamine (16:0)[erm]",
+-1.21192229092348,t_0749,"phosphatidylethanolamine (1-16:0, 2-18:2) transport, ER membrane-lipid particle","phosphatidylethanolamine (1-16:0, 2-18:2)[erm] <=> phosphatidylethanolamine (1-16:0, 2-18:2)[lp]",
+-4.43449759312786,t_1114,"PE (1-18:1, 2-18:2) diacylglycerol (1-16:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane","phosphatidylethanolamine (1-18:1, 2-18:2)[erm] + diglyceride (1-16:0, 2-18:1)[erm] <=> triglyceride (1-16:0, 2-18:1, 3-18:2)[erm] + 1-acylglycerophosphoethanolamine (18:1)[erm]",
+-1.35077345524774,y200033,dCTP:uridine 5'-phosphotransferase,dCTP[c] + uridine[c] <=> dCDP[c] + H+[c] + UMP[c],Pyrimidine metabolism

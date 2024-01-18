@@ -1,0 +1,12 @@
+Protein_ID,log2FoldChange,padj,Gene_id,,,
+538760,-6.00149058059784,0,gene_2263,amino acid transporter,AAT family amino acid transporter [Cryptococcus neoformans var. grubii MW-RSA36],
+14588,-5.24218490365181,0,gene_307,membrane transport protein,,
+471404,-4.85316189439828,3.21091168176492E-199,gene_2278,POT family-domain containing protein,Peptide transporter PTR2 [Saitozyma sp. JCM 24511],
+512494,-4.46527132320005,0,gene_6158,hypothetical protein,,
+504211,-4.28075751142549,0,gene_1491,hypothetical protein,3-oxoacid CoA-transferase [Tremella mesenterica] ,SCOT1 transferase [Elachura formosa]
+488485,-4.20382506090689,1.79710545067478E-79,gene_3736,expressed protein,Select seq gb|KAH9024526.1|,Six-hairpin glycosidase-like protein [Lactarius pseudohatsudake]
+499983,-4.08861719939223,0,gene_7019,expressed protein,Select seq gb|OCF38917.1|,nucleolin [Kwoniella heveanensis CBS 569]
+174669,-3.97881702368581,4.40004178880803E-90,gene_1958,Major facilitator superfamily domain-containing protein,"7t3n.1.AÊVesicular glutamate transporter 2
+R184Q/E191Q mutant of rat vesicular glutamate transporter 2 (VGLUT2)",
+93202,-3.79778814035055,0,gene_7024,hypothetical protein,,
+496105,-3.7490630364959,1.31985713556455E-69,gene_5881,Brix domain-domain containing protein,Select seq gb|OCF79035.1|,ribosome production factor 2 [Kwoniella mangroviensis CBS 8886]

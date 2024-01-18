@@ -1,0 +1,5345 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<entrySet level="2" version="5" xmlns="net:sf:psidev:mi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="net:sf:psidev:mi http://psidev.sourceforge.net/mi/rel25/src/MIF25.xsd">
+  <entry>
+    <experimentList>
+      <experimentDescription id="7">
+        <names>
+          <shortLabel>automated_textmining</shortLabel>
+          <fullName>Unsupervised, automated mining of biomedical texts: analysis of protein-protein co-mentioning</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="15808823"/>
+            <secondaryRef db="pubmed" id="16046493"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>predictive text mining</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0087"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="6">
+        <names>
+          <shortLabel>knowledge datamining</shortLabel>
+          <fullName>Import of protein-protein association information from curated knowledge databases</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="14681412"/>
+            <secondaryRef db="pubmed" id="15608231"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>experimental knowledge based</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0046"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="5">
+        <names>
+          <shortLabel>experimental_interaction_data</shortLabel>
+          <fullName>Global analysis of protein-protein interaction data, obtained from the literature and from large-scale datasets (BIND database)</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="15608229"/>
+            <secondaryRef db="pubmed" id="15193308"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>experimental knowledge based</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0046"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="4">
+        <names>
+          <shortLabel>gene_coexpression</shortLabel>
+          <fullName>Combined analysis of available microarray data, co-expression analysis</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="9843981"/>
+            <secondaryRef db="pubmed" id="12934013"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>coexpression</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:2231"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="3">
+        <names>
+          <shortLabel>gene_cooccurence</shortLabel>
+          <fullName>Analysis of presence/absence patterns of genes in genomes: functional partners co-occur</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="10200254"/>
+            <secondaryRef db="pubmed" id="12519996"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>sequence based phylogenetic profile</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0100"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="2">
+        <names>
+          <shortLabel>gene_fusion_events</shortLabel>
+          <fullName>Detection of gene fusion events: functional linkage inferred for the separate components in other genomes</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="10427000"/>
+            <secondaryRef db="pubmed" id="12519996"/>
+            <secondaryRef db="pubmed" id="10573422"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>domain fusion</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0036"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="1">
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="10077608"/>
+            <secondaryRef db="pubmed" id="12519996"/>
+            <secondaryRef db="pubmed" id="9787636"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>gene neighborhoods</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0057"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+      <experimentDescription id="0">
+        <names>
+          <shortLabel>combined_confidence</shortLabel>
+          <fullName>Probabilistic, benchmarked integration of all evidence types: combined confidence score of predicted functional association (range 0.0 to 1.0)</fullName>
+        </names>
+        <bibref>
+          <xref>
+            <primaryRef db="pubmed" id="15608232"/>
+            <secondaryRef db="pubmed" id="12519996"/>
+          </xref>
+        </bibref>
+        <hostOrganismList>
+          <hostOrganism ncbiTaxId="0">
+            <names>
+              <shortLabel>other/not applicable</shortLabel>
+            </names>
+          </hostOrganism>
+        </hostOrganismList>
+        <interactionDetectionMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </interactionDetectionMethod>
+        <participantIdentificationMethod>
+          <names>
+            <shortLabel>other/not applicable</shortLabel>
+          </names>
+          <xref>
+            <primaryRef db="PSI-MI" id="MI:0686"/>
+          </xref>
+        </participantIdentificationMethod>
+      </experimentDescription>
+    </experimentList>
+    <interactorList>      <interactor id="101">
+        <names>
+          <shortLabel>49226</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="49226" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="102">
+        <names>
+          <shortLabel>479744</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="479744" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="103">
+        <names>
+          <shortLabel>537812</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="537812" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="104">
+        <names>
+          <shortLabel>59445</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="59445" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="105">
+        <names>
+          <shortLabel>480260</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="480260" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="106">
+        <names>
+          <shortLabel>480268</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="480268" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="107">
+        <names>
+          <shortLabel>63929</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="63929" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="108">
+        <names>
+          <shortLabel>143686</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="143686" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="109">
+        <names>
+          <shortLabel>143891</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="143891" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="110">
+        <names>
+          <shortLabel>521150</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="521150" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="111">
+        <names>
+          <shortLabel>538066</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="538066" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="112">
+        <names>
+          <shortLabel>480837</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="480837" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="113">
+        <names>
+          <shortLabel>480850</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="480850" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="114">
+        <names>
+          <shortLabel>507099</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="507099" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="115">
+        <names>
+          <shortLabel>476298</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="476298" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="116">
+        <names>
+          <shortLabel>480936</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="480936" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="117">
+        <names>
+          <shortLabel>481039</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="481039" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="118">
+        <names>
+          <shortLabel>521346</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="521346" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="119">
+        <names>
+          <shortLabel>481299</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="481299" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="120">
+        <names>
+          <shortLabel>476362</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="476362" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="121">
+        <names>
+          <shortLabel>481635</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="481635" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="122">
+        <names>
+          <shortLabel>481637</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="481637" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="123">
+        <names>
+          <shortLabel>507122</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="507122" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="124">
+        <names>
+          <shortLabel>508509</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="508509" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="125">
+        <names>
+          <shortLabel>481785</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="481785" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="126">
+        <names>
+          <shortLabel>481789</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="481789" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="127">
+        <names>
+          <shortLabel>508571</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="508571" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="128">
+        <names>
+          <shortLabel>508697</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="508697" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="129">
+        <names>
+          <shortLabel>173947</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="173947" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="130">
+        <names>
+          <shortLabel>178032</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="178032" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="131">
+        <names>
+          <shortLabel>435886</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="435886" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="132">
+        <names>
+          <shortLabel>180336</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="180336" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="133">
+        <names>
+          <shortLabel>508856</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="508856" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="134">
+        <names>
+          <shortLabel>181779</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="181779" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="135">
+        <names>
+          <shortLabel>483238</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="483238" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="136">
+        <names>
+          <shortLabel>185576</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="185576" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="137">
+        <names>
+          <shortLabel>185580</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="185580" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="138">
+        <names>
+          <shortLabel>483243</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="483243" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="139">
+        <names>
+          <shortLabel>483245</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="483245" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="140">
+        <names>
+          <shortLabel>483309</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="483309" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="141">
+        <names>
+          <shortLabel>483320</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="483320" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="142">
+        <names>
+          <shortLabel>461501</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="461501" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="143">
+        <names>
+          <shortLabel>483410</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="483410" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="144">
+        <names>
+          <shortLabel>483415</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="483415" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="145">
+        <names>
+          <shortLabel>538744</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="538744" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="146">
+        <names>
+          <shortLabel>483473</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="483473" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="147">
+        <names>
+          <shortLabel>483511</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="483511" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="148">
+        <names>
+          <shortLabel>483624</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="483624" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="149">
+        <names>
+          <shortLabel>509014</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="509014" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="150">
+        <names>
+          <shortLabel>483671</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="483671" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="151">
+        <names>
+          <shortLabel>483774</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="483774" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="152">
+        <names>
+          <shortLabel>483789</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="483789" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="153">
+        <names>
+          <shortLabel>194686</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="194686" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="154">
+        <names>
+          <shortLabel>476677</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="476677" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="155">
+        <names>
+          <shortLabel>471532</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="471532" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="156">
+        <names>
+          <shortLabel>509145</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="509145" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="157">
+        <names>
+          <shortLabel>534591</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="534591" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="158">
+        <names>
+          <shortLabel>484245</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="484245" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="159">
+        <names>
+          <shortLabel>471601</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="471601" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="160">
+        <names>
+          <shortLabel>476733</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="476733" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="161">
+        <names>
+          <shortLabel>12239</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="12239" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="162">
+        <names>
+          <shortLabel>539083</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="539083" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="163">
+        <names>
+          <shortLabel>484724</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="484724" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="164">
+        <names>
+          <shortLabel>484877</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="484877" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="165">
+        <names>
+          <shortLabel>539178</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="539178" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="166">
+        <names>
+          <shortLabel>13894</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="13894" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="167">
+        <names>
+          <shortLabel>524193</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="524193" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="168">
+        <names>
+          <shortLabel>485414</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="485414" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="169">
+        <names>
+          <shortLabel>485508</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="485508" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="170">
+        <names>
+          <shortLabel>217983</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="217983" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="171">
+        <names>
+          <shortLabel>485565</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="485565" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="172">
+        <names>
+          <shortLabel>504739</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="504739" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="173">
+        <names>
+          <shortLabel>485736</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="485736" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="174">
+        <names>
+          <shortLabel>485741</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="485741" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="175">
+        <names>
+          <shortLabel>485763</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="485763" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="176">
+        <names>
+          <shortLabel>471933</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="471933" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="177">
+        <names>
+          <shortLabel>221553</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="221553" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="178">
+        <names>
+          <shortLabel>539380</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="539380" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="179">
+        <names>
+          <shortLabel>485881</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="485881" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="180">
+        <names>
+          <shortLabel>451721</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="451721" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="181">
+        <names>
+          <shortLabel>225123</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="225123" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="182">
+        <names>
+          <shortLabel>534783</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="534783" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="183">
+        <names>
+          <shortLabel>225757</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="225757" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="184">
+        <names>
+          <shortLabel>486383</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="486383" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="185">
+        <names>
+          <shortLabel>462717</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="462717" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="186">
+        <names>
+          <shortLabel>486677</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="486677" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="187">
+        <names>
+          <shortLabel>486684</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="486684" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="188">
+        <names>
+          <shortLabel>509843</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="509843" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="189">
+        <names>
+          <shortLabel>476944</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="476944" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="190">
+        <names>
+          <shortLabel>486874</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="486874" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="191">
+        <names>
+          <shortLabel>543643</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="543643" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="192">
+        <names>
+          <shortLabel>487015</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="487015" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="193">
+        <names>
+          <shortLabel>545759</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="545759" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="194">
+        <names>
+          <shortLabel>487221</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="487221" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="195">
+        <names>
+          <shortLabel>487330</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="487330" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="196">
+        <names>
+          <shortLabel>487404</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="487404" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="197">
+        <names>
+          <shortLabel>525572</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="525572" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="198">
+        <names>
+          <shortLabel>487408</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="487408" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="199">
+        <names>
+          <shortLabel>246187</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="246187" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="200">
+        <names>
+          <shortLabel>487656</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="487656" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="201">
+        <names>
+          <shortLabel>487748</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="487748" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="202">
+        <names>
+          <shortLabel>545899</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="545899" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="203">
+        <names>
+          <shortLabel>488002</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="488002" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="204">
+        <names>
+          <shortLabel>488059</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="488059" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="205">
+        <names>
+          <shortLabel>535025</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="535025" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="206">
+        <names>
+          <shortLabel>488363</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="488363" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="207">
+        <names>
+          <shortLabel>257278</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="257278" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="208">
+        <names>
+          <shortLabel>257238</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="257238" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="209">
+        <names>
+          <shortLabel>488415</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="488415" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="210">
+        <names>
+          <shortLabel>463365</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="463365" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="211">
+        <names>
+          <shortLabel>488430</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="488430" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="212">
+        <names>
+          <shortLabel>488455</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="488455" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="213">
+        <names>
+          <shortLabel>488459</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="488459" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="214">
+        <names>
+          <shortLabel>546027</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="546027" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="215">
+        <names>
+          <shortLabel>488485</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="488485" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="216">
+        <names>
+          <shortLabel>463439</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="463439" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="217">
+        <names>
+          <shortLabel>540101</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="540101" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="218">
+        <names>
+          <shortLabel>488895</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="488895" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="219">
+        <names>
+          <shortLabel>540118</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="540118" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="220">
+        <names>
+          <shortLabel>264447</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="264447" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="221">
+        <names>
+          <shortLabel>488999</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="488999" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="222">
+        <names>
+          <shortLabel>265649</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="265649" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="223">
+        <names>
+          <shortLabel>489152</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="489152" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="224">
+        <names>
+          <shortLabel>489155</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="489155" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="225">
+        <names>
+          <shortLabel>438737</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="438737" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="226">
+        <names>
+          <shortLabel>489214</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="489214" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="227">
+        <names>
+          <shortLabel>526822</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="526822" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="228">
+        <names>
+          <shortLabel>271278</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="271278" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="229">
+        <names>
+          <shortLabel>489498</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="489498" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="230">
+        <names>
+          <shortLabel>489521</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="489521" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="231">
+        <names>
+          <shortLabel>489524</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="489524" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="232">
+        <names>
+          <shortLabel>453006</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="453006" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="233">
+        <names>
+          <shortLabel>426274</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="426274" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="234">
+        <names>
+          <shortLabel>489652</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="489652" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="235">
+        <names>
+          <shortLabel>477357</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="477357" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="236">
+        <names>
+          <shortLabel>438390</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="438390" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="237">
+        <names>
+          <shortLabel>510689</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="510689" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="238">
+        <names>
+          <shortLabel>438207</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="438207" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="239">
+        <names>
+          <shortLabel>490091</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="490091" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="240">
+        <names>
+          <shortLabel>490255</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="490255" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="241">
+        <names>
+          <shortLabel>540460</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="540460" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="242">
+        <names>
+          <shortLabel>490537</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="490537" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="243">
+        <names>
+          <shortLabel>289661</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="289661" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="244">
+        <names>
+          <shortLabel>490609</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="490609" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="245">
+        <names>
+          <shortLabel>490627</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="490627" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="246">
+        <names>
+          <shortLabel>22001</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="22001" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="247">
+        <names>
+          <shortLabel>477433</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="477433" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="248">
+        <names>
+          <shortLabel>490701</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="490701" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="249">
+        <names>
+          <shortLabel>292026</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="292026" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="250">
+        <names>
+          <shortLabel>292307</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="292307" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="251">
+        <names>
+          <shortLabel>439128</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="439128" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="252">
+        <names>
+          <shortLabel>439515</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="439515" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="253">
+        <names>
+          <shortLabel>546551</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="546551" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="254">
+        <names>
+          <shortLabel>491032</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="491032" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="255">
+        <names>
+          <shortLabel>297583</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="297583" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="256">
+        <names>
+          <shortLabel>491345</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="491345" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="257">
+        <names>
+          <shortLabel>477505</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="477505" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="258">
+        <names>
+          <shortLabel>491915</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="491915" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="259">
+        <names>
+          <shortLabel>492162</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="492162" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="260">
+        <names>
+          <shortLabel>439189</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="439189" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="261">
+        <names>
+          <shortLabel>492286</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="492286" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="262">
+        <names>
+          <shortLabel>312065</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="312065" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="263">
+        <names>
+          <shortLabel>511316</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="511316" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="264">
+        <names>
+          <shortLabel>511340</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="511340" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="265">
+        <names>
+          <shortLabel>473435</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="473435" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="266">
+        <names>
+          <shortLabel>511354</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="511354" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="267">
+        <names>
+          <shortLabel>314897</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="314897" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="268">
+        <names>
+          <shortLabel>492767</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="492767" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="269">
+        <names>
+          <shortLabel>318427</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="318427" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="270">
+        <names>
+          <shortLabel>511418</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="511418" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="271">
+        <names>
+          <shortLabel>511419</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="511419" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="272">
+        <names>
+          <shortLabel>511420</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="511420" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="273">
+        <names>
+          <shortLabel>465251</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="465251" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="274">
+        <names>
+          <shortLabel>541078</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="541078" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="275">
+        <names>
+          <shortLabel>529435</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="529435" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="276">
+        <names>
+          <shortLabel>465452</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="465452" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="277">
+        <names>
+          <shortLabel>493334</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="493334" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="278">
+        <names>
+          <shortLabel>493352</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="493352" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="279">
+        <names>
+          <shortLabel>477690</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="477690" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="280">
+        <names>
+          <shortLabel>477698</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="477698" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="281">
+        <names>
+          <shortLabel>459624</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="459624" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="282">
+        <names>
+          <shortLabel>330980</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="330980" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="283">
+        <names>
+          <shortLabel>493734</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="493734" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="284">
+        <names>
+          <shortLabel>26637</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="26637" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="285">
+        <names>
+          <shortLabel>493945</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="493945" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="286">
+        <names>
+          <shortLabel>477714</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="477714" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="287">
+        <names>
+          <shortLabel>473774</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="473774" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="288">
+        <names>
+          <shortLabel>465837</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="465837" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="289">
+        <names>
+          <shortLabel>505806</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="505806" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="290">
+        <names>
+          <shortLabel>440308</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="440308" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="291">
+        <names>
+          <shortLabel>341657</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="341657" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="292">
+        <names>
+          <shortLabel>477764</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="477764" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="293">
+        <names>
+          <shortLabel>494466</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="494466" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="294">
+        <names>
+          <shortLabel>347244</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="347244" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="295">
+        <names>
+          <shortLabel>494738</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="494738" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="296">
+        <names>
+          <shortLabel>494927</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="494927" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="297">
+        <names>
+          <shortLabel>494935</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="494935" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="298">
+        <names>
+          <shortLabel>455646</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="455646" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="299">
+        <names>
+          <shortLabel>495313</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="495313" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="300">
+        <names>
+          <shortLabel>357768</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="357768" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="301">
+        <names>
+          <shortLabel>358983</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="358983" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="302">
+        <names>
+          <shortLabel>495810</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="495810" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="303">
+        <names>
+          <shortLabel>496017</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="496017" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="304">
+        <names>
+          <shortLabel>496059</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="496059" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="305">
+        <names>
+          <shortLabel>496348</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="496348" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="306">
+        <names>
+          <shortLabel>372139</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="372139" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="307">
+        <names>
+          <shortLabel>541951</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="541951" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="308">
+        <names>
+          <shortLabel>496861</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="496861" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="309">
+        <names>
+          <shortLabel>474399</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="474399" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="310">
+        <names>
+          <shortLabel>478016</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="478016" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="311">
+        <names>
+          <shortLabel>478019</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="478019" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="312">
+        <names>
+          <shortLabel>470092</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="470092" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="313">
+        <names>
+          <shortLabel>512494</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="512494" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="314">
+        <names>
+          <shortLabel>478026</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="478026" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="315">
+        <names>
+          <shortLabel>497103</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="497103" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="316">
+        <names>
+          <shortLabel>442498</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="442498" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="317">
+        <names>
+          <shortLabel>382679</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="382679" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="318">
+        <names>
+          <shortLabel>497270</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="497270" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="319">
+        <names>
+          <shortLabel>512587</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="512587" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="320">
+        <names>
+          <shortLabel>497425</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="497425" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="321">
+        <names>
+          <shortLabel>497563</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="497563" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="322">
+        <names>
+          <shortLabel>476044</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="476044" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="323">
+        <names>
+          <shortLabel>497810</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="497810" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="324">
+        <names>
+          <shortLabel>542332</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="542332" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="325">
+        <names>
+          <shortLabel>478140</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="478140" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="326">
+        <names>
+          <shortLabel>498292</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="498292" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="327">
+        <names>
+          <shortLabel>506410</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="506410" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="328">
+        <names>
+          <shortLabel>517274</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="517274" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="329">
+        <names>
+          <shortLabel>498483</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="498483" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="330">
+        <names>
+          <shortLabel>498505</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="498505" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="331">
+        <names>
+          <shortLabel>71299</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="71299" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="332">
+        <names>
+          <shortLabel>73293</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="73293" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="333">
+        <names>
+          <shortLabel>512911</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="512911" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="334">
+        <names>
+          <shortLabel>498719</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="498719" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="335">
+        <names>
+          <shortLabel>474806</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="474806" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="336">
+        <names>
+          <shortLabel>85931</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="85931" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="337">
+        <names>
+          <shortLabel>476059</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="476059" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="338">
+        <names>
+          <shortLabel>86950</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="86950" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="339">
+        <names>
+          <shortLabel>87007</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="87007" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="340">
+        <names>
+          <shortLabel>88375</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="88375" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="341">
+        <names>
+          <shortLabel>90526</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="90526" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="342">
+        <names>
+          <shortLabel>499855</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="499855" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="343">
+        <names>
+          <shortLabel>518256</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="518256" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="344">
+        <names>
+          <shortLabel>93088</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="93088" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="345">
+        <names>
+          <shortLabel>443571</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="443571" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="346">
+        <names>
+          <shortLabel>500058</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="500058" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="347">
+        <names>
+          <shortLabel>500114</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="500114" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="348">
+        <names>
+          <shortLabel>506618</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="506618" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="349">
+        <names>
+          <shortLabel>443644</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="443644" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="350">
+        <names>
+          <shortLabel>500383</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="500383" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="351">
+        <names>
+          <shortLabel>500582</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="500582" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="352">
+        <names>
+          <shortLabel>500649</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="500649" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="353">
+        <names>
+          <shortLabel>36733</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="36733" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="354">
+        <names>
+          <shortLabel>478367</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="478367" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="355">
+        <names>
+          <shortLabel>500834</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="500834" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="356">
+        <names>
+          <shortLabel>500850</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="500850" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="357">
+        <names>
+          <shortLabel>443318</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="443318" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="358">
+        <names>
+          <shortLabel>500945</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="500945" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="359">
+        <names>
+          <shortLabel>500950</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="500950" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="360">
+        <names>
+          <shortLabel>421953</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="421953" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="361">
+        <names>
+          <shortLabel>500964</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="500964" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="362">
+        <names>
+          <shortLabel>468916</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="468916" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="363">
+        <names>
+          <shortLabel>513536</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="513536" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="364">
+        <names>
+          <shortLabel>109027</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="109027" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="365">
+        <names>
+          <shortLabel>109017</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="109017" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="366">
+        <names>
+          <shortLabel>513628</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="513628" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="367">
+        <names>
+          <shortLabel>501494</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="501494" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="368">
+        <names>
+          <shortLabel>548703</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="548703" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="369">
+        <names>
+          <shortLabel>513752</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="513752" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="370">
+        <names>
+          <shortLabel>501937</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="501937" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="371">
+        <names>
+          <shortLabel>502010</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="502010" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="372">
+        <names>
+          <shortLabel>121006</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="121006" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="373">
+        <names>
+          <shortLabel>502087</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="502087" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="374">
+        <names>
+          <shortLabel>513814</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="513814" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="375">
+        <names>
+          <shortLabel>507690</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="507690" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="376">
+        <names>
+          <shortLabel>478696</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="478696" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="377">
+        <names>
+          <shortLabel>42033</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="42033" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="378">
+        <names>
+          <shortLabel>478876</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="478876" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="379">
+        <names>
+          <shortLabel>44320</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="44320" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="380">
+        <names>
+          <shortLabel>479028</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="479028" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+      <interactor id="381">
+        <names>
+          <shortLabel>479089</shortLabel>
+          <fullName>Text annotation not provided.</fullName>
+        </names>
+        <xref>
+        <primaryRef db="refseq" dbAc="MI:0481" id="479089" refType="identity" refTypeAc="MI:0356"/>
+        </xref>
+        <interactorType>
+          <names>
+            <shortLabel>protein</shortLabel>
+            <fullName>protein</fullName>
+          </names>
+          <xref>
+            <primaryRef db="psi-mi" dbAc="MI:0488" id="MI:0326" refType="identity" refTypeAc="MI:0356"/>
+          </xref>
+        </interactorType>
+      </interactor>
+    </interactorList>    <interactionList>    </interactionList>  </entry>
+</entrySet>
+
+

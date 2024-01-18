@@ -1,0 +1,11 @@
+Protein_ID,log2FoldChange,padj,Gene_id,,,,,,,,,,
+522523,4.78811514465658,1.19644731688024E-63,gene_2144,expressed protein,,,,,,,,,
+499819,2.71802746852683,0,gene_6960,Ricin B lectin domain-containing protein,,,,,,,,,
+471301,2.71226091530462,0,gene_2156,Ferric reductase NAD binding domain-domain containing protein,Select seq gb|OWZ78685.1|,ferric reductase transmembrane component 4 [Cryptococcus neoformans var. grubii Bt85],Cryptococcus neoformans var. grubii Bt85,344,344,"91,00%","4,00E-105",33.86%,673
+491066,2.42740934676327,1.97921732154357E-29,gene_4442,Major facilitator superfamily domain-containing protein,Select seq ref|XP_018280185.1|,MFS general substrate transporter [Cutaneotrichosporon oleaginosum],,,,,,,
+500964,2.09216787163202,2.28063368363566E-08,gene_7325,putative general amino acid permease,Select seq gb|ORY27120.1|,amino acid transporter [Naematelia encephala],,,,,,,
+59445,1.92348811177495,5.86408542515215E-34,gene_1177,FAD%2FNAD%28P%29-binding domain-containing protein,Select seq ref|XP_012048342.1|,ABC transporter family protein [Cryptococcus neoformans var. grubii H99],,,,,,,
+500585,1.82881368568551,0,gene_7214,HotDog domain-containing protein,,,,,,,,,
+526018,1.78669671721812,4.75487937739795E-121,gene_3584,hypothetical protein,,,,,,,,,
+90526,1.66821285493772,1.74149044506995E-74,gene_6961,ricin B-like lectin,,,,,,,,,
+2738,1.65726086472289,1.95697249714115E-75,gene_76,RTA-like protein,,,,,,,,,

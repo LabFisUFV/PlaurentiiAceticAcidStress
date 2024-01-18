@@ -1,0 +1,68 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.2
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 3 BAM files                                      ||
+||                                                                            ||
+||                           ATS_Ac_1_alg.bam                                 ||
+||                           ATS_Ac_2_alg.bam                                 ||
+||                           ATS_Ac_3_alg.bam                                 ||
+||                                                                            ||
+||             Output file : Counts_ATS_Ac.txt                                ||
+||                 Summary : Counts_ATS_Ac.txt.summary                        ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Papla_JGI.gtf (GTF)                              ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 12                                               ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : counted                                          ||
+|| Multi-overlapping reads : counted                                          ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Papla_JGI.gtf ...                                     ||
+||    Features : 47714                                                        ||
+||    Meta-features : 7537                                                    ||
+||    Chromosomes/contigs : 23                                                ||
+||                                                                            ||
+|| Process BAM file ATS_Ac_1_alg.bam...                                       ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 45232482                                             ||
+||    Successfully assigned alignments : 18269430 (40.4%)                     ||
+||    Running time : 0.16 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ATS_Ac_2_alg.bam...                                       ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 45490858                                             ||
+||    Successfully assigned alignments : 19922504 (43.8%)                     ||
+||    Running time : 0.17 minutes                                             ||
+||                                                                            ||
+|| Process BAM file ATS_Ac_3_alg.bam...                                       ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 42000696                                             ||
+||    Successfully assigned alignments : 18400376 (43.8%)                     ||
+||    Running time : 0.14 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "Counts_ATS_Ac.txt.summa  ||
+|| ry"                                                                        ||
+||                                                                            ||
+\\============================================================================//
+

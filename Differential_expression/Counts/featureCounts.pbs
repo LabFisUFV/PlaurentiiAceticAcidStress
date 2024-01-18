@@ -1,0 +1,28 @@
+#!/bin/bash
+ 
+#Diretivas PBS. Especificam recursos que serao utilizados pelo job 
+ 
+#PBS -N Counts_ATS_wo 
+#PBS -l nodes=1:ppn=23,mem=20gb,walltime=72:00:00
+#PBS -q qtime
+#PBS -m ae
+#mensagem sera enviada: a – abort; b – begin; e – end 
+#PBS -M eduardo.menezes@ufv.br 
+ 
+cd $PBS_O_WORKDIR 
+ 
+#Habilita o carregamento de modulos
+source /etc/profile.d/modules.sh 
+ 
+#Carrega os modulos
+module load subread/2.0.2
+module load cufflinks/2.2.1 
+#Os comandos a serem executados. O seu roteiro propriamente dito.
+#Comandos a partir daqui
+
+#gffread Papla1_GeneCatalog_20180704.gff3 -T -o Papla_JGI.gtf
+featureCounts -p -O -M -T 12 -a Papla_JGI.gtf -o Counts_ATS_wo.txt ATS_wo_1_alg.bam ATS_wo_2_alg.bam ATS_wo_3_alg.bam 
+		
+
+#Fim do script
+

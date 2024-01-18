@@ -1,0 +1,11 @@
+Protein_ID,log2FoldChange,padj,Gene_id,,
+382679,8.74936401441676,5.34062492735932E-100,gene_6230,Alpha%2FBeta hydrolase fold,
+508509,6.62133317161374,0,gene_1738,hypothetical protein,"CIP1 protein, putative [Cryptococcus neoformans var. neoformans JEC21]"
+512494,5.70170182975825,0,gene_6158,hypothetical protein,
+476944,5.25476351838037,4.65391742040778E-50,gene_323,Protein of unknown function %28DUF3533%29-domain containing protein,endoplasmic reticulum protein [Cryptococcus depauperatus CBS 7855] 
+22001,4.86745860290907,0,gene_433,hypothetical protein,short-chain dehydrogenase/reductase SDR family protein [Rhodotorula toruloides NP11]
+488059,4.55869374272864,0,gene_3597,expressed protein,
+264447,4.45514815435296,0,gene_3876,expressed protein,Crystal Structure of the CFEM protein Csa2 
+534783,4.41500390116143,0,gene_3016,NAD%28P%29-binding protein,NAD dependent oxidoreductase [Rhodotorula toruloides NP11] 
+476044,3.62449194498223,5.82446072337191E-188,gene_64,Major facilitator superfamily domain-containing protein,efflux protein EncT [Kwoniella pini CBS 10737] 
+507690,3.61609448136956,1.97591355553041E-236,gene_806,hypothetical protein,SUR7/PalI family-domain-containing protein [Naematelia encephala] 

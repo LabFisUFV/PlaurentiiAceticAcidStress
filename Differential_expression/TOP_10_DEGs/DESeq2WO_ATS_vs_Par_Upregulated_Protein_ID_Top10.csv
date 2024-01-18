@@ -1,0 +1,11 @@
+Protein_ID,log2FoldChange,padj,Gene_id,,,,,
+382679,8.60385531809477,0,gene_6230,Alpha%2FBeta hydrolase fold,,,,
+508509,6.51359174005267,0,gene_1738,hypothetical protein,Select seq ref|XP_569236.1|,"CIP1 protein, putative [Cryptococcus neoformans var. neoformans JEC21]",,
+22001,5.20038905940932,0,gene_433,hypothetical protein,Select seq ref|XP_016272938.1|,short-chain dehydrogenase/reductase SDR family protein [Rhodotorula toruloides NP11],,
+521346,4.67793880562301,0,gene_1546,Nitroreductase-like protein,Select seq gb|KZP19982.1|,nitroreductase [Fibularhizoctonia sp. CBS 109695],,
+500850,3.58641227345685,0,gene_7306,Alpha%2FBeta hydrolase fold,Alpha/Beta hydrolase protein [Naematelia encephala] ,Select seq ref|XP_052948434.1|,epoxide hydrolase [Dioszegia hungarica],
+534783,3.37904860121331,0,gene_3016,NAD%28P%29-binding protein,Select seq ref|XP_016276636.1|,NAD dependent oxidoreductase [Rhodotorula toruloides NP11],,
+512494,3.29618907492544,0,gene_6158,hypothetical protein,,,,
+476044,3.26193920479776,0,gene_64,Major facilitator superfamily domain-containing protein,Select seq ref|XP_019008039.1|,efflux protein EncT [Kwoniella pini CBS 10737],,
+476944,3.23493467913323,1.44743771336051E-289,gene_323,Protein of unknown function %28DUF3533%29-domain containing protein,Select seq gb|ODN93792.1|,endoplasmic reticulum protein [Cryptococcus depauperatus CBS 7855],Select seq ref|XP_003194006.1|,"response to drug-related protein, putative [Cryptococcus gattii WM276]"
+537457,3.02674300289651,1.03553235475273E-110,gene_697,expressed protein,Select seq gb|KJA20423.1|,glycosyltransferase family 18 protein [Hypholoma sublateritium FD-334 SS-4],,

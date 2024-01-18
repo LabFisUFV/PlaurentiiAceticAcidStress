@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="DESeq2_Par" position="(102.0, 213.0)" />
+		<node id="1" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns" position="(201.0, 212.0)" />
+		<node id="2" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table" position="(307.0, 210.0)" />
+		<node id="3" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Upregulated" position="(441.0, 106.0)" />
+		<node id="4" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Downregulated" position="(423.0, 365.0)" />
+		<node id="5" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (1)" position="(561.0, 106.0)" />
+		<node id="6" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (3)" position="(565.0, 367.0)" />
+		<node id="7" name="Concatenate" qualified_name="Orange.widgets.data.owconcatenate.OWConcatenate" project_name="Orange3" version="" title="Concatenate" position="(723.0, 240.0)" />
+		<node id="8" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Up_and_Down" position="(829.0, 241.0)" />
+		<node id="9" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Upregulated" position="(682.0, 28.0)" />
+		<node id="10" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Downregulated" position="(696.0, 441.0)" />
+		<node id="11" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="Anotação_Gene_Protein" position="(86.0, -249.0)" />
+		<node id="12" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Select Rows" position="(221.0, -249.0)" />
+		<node id="13" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (2)" position="(342.0, -249.0)" />
+		<node id="14" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data" position="(479.0, -249.0)" />
+		<node id="15" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="DESeq2_ATS)" position="(137.0, 884.0)" />
+		<node id="16" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns (1)" position="(236.0, 883.0)" />
+		<node id="17" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (4)" position="(342.0, 881.0)" />
+		<node id="18" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Upregulated (1)" position="(476.0, 777.0)" />
+		<node id="19" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Downregulated (1)" position="(458.0, 1036.0)" />
+		<node id="20" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (1) (1)" position="(596.0, 776.0)" />
+		<node id="21" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (3) (1)" position="(600.0, 1038.0)" />
+		<node id="22" name="Concatenate" qualified_name="Orange.widgets.data.owconcatenate.OWConcatenate" project_name="Orange3" version="" title="Concatenate (1)" position="(758.0, 911.0)" />
+		<node id="23" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Up_and_Down (1)" position="(864.0, 912.0)" />
+		<node id="24" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Upregulated (1)" position="(717.0, 699.0)" />
+		<node id="25" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Downregulated (1)" position="(731.0, 1112.0)" />
+		<node id="26" name="Venn Diagram" qualified_name="Orange.widgets.visualize.owvenndiagram.OWVennDiagram" project_name="Orange3" version="" title="Venn Diagram" position="(1113.75, 475.0)" />
+		<node id="27" name="Venn Diagram" qualified_name="Orange.widgets.visualize.owvenndiagram.OWVennDiagram" project_name="Orange3" version="" title="Venn Diagram (1)" position="(1045.0, 891.25)" />
+		<node id="28" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (5)" position="(1233.75, 443.75)" />
+		<node id="29" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data (1)" position="(1326.25, 447.5)" />
+		<node id="30" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (5) (1)" position="(1153.75, 883.75)" />
+		<node id="31" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data (1) (1)" position="(1246.25, 887.5)" />
+		<node id="32" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="DESeq2WOATS_Par " position="(70.83333333333326, 1512.916666666667)" />
+		<node id="33" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns (2)" position="(241.08333333333326, 1513.1666666666667)" />
+		<node id="34" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (6)" position="(347.08333333333326, 1511.1666666666667)" />
+		<node id="35" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Upregulated (2)" position="(481.08333333333326, 1407.1666666666667)" />
+		<node id="36" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Downregulated (2)" position="(463.08333333333326, 1666.1666666666667)" />
+		<node id="37" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (1) (2)" position="(601.0833333333333, 1407.166666666667)" />
+		<node id="38" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (3) (2)" position="(605.0833333333333, 1668.1666666666667)" />
+		<node id="39" name="Concatenate" qualified_name="Orange.widgets.data.owconcatenate.OWConcatenate" project_name="Orange3" version="" title="Concatenate (2)" position="(763.0833333333335, 1541.1666666666667)" />
+		<node id="40" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Up_and_Down (2)" position="(869.0833333333335, 1542.1666666666667)" />
+		<node id="41" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Upregulated (2)" position="(722.0833333333335, 1329.1666666666667)" />
+		<node id="42" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Downregulated (2)" position="(736.0833333333335, 1742.1666666666667)" />
+		<node id="43" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="DESeq2AcATS_Par  " position="(93.75, 2142.5)" />
+		<node id="44" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns (2) (1)" position="(260.25000000000006, 2144.0)" />
+		<node id="45" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (6) (1)" position="(366.25, 2142.0)" />
+		<node id="46" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Upregulated (2) (1)" position="(500.25, 2038.0)" />
+		<node id="47" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Downregulated (2) (1)" position="(482.25, 2297.0)" />
+		<node id="48" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (1) (2) (1)" position="(620.25, 2039.25)" />
+		<node id="49" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (3) (2) (1)" position="(623.25, 2298.0)" />
+		<node id="50" name="Concatenate" qualified_name="Orange.widgets.data.owconcatenate.OWConcatenate" project_name="Orange3" version="" title="Concatenate (2) (1)" position="(782.2500000000002, 2172.0)" />
+		<node id="51" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Up_and_Down (2) (1)" position="(922.0000000000002, 2173.0)" />
+		<node id="52" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Upregulated (2) (1)" position="(741.2500000000002, 1960.0)" />
+		<node id="53" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Downregulated (2) (1)" position="(755.2500000000002, 2373.0)" />
+		<node id="54" name="Venn Diagram" qualified_name="Orange.widgets.visualize.owvenndiagram.OWVennDiagram" project_name="Orange3" version="" title="Venn Diagram (2)" position="(1012.5, 1728.75)" />
+		<node id="55" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (7)" position="(1137.5, 1728.75)" />
+		<node id="56" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data (2)" position="(1267.5, 1733.75)" />
+		<node id="57" name="Venn Diagram" qualified_name="Orange.widgets.visualize.owvenndiagram.OWVennDiagram" project_name="Orange3" version="" title="Venn Diagram (2) (1)" position="(1093.75, 2378.75)" />
+		<node id="58" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (7) (1)" position="(1218.75, 2378.75)" />
+		<node id="59" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data (2) (1)" position="(1348.75, 2383.75)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="2" source_node_id="2" sink_node_id="3" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="3" source_node_id="2" sink_node_id="4" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="4" source_node_id="3" sink_node_id="5" source_channel="Matching Data" sink_channel="Data" enabled="true" />
+		<link id="5" source_node_id="4" sink_node_id="6" source_channel="Matching Data" sink_channel="Data" enabled="true" />
+		<link id="6" source_node_id="5" sink_node_id="7" source_channel="Selected Data" sink_channel="Additional Data" enabled="true" />
+		<link id="7" source_node_id="6" sink_node_id="7" source_channel="Selected Data" sink_channel="Additional Data" enabled="true" />
+		<link id="8" source_node_id="7" sink_node_id="8" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="9" source_node_id="5" sink_node_id="9" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="10" source_node_id="6" sink_node_id="10" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="11" source_node_id="11" sink_node_id="12" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="12" source_node_id="12" sink_node_id="13" source_channel="Matching Data" sink_channel="Data" enabled="true" />
+		<link id="13" source_node_id="13" sink_node_id="14" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="14" source_node_id="15" sink_node_id="16" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="15" source_node_id="16" sink_node_id="17" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="16" source_node_id="17" sink_node_id="18" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="17" source_node_id="17" sink_node_id="19" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="18" source_node_id="18" sink_node_id="20" source_channel="Matching Data" sink_channel="Data" enabled="true" />
+		<link id="19" source_node_id="19" sink_node_id="21" source_channel="Matching Data" sink_channel="Data" enabled="true" />
+		<link id="20" source_node_id="20" sink_node_id="22" source_channel="Selected Data" sink_channel="Additional Data" enabled="true" />
+		<link id="21" source_node_id="21" sink_node_id="22" source_channel="Selected Data" sink_channel="Additional Data" enabled="true" />
+		<link id="22" source_node_id="22" sink_node_id="23" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="23" source_node_id="20" sink_node_id="24" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="24" source_node_id="21" sink_node_id="25" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="25" source_node_id="5" sink_node_id="26" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="26" source_node_id="20" sink_node_id="26" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="27" source_node_id="26" sink_node_id="28" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="28" source_node_id="28" sink_node_id="29" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="29" source_node_id="30" sink_node_id="31" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="30" source_node_id="27" sink_node_id="30" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="31" source_node_id="6" sink_node_id="27" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="32" source_node_id="21" sink_node_id="27" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="33" source_node_id="32" sink_node_id="33" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="34" source_node_id="33" sink_node_id="34" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="35" source_node_id="34" sink_node_id="35" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="36" source_node_id="34" sink_node_id="36" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="37" source_node_id="35" sink_node_id="37" source_channel="Matching Data" sink_channel="Data" enabled="true" />
+		<link id="38" source_node_id="36" sink_node_id="38" source_channel="Matching Data" sink_channel="Data" enabled="true" />
+		<link id="39" source_node_id="37" sink_node_id="39" source_channel="Selected Data" sink_channel="Additional Data" enabled="true" />
+		<link id="40" source_node_id="38" sink_node_id="39" source_channel="Selected Data" sink_channel="Additional Data" enabled="true" />
+		<link id="41" source_node_id="39" sink_node_id="40" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="42" source_node_id="37" sink_node_id="41" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="43" source_node_id="38" sink_node_id="42" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="44" source_node_id="43" sink_node_id="44" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="45" source_node_id="44" sink_node_id="45" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="46" source_node_id="45" sink_node_id="46" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="47" source_node_id="45" sink_node_id="47" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="48" source_node_id="46" sink_node_id="48" source_channel="Matching Data" sink_channel="Data" enabled="true" />
+		<link id="49" source_node_id="47" sink_node_id="49" source_channel="Matching Data" sink_channel="Data" enabled="true" />
+		<link id="50" source_node_id="48" sink_node_id="50" source_channel="Selected Data" sink_channel="Additional Data" enabled="true" />
+		<link id="51" source_node_id="49" sink_node_id="50" source_channel="Selected Data" sink_channel="Additional Data" enabled="true" />
+		<link id="52" source_node_id="50" sink_node_id="51" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="53" source_node_id="48" sink_node_id="52" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="54" source_node_id="49" sink_node_id="53" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="55" source_node_id="37" sink_node_id="54" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="56" source_node_id="48" sink_node_id="54" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="57" source_node_id="54" sink_node_id="55" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="58" source_node_id="55" sink_node_id="56" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="59" source_node_id="57" sink_node_id="58" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="60" source_node_id="58" sink_node_id="59" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="61" source_node_id="38" sink_node_id="57" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="62" source_node_id="49" sink_node_id="57" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/DESeq2ParAc_vc_Parwo.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 7, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02E\x00\x00\x01'\x00\x00\x03\\\x00\x00\x02{\x00\x00\x02F\x00\x00\x01F\x00\x00\x03[\x00\x00\x02z\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02F\x00\x00\x01F\x00\x00\x03[\x00\x00\x02z", '__version__': 3}</properties>
+		<properties node_id="1" format="pickle">gASVRwIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
+cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAABVX///+h
+AAAK9gAAAy0AAAVW////wAAACvUAAAMsAAAAAQIAAAAFoAAABVb////AAAAK9QAAAyyUjBJ1c2Vf
+aW5wdXRfZmVhdHVyZXOUiYwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9y
+YW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMEWRvbWFp
+bl9yb2xlX2hpbnRzlH2UKIwGcHZhbHVllEsChpSMCWF2YWlsYWJsZZRLAIaUjARzdGF0lEsChpRo
+FUsBhpSMBWxmY1NFlEsChpRoFUsChpSMCGJhc2VNZWFulEsChpRoFUsDhpSMDmxvZzJGb2xkQ2hh
+bmdllEsChpSMCWF0dHJpYnV0ZZRLAIaUjARwYWRqlEsChpRoIksBhpSMB0dlbmVfaWSUSwOGlIwE
+bWV0YZRLAIaUdUr+////hpRoB0sBdYwKYXR0cmlidXRlc5R9lCiMCGJhc2VNZWFulEsCjA5sb2cy
+Rm9sZENoYW5nZZRLAowFbGZjU0WUSwKMBHN0YXSUSwKMBnB2YWx1ZZRLAowEcGFkapRLAnWMBW1l
+dGFzlH2UjAdHZW5lX2lklEsDc3ViYXUu
+</properties>
+		<properties node_id="2" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\x05V\x00\x00\x02\xd0\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="3" format="pickle">gASVtAEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
+ZV9hdHRyaWJ1dGVzlImMDXB1cmdlX2NsYXNzZXOUiYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ
+0MsAAwAAAAABawAAAHgAAAPsAAACdwAAAWwAAACXAAAD6wAAAnYAAAAAAAAAAAVWAAABbAAAAJcA
+AAPrAAACdpSMEHVwZGF0ZV9vbl9jaGFuZ2WUiIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
+dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVl
+c5R9lCiMCmNvbmRpdGlvbnOUXZQoKIwObG9nMkZvbGRDaGFuZ2WUSwJLBV2URz/wAAAAAAAAYXSU
+KIwEcGFkapRLAksDXZRHP4R64UeuFHthdJRlaAhLAnWMCmF0dHJpYnV0ZXOUfZQojA5sb2cyRm9s
+ZENoYW5nZZRLAowEcGFkapRLAnWMBW1ldGFzlH2UjAdHZW5lX2lklEsDc3ViYXUu
+</properties>
+		<properties node_id="4" format="pickle">gASVtAEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
+ZV9hdHRyaWJ1dGVzlImMDXB1cmdlX2NsYXNzZXOUiYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ
+0MsAAwAAAAABbAAAAJcAAAPrAAACdgAAAWwAAACXAAAD6wAAAnYAAAAAAAAAAAVWAAABbAAAAJcA
+AAPrAAACdpSMEHVwZGF0ZV9vbl9jaGFuZ2WUiIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
+dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVl
+c5R9lCiMCmNvbmRpdGlvbnOUXZQoKIwObG9nMkZvbGRDaGFuZ2WUSwJLA12UR7/wAAAAAAAAYXSU
+KIwEcGFkapRLAksDXZRHP4R64UeuFHthdJRlaAhLAnWMCmF0dHJpYnV0ZXOUfZQojA5sb2cyRm9s
+ZENoYW5nZZRLAowEcGFkapRLAnWMBW1ldGFzlH2UjAdHZW5lX2lklEsDc3ViYXUu
+</properties>
+		<properties node_id="5" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01l\x00\x00\x00\x97\x00\x00\x03\xeb\x00\x00\x02v\x00\x00\x01l\x00\x00\x00\x97\x00\x00\x03\xeb\x00\x00\x02v\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x01l\x00\x00\x00\x97\x00\x00\x03\xeb\x00\x00\x02v', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="6" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\x05V\x00\x00\x02\xd0\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="7" format="literal">{'append_source_column': False, 'auto_commit': True, 'controlAreaVisible': True, 'ignore_compute_value': False, 'merge_type': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x07\x84\x00\x00\x00\xa1\x00\x00\x08\xc7\x00\x00\x02\x17\x00\x00\x07\x85\x00\x00\x00\xc0\x00\x00\x08\xc6\x00\x00\x02\x16\x00\x00\x00\x01\x00\x00\x00\x00\x05\xa0\x00\x00\x07\x85\x00\x00\x00\xc0\x00\x00\x08\xc6\x00\x00\x02\x16', 'source_attr_name': 'Source ID', 'source_column_role': 0, '__version__': 1}</properties>
+		<properties node_id="8" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\x05V\x00\x00\x02\xd0\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="9" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02@\x00\x00\x01)\x00\x00\x03\xaa\x00\x00\x01\xc6\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xa9\x00\x00\x01\xc5\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xa9\x00\x00\x01\xc5', 'stored_name': 'DESeq2ParAc_vc_Parwo_Upregulated.csv', 'stored_path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', '__version__': 2}</properties>
+		<properties node_id="10" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02@\x00\x00\x01)\x00\x00\x03\xb8\x00\x00\x01\xc6\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xb7\x00\x00\x01\xc5\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xb7\x00\x00\x01\xc5', 'stored_name': 'DESeq2ParAc_vc_Parwo_Downregulated.csv', 'stored_path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', '__version__': 2}</properties>
+		<properties node_id="11" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/Papla1_download/Papla1/Papla_JGI_Protein_Gene_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ';', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 2, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/Papla1_download/Papla1', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02E\x00\x00\x01'\x00\x00\x03\\\x00\x00\x02{\x00\x00\x02F\x00\x00\x01F\x00\x00\x03[\x00\x00\x02z\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02F\x00\x00\x01F\x00\x00\x03[\x00\x00\x02z", '__version__': 3}</properties>
+		<properties node_id="12" format="pickle">gASVegEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
+ZV9hdHRyaWJ1dGVzlImMDXB1cmdlX2NsYXNzZXOUiYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ
+0MsAAwAAAAAFVf///6EAAAr2AAADLQAABVb////AAAAK9QAAAywAAAABAgAAAAWgAAAFVv///8AA
+AAr1AAADLJSMEHVwZGF0ZV9vbl9jaGFuZ2WUiIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
+dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVl
+c5R9lCiMCmNvbmRpdGlvbnOUXZQojAdHZW5lX0lElEsDSwmMBWdlbmVflIWUdJRhaAhLAnWMCmF0
+dHJpYnV0ZXOUfZSMBW1ldGFzlH2UKGgUSwOMClByb3RlaW5fSUSUSwN1dWJhdS4=
+</properties>
+		<properties node_id="13" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="14" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02@\x00\x00\x01)\x00\x00\x03\xa3\x00\x00\x01\xc6\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xa2\x00\x00\x01\xc5\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xa2\x00\x00\x01\xc5', 'stored_name': 'Papla_JGI_Protein_Gene_Protein_ID.csv', 'stored_path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', '__version__': 2}</properties>
+		<properties node_id="15" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/DESeq2ATSAc_vc_ATSwo.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 7, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/DESeq2ParAc_vc_Parwo.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 7, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02F\x00\x00\x01F\x00\x00\x03[\x00\x00\x02z\x00\x00\x02F\x00\x00\x01F\x00\x00\x03[\x00\x00\x02z\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02F\x00\x00\x01F\x00\x00\x03[\x00\x00\x02z', '__version__': 3}</properties>
+		<properties node_id="16" format="pickle">gASVHgMAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
+cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAABVb////A
+AAAK9QAAAywAAAVW////wAAACvUAAAMsAAAAAQIAAAAFoAAABVb////AAAAK9QAAAyyUjBJ1c2Vf
+aW5wdXRfZmVhdHVyZXOUiYwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZQojBVv
+cmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojBFkb21h
+aW5fcm9sZV9oaW50c5R9lCiMBnB2YWx1ZZRLAoaUjAlhdmFpbGFibGWUSwCGlIwEc3RhdJRLAoaU
+aBVLAYaUjAVsZmNTRZRLAoaUaBVLAoaUjAhiYXNlTWVhbpRLAoaUaBVLA4aUjA5sb2cyRm9sZENo
+YW5nZZRLAoaUjAlhdHRyaWJ1dGWUSwCGlIwEcGFkapRLAoaUaCJLAYaUjAdHZW5lX2lklEsDhpSM
+BG1ldGGUSwCGlHVK/v///4aUaAdLAXWMCmF0dHJpYnV0ZXOUfZQojAhiYXNlTWVhbpRLAowObG9n
+MkZvbGRDaGFuZ2WUSwKMBWxmY1NFlEsCjARzdGF0lEsCjAZwdmFsdWWUSwKMBHBhZGqUSwJ1jAVt
+ZXRhc5R9lIwHR2VuZV9pZJRLA3N1YmgMKYGUfZQoaA99lChoEX2UKIwGcHZhbHVllEsChpRoFUsA
+hpSMBWxmY1NFlEsChpRoFUsBhpSMCGJhc2VNZWFulEsChpRoFUsChpSMBHN0YXSUSwKGlGgVSwOG
+lIwObG9nMkZvbGRDaGFuZ2WUSwKGlGgiSwCGlIwEcGFkapRLAoaUaCJLAYaUjApVbm5hbWVkOiAw
+lEsDhpRoKUsAhpR1Sv7///+GlGgHSwF1aCx9lChoQUsCaEdLAmg+SwJoREsCaDtLAmhKSwJ1aDR9
+lGhNSwNzdWJldS4=
+</properties>
+		<properties node_id="17" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\x05V\x00\x00\x02\xd0\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="18" format="pickle">gASVlQUAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
+ZV9hdHRyaWJ1dGVzlImMDXB1cmdlX2NsYXNzZXOUiYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ
+0MsAAwAAAAABawAAAHgAAAPsAAACdwAAAWwAAACXAAAD6wAAAnYAAAAAAAAAAAVWAAABbAAAAJcA
+AAPrAAACdpSMEHVwZGF0ZV9vbl9jaGFuZ2WUiIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
+dGluZ3OUXZQojBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1
+ZXOUfZQojApjb25kaXRpb25zlF2UKCiMDmxvZzJGb2xkQ2hhbmdllEsCSwVdlEc/8AAAAAAAAGF0
+lCiMBHBhZGqUSwJLA12URz+EeuFHrhR7YXSUZWgISwJ1jAphdHRyaWJ1dGVzlH2UKIwObG9nMkZv
+bGRDaGFuZ2WUSwKMBHBhZGqUSwJ1jAVtZXRhc5R9lIwHR2VuZV9pZJRLA3N1YmgNKYGUfZQoaBB9
+lCiMCmNvbmRpdGlvbnOUXZQoKIwObG9nMkZvbGRDaGFuZ2WUSwJLBV2URz/wAAAAAAAAYXSUKIwE
+cGFkapRLAksDXZRHP4R64UeuFHthdJRlaAhLAnVoGn2UKGgmSwJoKUsCdWgefZSMClVubmFtZWQ6
+IDCUSwNzdWJoDSmBlH2UKGgQfZQoaCRdlCgoaCZLAksFXZRHP/AAAAAAAABhdJQoaCZLAksDXZRH
+v/AAAAAAAABhdJRlaAhLAnVoGn2UaCZLAnNoHn2UaC5LA3N1YmgNKYGUfZQoaBB9lChoJF2UKCho
+JksCSwVdlEc/8AAAAAAAAGF0lChoJksCSwNdlEe/8AAAAAAAAGF0lGVoCEsCdWgafZQojARzdGF0
+lEsCaCZLAnVoHn2UaC5LA3N1YmgNKYGUfZQoaBB9lChoJF2UKGhCSwJLAF2URwAAAAAAAAAAYXSU
+YWgISwJ1aBp9lGhCSwJzaB59lGguSwNzdWJoDSmBlH2UKGgQfZQoaCRdlCgoaCZLAksFXZRHP/AA
+AAAAAABhdJQoaClLAksDXZRHP6mZmZmZmZphdJRlaAhLAnVoGn2UKIwIYmFzZU1lYW6USwJoJksC
+jAVsZmNTRZRLAmhCSwJoKUsCdWgefZRoLksDc3ViaA0pgZR9lChoEH2UKGgkXZQoaFVLAksAXZRH
+AAAAAAAAAABhdJRhaAhLAnVoGn2UKGhVSwJoQksCaCZLAnVoHn2UaC5LA3N1YmgNKYGUfZQoaBB9
+lChoJF2UKGhVSwJLAF2URwAAAAAAAAAAYXSUYWgISwJ1aBp9lChoVUsCaFZLAmhCSwJoJksCdWge
+fZRoLksDc3ViaA0pgZR9lChoEH2UKGgkXZQoaFVLAksAXZRHAAAAAAAAAABhdJRhaAhLAnVoGn2U
+KGhVSwJoVksCaEJLAnVoHn2UaC5LA3N1YmgNKYGUfZQoaBB9lChoJF2UKGgpSwJLA12URz+pmZmZ
+mZmaYXSUYWgISwJ1aBp9lChoVUsCaFZLAmhCSwJoKUsCdWgefZRoLksDc3ViaA0pgZR9lChoEH2U
+KGgkXZQoaClLAksDXZRHP6mZmZmZmZphdJRhaAhLAnVoGn2UKGhVSwJoVksCaEJLAmgpSwKMBnB2
+YWx1ZZRLAnVoHn2UaC5LA3N1YmgNKYGUfZQoaBB9lChoJF2UKChoJksCSwVdlEc/8AAAAAAAAGF0
+lChoKUsCSwNdlEc/qZmZmZmZmmF0lGVoCEsCdWgafZQoaFVLAmgmSwJoVksCaEJLAmh/SwJoKUsC
+dWgefZRoLksDc3ViZXUu
+</properties>
+		<properties node_id="19" format="pickle">gASVlQUAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
+ZV9hdHRyaWJ1dGVzlImMDXB1cmdlX2NsYXNzZXOUiYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ
+0MsAAwAAAAABawAAAHgAAAPsAAACdwAAAWwAAACXAAAD6wAAAnYAAAAAAAAAAAVWAAABbAAAAJcA
+AAPrAAACdpSMEHVwZGF0ZV9vbl9jaGFuZ2WUiIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
+dGluZ3OUXZQojBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1
+ZXOUfZQojApjb25kaXRpb25zlF2UKCiMDmxvZzJGb2xkQ2hhbmdllEsCSwNdlEe/8AAAAAAAAGF0
+lCiMBHBhZGqUSwJLA12URz+EeuFHrhR7YXSUZWgISwJ1jAphdHRyaWJ1dGVzlH2UKIwObG9nMkZv
+bGRDaGFuZ2WUSwKMBHBhZGqUSwJ1jAVtZXRhc5R9lIwHR2VuZV9pZJRLA3N1YmgNKYGUfZQoaBB9
+lCiMCmNvbmRpdGlvbnOUXZQoKIwObG9nMkZvbGRDaGFuZ2WUSwJLA12UR7/wAAAAAAAAYXSUKIwE
+cGFkapRLAksDXZRHP4R64UeuFHthdJRlaAhLAnVoGn2UKGgmSwJoKUsCdWgefZSMClVubmFtZWQ6
+IDCUSwNzdWJoDSmBlH2UKGgQfZQoaCRdlCgoaCZLAksFXZRHP/AAAAAAAABhdJQoaCZLAksDXZRH
+v/AAAAAAAABhdJRlaAhLAnVoGn2UaCZLAnNoHn2UaC5LA3N1YmgNKYGUfZQoaBB9lChoJF2UKCho
+JksCSwVdlEc/8AAAAAAAAGF0lChoJksCSwNdlEe/8AAAAAAAAGF0lGVoCEsCdWgafZQojARzdGF0
+lEsCaCZLAnVoHn2UaC5LA3N1YmgNKYGUfZQoaBB9lChoJF2UKGhCSwJLAF2URwAAAAAAAAAAYXSU
+YWgISwJ1aBp9lGhCSwJzaB59lGguSwNzdWJoDSmBlH2UKGgQfZQoaCRdlCgoaCZLAksDXZRHv/AA
+AAAAAABhdJQoaClLAksDXZRHP6mZmZmZmZphdJRlaAhLAnVoGn2UKIwIYmFzZU1lYW6USwJoJksC
+jAVsZmNTRZRLAmhCSwJoKUsCdWgefZRoLksDc3ViaA0pgZR9lChoEH2UKGgkXZQoaFVLAksAXZRH
+AAAAAAAAAABhdJRhaAhLAnVoGn2UKGhVSwJoQksCaCZLAnVoHn2UaC5LA3N1YmgNKYGUfZQoaBB9
+lChoJF2UKGhVSwJLAF2URwAAAAAAAAAAYXSUYWgISwJ1aBp9lChoVUsCaFZLAmhCSwJoJksCdWge
+fZRoLksDc3ViaA0pgZR9lChoEH2UKGgkXZQoaFVLAksAXZRHAAAAAAAAAABhdJRhaAhLAnVoGn2U
+KGhVSwJoVksCaEJLAnVoHn2UaC5LA3N1YmgNKYGUfZQoaBB9lChoJF2UKGgpSwJLA12URz+pmZmZ
+mZmaYXSUYWgISwJ1aBp9lChoVUsCaFZLAmhCSwJoKUsCdWgefZRoLksDc3ViaA0pgZR9lChoEH2U
+KGgkXZQoaClLAksDXZRHP6mZmZmZmZphdJRhaAhLAnVoGn2UKGhVSwJoVksCaEJLAmgpSwKMBnB2
+YWx1ZZRLAnVoHn2UaC5LA3N1YmgNKYGUfZQoaBB9lChoJF2UKChoJksCSwNdlEe/8AAAAAAAAGF0
+lChoKUsCSwNdlEc/qZmZmZmZmmF0lGVoCEsCdWgafZQoaFVLAmgmSwJoVksCaEJLAmh/SwJoKUsC
+dWgefZRoLksDc3ViZXUu
+</properties>
+		<properties node_id="20" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="21" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\x05V\x00\x00\x02\xd0\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="22" format="literal">{'append_source_column': False, 'auto_commit': True, 'controlAreaVisible': True, 'ignore_compute_value': False, 'merge_type': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x07\x84\x00\x00\x00\xa1\x00\x00\x08\xc7\x00\x00\x02\x17\x00\x00\x07\x85\x00\x00\x00\xc0\x00\x00\x08\xc6\x00\x00\x02\x16\x00\x00\x00\x01\x00\x00\x00\x00\x05\xa0\x00\x00\x07\x85\x00\x00\x00\xc0\x00\x00\x08\xc6\x00\x00\x02\x16', 'source_attr_name': 'Source ID', 'source_column_role': 0, '__version__': 1}</properties>
+		<properties node_id="23" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\x05V\x00\x00\x02\xd0\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="24" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xaf\x00\x00\x01\xc5\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xaf\x00\x00\x01\xc5\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xaf\x00\x00\x01\xc5', 'stored_name': 'DESeq2ATSAc_vc_ATSwo_Upregulated.csv', 'stored_path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', '__version__': 2}</properties>
+		<properties node_id="25" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xbd\x00\x00\x01\xc5\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xbd\x00\x00\x01\xc5\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xbd\x00\x00\x01\xc5', 'stored_name': 'DESeq2ATSAc_vc_ATSwo_Downregulated.csv', 'stored_path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', '__version__': 2}</properties>
+		<properties node_id="26" format="literal">{'autocommit': True, 'controlAreaVisible': True, 'output_duplicates': False, 'rowwise': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x02\x00\x00\x00`\x00\x00\x05U\x00\x00\x02\xad\x00\x00\x00\x02\x00\x00\x00`\x00\x00\x05U\x00\x00\x02\xad\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x00\x02\x00\x00\x00`\x00\x00\x05U\x00\x00\x02\xad', 'selection': [1], '__version__': 2, 'context_settings': []}</properties>
+		<properties node_id="27" format="literal">{'autocommit': True, 'controlAreaVisible': True, 'output_duplicates': False, 'rowwise': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x02\x00\x00\x00/\x00\x00\x05U\x00\x00\x02\xde\x00\x00\x00\x02\x00\x00\x00/\x00\x00\x05U\x00\x00\x02\xde\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x00\x02\x00\x00\x00/\x00\x00\x05U\x00\x00\x02\xde', 'selection': [1], '__version__': 2, 'context_settings': []}</properties>
+		<properties node_id="28" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01l\x00\x00\x00\x97\x00\x00\x03\xeb\x00\x00\x02v\x00\x00\x01l\x00\x00\x00\x97\x00\x00\x03\xeb\x00\x00\x02v\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x01l\x00\x00\x00\x97\x00\x00\x03\xeb\x00\x00\x02v', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="29" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02@\x00\x00\x01)\x00\x00\x03\xf4\x00\x00\x01\xc6\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xf3\x00\x00\x01\xc5\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xf3\x00\x00\x01\xc5', 'stored_name': 'Unique_Par_Upregulated_ATS_Ac_vs_wo_Protein_ID.csv', 'stored_path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', '__version__': 2}</properties>
+		<properties node_id="30" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="31" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02@\x00\x00\x01)\x00\x00\x03\xc9\x00\x00\x01\xc6\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xc8\x00\x00\x01\xc5\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xc8\x00\x00\x01\xc5', 'stored_name': 'Unique_Par_Downregulated_ATS_Ac_vs_wo.csv', 'stored_path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', '__version__': 2}</properties>
+		<properties node_id="32" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/DESeq2WO_ATS_vs_Par.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 7, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/DESeq2ParAc_vc_Parwo.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 7, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02F\x00\x00\x01F\x00\x00\x03[\x00\x00\x02z\x00\x00\x02F\x00\x00\x01F\x00\x00\x03[\x00\x00\x02z\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02F\x00\x00\x01F\x00\x00\x03[\x00\x00\x02z', '__version__': 3}</properties>
+		<properties node_id="33" format="pickle">gASVRwIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
+cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAABVX///+h
+AAAK9gAAAy0AAAVW////wAAACvUAAAMsAAAAAQIAAAAFoAAABVb////AAAAK9QAAAyyUjBJ1c2Vf
+aW5wdXRfZmVhdHVyZXOUiYwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9y
+YW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMEWRvbWFp
+bl9yb2xlX2hpbnRzlH2UKIwGcHZhbHVllEsChpSMCWF2YWlsYWJsZZRLAIaUjARzdGF0lEsChpRo
+FUsBhpSMBWxmY1NFlEsChpRoFUsChpSMCGJhc2VNZWFulEsChpRoFUsDhpSMDmxvZzJGb2xkQ2hh
+bmdllEsChpSMCWF0dHJpYnV0ZZRLAIaUjARwYWRqlEsChpRoIksBhpSMB0dlbmVfaWSUSwOGlIwE
+bWV0YZRLAIaUdUr+////hpRoB0sBdYwKYXR0cmlidXRlc5R9lCiMCGJhc2VNZWFulEsCjA5sb2cy
+Rm9sZENoYW5nZZRLAowFbGZjU0WUSwKMBHN0YXSUSwKMBnB2YWx1ZZRLAowEcGFkapRLAnWMBW1l
+dGFzlH2UjAdHZW5lX2lklEsDc3ViYXUu
+</properties>
+		<properties node_id="34" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\x05V\x00\x00\x02\xd0\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="35" format="pickle">gASVtAEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
+ZV9hdHRyaWJ1dGVzlImMDXB1cmdlX2NsYXNzZXOUiYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ
+0MsAAwAAAAAFVf///6EAAAr2AAADLQAABVb////AAAAK9QAAAywAAAABAgAAAAWgAAAFVv///8AA
+AAr1AAADLJSMEHVwZGF0ZV9vbl9jaGFuZ2WUiIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
+dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVl
+c5R9lCiMCmNvbmRpdGlvbnOUXZQoKIwObG9nMkZvbGRDaGFuZ2WUSwJLBV2URz/wAAAAAAAAYXSU
+KIwEcGFkapRLAksDXZRHP4R64UeuFHthdJRlaAhLAnWMCmF0dHJpYnV0ZXOUfZQojA5sb2cyRm9s
+ZENoYW5nZZRLAowEcGFkapRLAnWMBW1ldGFzlH2UjAdHZW5lX2lklEsDc3ViYXUu
+</properties>
+		<properties node_id="36" format="pickle">gASVtAEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
+ZV9hdHRyaWJ1dGVzlImMDXB1cmdlX2NsYXNzZXOUiYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ
+0MsAAwAAAAAFVf///6EAAAr2AAADLQAABVb////AAAAK9QAAAywAAAABAgAAAAWgAAAFVv///8AA
+AAr1AAADLJSMEHVwZGF0ZV9vbl9jaGFuZ2WUiIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
+dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVl
+c5R9lCiMCmNvbmRpdGlvbnOUXZQoKIwObG9nMkZvbGRDaGFuZ2WUSwJLA12UR7/wAAAAAAAAYXSU
+KIwEcGFkapRLAksDXZRHP4R64UeuFHthdJRlaAhLAnWMCmF0dHJpYnV0ZXOUfZQojA5sb2cyRm9s
+ZENoYW5nZZRLAowEcGFkapRLAnWMBW1ldGFzlH2UjAdHZW5lX2lklEsDc3ViYXUu
+</properties>
+		<properties node_id="37" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x05I\x00\x00\x00\\\x00\x00\n\xa0\x00\x00\x034\x00\x00\x05J\x00\x00\x00{\x00\x00\n\x9f\x00\x00\x033\x00\x00\x00\x01\x00\x00\x00\x00\x05\xa0\x00\x00\x05J\x00\x00\x00{\x00\x00\n\x9f\x00\x00\x033', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="38" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x05_\x00\x00\x000\x00\x00\n\xb6\x00\x00\x03\x08\x00\x00\x05`\x00\x00\x00O\x00\x00\n\xb5\x00\x00\x03\x07\x00\x00\x00\x01\x00\x00\x00\x00\x05\xa0\x00\x00\x05`\x00\x00\x00O\x00\x00\n\xb5\x00\x00\x03\x07', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="39" format="literal">{'append_source_column': False, 'auto_commit': True, 'controlAreaVisible': True, 'ignore_compute_value': False, 'merge_type': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x07\x84\x00\x00\x00\xa1\x00\x00\x08\xc7\x00\x00\x02\x17\x00\x00\x07\x85\x00\x00\x00\xc0\x00\x00\x08\xc6\x00\x00\x02\x16\x00\x00\x00\x01\x00\x00\x00\x00\x05\xa0\x00\x00\x07\x85\x00\x00\x00\xc0\x00\x00\x08\xc6\x00\x00\x02\x16', 'source_attr_name': 'Source ID', 'source_column_role': 0, '__version__': 1}</properties>
+		<properties node_id="40" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\x05V\x00\x00\x02\xd0\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="41" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02@\x00\x00\x01)\x00\x00\x03\xaa\x00\x00\x01\xc6\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xa9\x00\x00\x01\xc5\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xa9\x00\x00\x01\xc5', 'stored_name': 'DESeq2ParAc_vc_Parwo_Upregulated.csv', 'stored_path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', '__version__': 2}</properties>
+		<properties node_id="42" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02@\x00\x00\x01)\x00\x00\x03\xb8\x00\x00\x01\xc6\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xb7\x00\x00\x01\xc5\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xb7\x00\x00\x01\xc5', 'stored_name': 'DESeq2ParAc_vc_Parwo_Downregulated.csv', 'stored_path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', '__version__': 2}</properties>
+		<properties node_id="43" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/DESeq2Ac_ATS_vs_Par.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 7, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/DESeq2WO_ATS_vs_Par.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 7, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/DESeq2ParAc_vc_Parwo.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 7, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02F\x00\x00\x01F\x00\x00\x03[\x00\x00\x02z\x00\x00\x02F\x00\x00\x01F\x00\x00\x03[\x00\x00\x02z\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02F\x00\x00\x01F\x00\x00\x03[\x00\x00\x02z', '__version__': 3}</properties>
+		<properties node_id="44" format="pickle">gASVRwIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
+cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAABVX///+h
+AAAK9gAAAy0AAAVW////wAAACvUAAAMsAAAAAQIAAAAFoAAABVb////AAAAK9QAAAyyUjBJ1c2Vf
+aW5wdXRfZmVhdHVyZXOUiYwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9y
+YW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMEWRvbWFp
+bl9yb2xlX2hpbnRzlH2UKIwGcHZhbHVllEsChpSMCWF2YWlsYWJsZZRLAIaUjARzdGF0lEsChpRo
+FUsBhpSMBWxmY1NFlEsChpRoFUsChpSMCGJhc2VNZWFulEsChpRoFUsDhpSMDmxvZzJGb2xkQ2hh
+bmdllEsChpSMCWF0dHJpYnV0ZZRLAIaUjARwYWRqlEsChpRoIksBhpSMB0dlbmVfaWSUSwOGlIwE
+bWV0YZRLAIaUdUr+////hpRoB0sBdYwKYXR0cmlidXRlc5R9lCiMCGJhc2VNZWFulEsCjA5sb2cy
+Rm9sZENoYW5nZZRLAowFbGZjU0WUSwKMBHN0YXSUSwKMBnB2YWx1ZZRLAowEcGFkapRLAnWMBW1l
+dGFzlH2UjAdHZW5lX2lklEsDc3ViYXUu
+</properties>
+		<properties node_id="45" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\x05V\x00\x00\x02\xd0\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="46" format="pickle">gASVtAEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
+ZV9hdHRyaWJ1dGVzlImMDXB1cmdlX2NsYXNzZXOUiYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ
+0MsAAwAAAAAFVf///6EAAAr2AAADLQAABVb////AAAAK9QAAAywAAAABAgAAAAWgAAAFVv///8AA
+AAr1AAADLJSMEHVwZGF0ZV9vbl9jaGFuZ2WUiIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
+dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVl
+c5R9lCiMCmNvbmRpdGlvbnOUXZQoKIwObG9nMkZvbGRDaGFuZ2WUSwJLBV2URz/wAAAAAAAAYXSU
+KIwEcGFkapRLAksDXZRHP4R64UeuFHthdJRlaAhLAnWMCmF0dHJpYnV0ZXOUfZQojA5sb2cyRm9s
+ZENoYW5nZZRLAowEcGFkapRLAnWMBW1ldGFzlH2UjAdHZW5lX2lklEsDc3ViYXUu
+</properties>
+		<properties node_id="47" format="pickle">gASVtAEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
+ZV9hdHRyaWJ1dGVzlImMDXB1cmdlX2NsYXNzZXOUiYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ
+0MsAAwAAAAAFVf///6EAAAr2AAADLQAABVb////AAAAK9QAAAywAAAABAgAAAAWgAAAFVv///8AA
+AAr1AAADLJSMEHVwZGF0ZV9vbl9jaGFuZ2WUiIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
+dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVl
+c5R9lCiMCmNvbmRpdGlvbnOUXZQoKIwObG9nMkZvbGRDaGFuZ2WUSwJLA12UR7/wAAAAAAAAYXSU
+KIwEcGFkapRLAksDXZRHP4R64UeuFHthdJRlaAhLAnWMCmF0dHJpYnV0ZXOUfZQojA5sb2cyRm9s
+ZENoYW5nZZRLAowEcGFkapRLAnWMBW1ldGFzlH2UjAdHZW5lX2lklEsDc3ViYXUu
+</properties>
+		<properties node_id="48" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04\xec\x00\x00\x00P\x00\x00\nC\x00\x00\x03(\x00\x00\x04\xed\x00\x00\x00o\x00\x00\nB\x00\x00\x03'\x00\x00\x00\x01\x00\x00\x00\x00\x05\xa0\x00\x00\x04\xed\x00\x00\x00o\x00\x00\nB\x00\x00\x03'", 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="49" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\x05V\x00\x00\x02\xd0\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="50" format="literal">{'append_source_column': False, 'auto_commit': True, 'controlAreaVisible': True, 'ignore_compute_value': False, 'merge_type': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x07\x84\x00\x00\x00\xa1\x00\x00\x08\xc7\x00\x00\x02\x17\x00\x00\x07\x85\x00\x00\x00\xc0\x00\x00\x08\xc6\x00\x00\x02\x16\x00\x00\x00\x01\x00\x00\x00\x00\x05\xa0\x00\x00\x07\x85\x00\x00\x00\xc0\x00\x00\x08\xc6\x00\x00\x02\x16', 'source_attr_name': 'Source ID', 'source_column_role': 0, '__version__': 1}</properties>
+		<properties node_id="51" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\x05V\x00\x00\x02\xd0\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="52" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02@\x00\x00\x01)\x00\x00\x03\xa5\x00\x00\x01\xc6\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xa4\x00\x00\x01\xc5\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xa4\x00\x00\x01\xc5', 'stored_name': 'DESeq2Ac_ATS_vs_Par_Upregulated.csv', 'stored_path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', '__version__': 2}</properties>
+		<properties node_id="53" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02@\x00\x00\x01)\x00\x00\x03\xb3\x00\x00\x01\xc6\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xb2\x00\x00\x01\xc5\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\xb2\x00\x00\x01\xc5', 'stored_name': 'DESeq2Ac_ATS_vs_Par_Downregulated.csv', 'stored_path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', '__version__': 2}</properties>
+		<properties node_id="54" format="literal">{'autocommit': True, 'controlAreaVisible': True, 'output_duplicates': False, 'rowwise': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x05V\xff\xff\xff\xc0\x00\x00\n\xf5\x00\x00\x03,\x00\x00\x05V\xff\xff\xff\xc0\x00\x00\n\xf5\x00\x00\x03,\x00\x00\x00\x01\x02\x00\x00\x00\x05\xa0\x00\x00\x05V\xff\xff\xff\xc0\x00\x00\n\xf5\x00\x00\x03,', 'selection': [], '__version__': 2, 'context_settings': []}</properties>
+		<properties node_id="55" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf8\x00\x00\x05V\x00\x00\x02\xd0\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="56" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02@\x00\x00\x01)\x00\x00\x03\x7f\x00\x00\x01\xc6\x00\x00\x02A\x00\x00\x01H\x00\x00\x03~\x00\x00\x01\xc5\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02A\x00\x00\x01H\x00\x00\x03~\x00\x00\x01\xc5', 'stored_name': 'Uregulated_intersection_ATS.csv', 'stored_path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', '__version__': 2}</properties>
+		<properties node_id="57" format="literal">{'autocommit': True, 'controlAreaVisible': True, 'output_duplicates': False, 'rowwise': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x05U\xff\xff\xff\xa1\x00\x00\n\xf6\x00\x00\x03-\x00\x00\x06t\x00\x00\x00R\x00\x00\x08\xf3\x00\x00\x021\x00\x00\x00\x01\x02\x00\x00\x00\x05\xa0\x00\x00\x05V\xff\xff\xff\xc0\x00\x00\n\xf5\x00\x00\x03,', 'selection': [], '__version__': 2, 'context_settings': []}</properties>
+		<properties node_id="58" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x02\x00\x00\x00\x05V\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="59" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02@\x00\x00\x01)\x00\x00\x03\x93\x00\x00\x01\xc6\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\x92\x00\x00\x01\xc5\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02A\x00\x00\x01H\x00\x00\x03\x92\x00\x00\x01\xc5', 'stored_name': 'Downregulated_intersection_ATS.csv', 'stored_path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', '__version__': 2}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

@@ -1,0 +1,19 @@
+LogFC_Par_AC_wo,Reaction,NAME,EQUATION,SUBSYSTEM
+-5.63188877525513,r_0018,2-aminoadipate transaminase,2-oxoadipic acid[c] + L-glutamate[c] <=> 2-oxoglutarate[c] + L-2-aminoadipate[c],"2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids;Biosynthesis of antibiotics;Biosynthesis of secondary metabolites;Cysteine and methionine metabolism;Lysine biosynthesis;Phenylalanine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis;Tryptophan metabolism;Tyrosine metabolism;Ubiquinone and other terpenoid-quinone biosynthesis"
+-2.04266705520966,r_1634,acetate exchange,acetate[e] <=>,
+-39.7845895572974,r_1697,CO2 transport,carbon dioxide[c] <=> carbon dioxide[e],
+-10.0766856396901,r_1980,O2 transport,oxygen[c] <=> oxygen[p],
+-2.22747731971535,r_2125,coenzyme A: cytoplasm to LP,coenzyme A[c] <=> coenzyme A[lp],
+-2.35623332064862,r_3574,"octadecenoate (n-C18:1) transport, cytoplasm-lipid particle",oleate[c] <=> oleate[lp],
+-12.5893832731649,r_3652,"ADP transport, cytoplasm-vacuolar membrane",ADP[c] <=> ADP[vm],
+-14.2522250987238,r_3751,"1-acylglycerophosphoethanolamine (16:0) transport, ER membrane-lipid particle",1-acylglycerophosphoethanolamine (16:0)[erm] <=> 1-acylglycerophosphoethanolamine (16:0)[lp],
+-13.9620780594644,t_0041,3-hydroxyacyl-CoA dehydrogenase (3-oxodecanoyl-CoA),(R)-3-hydroxydecanoyl-CoA[m] + NAD[m] <=> 3-oxodecanoyl-CoA[m] + H+[m] + NADH[m],Fatty acid degradation (mitochondrial)
+-13.9620780594503,t_0049,3-hydroxyacyl-CoA dehydrogenase (3-oxooctanoyl-CoA),(R)-3-hydroxyoctanoyl-CoA[m] + NAD[m] <=> 3-oxooctanoyl-CoA[m] + H+[m] + NADH[m],Fatty acid degradation (mitochondrial)
+-1.40885088452921,t_0052,acetyl-CoA C-acyltransferase (acetyl-CoA),acetoacetyl-CoA[m] + coenzyme A[m] => 2 acetyl-CoA[m],Fatty acid degradation (mitochondrial)
+-1.43949373392381,t_0233,"fatty-acid--CoA ligase (linoleate), lipid particle",linoleate[lp] + coenzyme A[lp] + ATP[lp] <=> linoleoyl-CoA[lp] + diphosphate[lp] + AMP[lp],
+-2.41032556655963,t_0351,"PE (1-16:0, 2-18:2) diacylglycerol (1-16:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane","diglyceride (1-16:0, 2-18:2)[erm] + phosphatidylethanolamine (1-16:0, 2-18:2)[erm] <=> triglyceride (1-16:0, 2-18:2, 3-18:2)[erm] + 1-acylglycerophosphoethanolamine (16:0)[erm]",
+-5.57170018140333,t_0874,"linoleate transport, cytoplasm-endoplasmic reticulum membrane",linoleate[c] <=> linoleate[erm],Transport between c and erm
+-1.47989835526901,t_1088,"PC (1-18:1, 2-18:2) diacylglycerol (1-18:1, 2-18:1) acyltransferase, endoplasmic reticulum membrane","diglyceride (1-18:1, 2-18:1)[erm] + phosphatidylcholine (1-18:1, 2-18:2)[erm] <=> triglyceride (1-18:1, 2-18:1, 3-18:2)[erm] + 1-acylglycerophosphocholine (18:1)[erm]",
+-4.91526939684611,t_1114,"PE (1-18:1, 2-18:2) diacylglycerol (1-16:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane","phosphatidylethanolamine (1-18:1, 2-18:2)[erm] + diglyceride (1-16:0, 2-18:1)[erm] <=> triglyceride (1-16:0, 2-18:1, 3-18:2)[erm] + 1-acylglycerophosphoethanolamine (18:1)[erm]",
+-2.13374173272754,t_1118,"PE (1-18:1, 2-18:2) diacylglycerol (1-16:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane","diglyceride (1-16:0, 2-18:2)[erm] + phosphatidylethanolamine (1-18:1, 2-18:2)[erm] <=> triglyceride (1-16:0, 2-18:2, 3-18:2)[erm] + 1-acylglycerophosphoethanolamine (18:1)[erm]",
+-3.12430615383806,y300065,L-Serine:pyruvate aminotransferase,L-serine[c] + pyruvate[c] <=> hydroxypyruvate[c] + L-alanine[c],"Glycine, serine and threonine metabolism"

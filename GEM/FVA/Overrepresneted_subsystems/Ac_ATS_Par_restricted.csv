@@ -1,0 +1,8 @@
+LogFC_Ac_ATS_Par,Reaction,NAME,EQUATION,SUBSYSTEM
+-2.13749564009477,r_1184,L-arganine transport,H+[e] + L-arginine[e] <=> H+[c] + L-arginine[c],
+-3.36923428068452,r_1697,CO2 transport,carbon dioxide[c] <=> carbon dioxide[e],
+-2.16992500144231,r_1718,D-xylose exchange,D-xylose[e] <=>,
+-13.2650509993426,r_1811,glycine transport,L-glycine[c] <=> L-glycine[m],
+-4.9829227939865,r_1827,H+ diffusion,H+[c] <=> H+[lp],
+-2.17546170073606,r_3533,"NAD transport, cytoplasm-ER membrane",NAD[c] <=> NAD[erm],
+-1.65993103251343,r_3538,"CTP transport, cytoplasm-ER membrane",CTP[c] <=> CTP[erm],

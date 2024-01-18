@@ -1,0 +1,11 @@
+Protein_ID,log2FoldChange,padj,Gene_id,,,,,,,
+535023,-4.30061555412774,3.23239301190191E-51,gene_3651,General substrate transporter,monosaccharide transporter [Aureobasidium sp. EXF-3400] ,,,,,
+492621,-4.0537100171311,7.72964338628764E-152,gene_4900,expressed protein,Select seq dbj|GEM07402.1|,sodium/potassium-transporting ATPase subunit alpha [Rhodotorula toruloides],,,,
+522523,-3.85485461573384,2.40539040026876E-34,gene_2144,expressed protein,,,,,,
+442885,-3.36265977066185,0,gene_6467,UbiD decarboxylyase family,,,,,,
+459091,-2.88728424839189,9.15936336629346E-75,gene_144,hypothetical protein,Select seq dbj|GFZ49369.1|,carbamoyl-phosphate synthase (glutamine-hydrolysing) [Saitozyma sp. JCM 24511],"carbamoyl-phosphate synthase, large subunit [Kwoniella heveanensis BCC8398] ",,,
+494794,-2.81058568926757,2.20063382649561E-213,gene_5506,putative amino acid transporter,,,,,,
+476904,-2.77546908586998,0,gene_306,Glycosyl hydrolase catalytic core-domain containing protein,,,,,,
+484575,-2.76774635074408,1.27626842427142E-242,gene_2608,GNAT acetyltransferase 2-domain containing protein,Select seq gb|ORY30593.1|,putative nucleolus protein [Naematelia encephala],Select seq dbj|GFZ50622.1|,Killer toxin-resistance protein 33 [Saitozyma sp. JCM 24511],Select seq gb|OCF39330.1|,N-acetyltransferase 10 [Kwoniella heveanensis CBS 569]
+464948,-2.70396467837078,2.33290408854423E-237,gene_4804,putative rRNA processing-related protein,Select seq gb|RSH93478.1|,rRNA bioproteinsis protein rrp5 [Saitozyma podzolica],Select seq ref|XP_012050150.1|,rRNA biogenesis protein RRP5 [Cryptococcus neoformans var. grubii H99],,
+538760,-2.70378616107624,0,gene_2263,amino acid transporter,Select seq gb|OWZ46784.1|,AAT family amino acid transporter [Cryptococcus neoformans var. grubii c45],,,,

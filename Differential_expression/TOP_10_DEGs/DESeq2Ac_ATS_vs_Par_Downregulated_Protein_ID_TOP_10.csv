@@ -1,0 +1,11 @@
+Protein_ID,log2FoldChange,padj,Gene_id,,
+490704,-5.0617063409223,0,gene_4345,putative cobalamin synthesis protein,
+494674,-3.93558100541332,0,gene_5483,expressed protein,
+442885,-2.8783715974089,2.31653254961252E-224,gene_6467,UbiD decarboxylyase family,
+478721,-2.82941799745913,8.4667180593157E-43,gene_826,hypothetical protein,ASK1-D3 ubiquitin ligase (Swiss model)
+488204,-2.79599224318687,9.34371269586293E-51,gene_3649,Ribosomal protein S5 domain 2-type fold,
+84801,-2.69124981173493,0,gene_6842,Major facilitator superfamily domain-containing protein,spermine transporter [Cryptococcus neoformans var. grubii Bt15] 
+106947,-2.63734564767702,6.8693127119694E-251,gene_7345,putative Pi-transporter A-1,
+451424,-2.4847536072757,7.96141045476219E-75,gene_2770,putative copper-exporting ATPase,
+315141,-2.47210887892884,6.46470147951424E-59,gene_4901,P-loop containing nucleoside triphosphate hydrolase protein,ATP-dependent RNA helicase DBP3 [Kwoniella heveanensis BCC8398]
+254469,-2.3984854469601,4.35558801140714E-20,gene_3647,putative galactose metabolism-related protein,UDP-glucose 4-epimerase GalE [Kwoniella shandongensis] 

@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="Protein_GO" position="(130.0, 63.0)" />
+		<node id="1" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="Condition" position="(133.0, 237.0)" />
+		<node id="2" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table" position="(259.0, 63.0)" />
+		<node id="3" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (1)" position="(259.0, 237.0)" />
+		<node id="4" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (2)" position="(516.0, 134.0)" />
+		<node id="5" name="Merge Data" qualified_name="Orange.widgets.data.owmergedata.OWMergeData" project_name="Orange3" version="" title="Merge Data" position="(406.0, 134.0)" />
+		<node id="6" name="Select Rows" qualified_name="Orange.widgets.data.owselectrows.OWSelectRows" project_name="Orange3" version="" title="Select Rows" position="(626.0, 133.0)" />
+		<node id="7" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (3)" position="(735.0, 133.0)" />
+		<node id="8" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns" position="(831.0, 132.0)" />
+		<node id="9" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (4)" position="(935.0, 131.0)" />
+		<node id="10" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data" position="(1038.0, 126.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="1" source_node_id="1" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="2" source_node_id="2" sink_node_id="5" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="3" source_node_id="3" sink_node_id="5" source_channel="Selected Data" sink_channel="Extra Data" enabled="true" />
+		<link id="4" source_node_id="5" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="5" source_node_id="4" sink_node_id="6" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="6" source_node_id="6" sink_node_id="7" source_channel="Matching Data" sink_channel="Data" enabled="true" />
+		<link id="7" source_node_id="7" sink_node_id="8" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+		<link id="8" source_node_id="8" sink_node_id="9" source_channel="Data" sink_channel="Data" enabled="true" />
+		<link id="9" source_node_id="9" sink_node_id="10" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/Protein_to_KOG.csv'}, {'encoding': 'utf-8', 'delimiter': '\t', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 2, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/ProteinID_ECnumber.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 2, 'value': 'Text'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/Papla_JGI_Protein_ID_GO.csv'}, {'encoding': 'utf-8', 'delimiter': '\t', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Auto'}, {'start': 1, 'stop': 2, 'value': 'Text'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02E\x00\x00\x01(\x00\x00\x03\\\x00\x00\x02z\x00\x00\x02F\x00\x00\x01F\x00\x00\x03[\x00\x00\x02y\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x02F\x00\x00\x01F\x00\x00\x03[\x00\x00\x02y', '__version__': 3}</properties>
+		<properties node_id="1" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/Uregulated_intersection_ATS_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 6, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/Uregulated_intersection_Ac_vs_wo_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 6, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/Unique_Par_Upregulated_Ac_vs_wo_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 4, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/Unique_Par_Downregulated_Ac_vs_wo_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 4, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/Unique_ATS_Upregulated_ATS_Ac_vs_wo_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 4, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/Unique_ATS_Downregulated_ATS_Ac_vs_wo_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 4, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/Downregulated_intersection_ATS_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 6, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/Downregulated_intersection_Ac_vs_wo_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 6, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/DESeq2WO_ATS_vs_Par_Upregulated_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 4, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/DESeq2WO_ATS_vs_Par_Downregulated_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 4, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/DESeq2ParAc_vc_Parwo_Upregulated_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 4, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/DESeq2ParAc_vc_Parwo_Downregulated_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 4, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/DESeq2ATSAc_vc_ATSwo_Upregulated_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 4, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/DESeq2ATSAc_vc_ATSwo_Downregulated_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 4, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/DESeq2Ac_ATS_vs_Par_Upregulated_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 4, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/DESeq2Ac_ATS_vs_Par_Downregulated_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 1, 'value': 'Text'}, {'start': 1, 'stop': 4, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ({'type': 'AbsPath', 'path': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato/Papla_JGI_Protein_Gene_Protein_ID.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 2, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Users/dudul/OneDrive/Documentos_UFV/LABFIS/Experimentos/RNA-seq_Parental_ATS_quimiostato', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02q\x00\x00\x00\xc0\x00\x00\x03\x88\x00\x00\x02\x12\x00\x00\x02r\x00\x00\x00\xde\x00\x00\x03\x87\x00\x00\x02\x11\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x02r\x00\x00\x00\xde\x00\x00\x03\x87\x00\x00\x02\x11', '__version__': 3}</properties>
+		<properties node_id="2" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00U\x00\x00\x00&lt;\x00\x00\x05\xac\x00\x00\x03\x13\x00\x00\x00V\x00\x00\x00Z\x00\x00\x05\xab\x00\x00\x03\x12\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00V\x00\x00\x00Z\x00\x00\x05\xab\x00\x00\x03\x12', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="3" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00U\x00\x00\x00&lt;\x00\x00\x05\xac\x00\x00\x03\x13\x00\x00\x00V\x00\x00\x00Z\x00\x00\x05\xab\x00\x00\x03\x12\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00V\x00\x00\x00Z\x00\x00\x05\xab\x00\x00\x03\x12', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="4" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf9\x00\x00\x06\x00\x00\x00\x030\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05U\x00\x00\x02\xcf\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05\xff\x00\x00\x03/', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="5" format="pickle">gASVHgYAAAAAAAB9lCiMCmF1dG9fYXBwbHmUiIwSY29udHJvbEFyZWFWaXNpYmxllIiMB21lcmdp
+bmeUSwCME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAAlMAAAE+AAADqAAAAkAAAAJU
+AAABXAAAA6cAAAI/AAAAAAAAAAAGAAAAAlQAAAFcAAADpwAAAj+UjAtfX3ZlcnNpb25fX5RLAowQ
+Y29udGV4dF9zZXR0aW5nc5RdlCiMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5Qp
+gZR9lCiMBnZhbHVlc5R9lCiMCmF0dHJfcGFpcnOUXZRdlCiMCXByb3RlaW5JZJRLZ4aUjApQcm90
+ZWluX0lElEtnhpRlYWgGSwJ1jAp2YXJpYWJsZXMxlH2UKGgTS2eMBWtvZ2lklEtndYwKdmFyaWFi
+bGVzMpR9lCiMEmxvZzJGb2xkQ2hhbmdlICgxKZRLZowSbG9nMkZvbGRDaGFuZ2UgKDIplEtmjAhw
+YWRqICgxKZRLZowIcGFkaiAoMimUS2aMClByb3RlaW5fSUSUS2eMB0dlbmVfaWSUS2d1dWJoCymB
+lH2UKGgOfZQoaBBdlF2UKGgTS2eGlIwKUHJvdGVpbl9JRJRLZ4aUZWFoBksCdWgXfZQoaBNLZ2gZ
+S2d1aBp9lCiMDmxvZzJGb2xkQ2hhbmdllEtmjARwYWRqlEtmjApQcm90ZWluX0lElEtnjAdHZW5l
+X2lklEtndXViaAspgZR9lChoDn2UKIwKYXR0cl9wYWlyc5RdlF2UKIwKI3Byb3RlaW5JZJRLZ4aU
+aCBLZ4aUZWFoBksCdWgXfZQojAojcHJvdGVpbklklEtnjAVlY051bZRLZ3VoGn2UKIwSbG9nMkZv
+bGRDaGFuZ2UgKDEplEtmjBJsb2cyRm9sZENoYW5nZSAoMimUS2aMCHBhZGogKDEplEtmjAhwYWRq
+ICgyKZRLZowKUHJvdGVpbl9JRJRLZ4wHR2VuZV9pZJRLZ3V1YmgLKYGUfZQoaA59lChoM12UXZQo
+jAojcHJvdGVpbklklEtnhpSMClByb3RlaW5fSUSUS2eGlGVhaAZLAnVoF32UKGg6S2doO0tndWga
+fZQojA5sb2cyRm9sZENoYW5nZZRLZowEcGFkapRLZowKUHJvdGVpbl9JRJRLZ4wHR2VuZV9pZJRL
+Z3V1YmgLKYGUfZQoaA59lCiMCmF0dHJfcGFpcnOUXZRdlCiMClByb3RlaW5fSUSUS2eGlGhQS2eG
+lGVhaAZLAnVoF32UKIwKUHJvdGVpbl9JRJRLZ4wFZ29BY2OUS2d1aBp9lCiMDmxvZzJGb2xkQ2hh
+bmdllEtmjARwYWRqlEtmjApQcm90ZWluX0lElEtnjAdHZW5lX2lklEtndXViaAspgZR9lChoDn2U
+KGgzXZRdlCiMClByb3RlaW5fSUSUS2aGlGhQS2eGlGVhaAZLAnVoF32UKGhoS2aMBWdvQWNjlEtn
+dWgafZQoaE5LZmhPS2ZoUEtnaFFLZ3V1YmgLKYGUfZQoaA59lChoM12UXZQojAlSb3cgaW5kZXiU
+S2SGlGhzS2SGlGVhaAZLAnVoF32UKIwKUHJvdGVpbl9JRJRLZowFZ29BY2OUS2d1aBp9lChoPUtm
+aD5LZmg/S2ZoQEtmaEFLZ2hCS2d1dWJoCymBlH2UKGgOfZQoaFVdlF2UKGhcS2eGlIwKUHJvdGVp
+bl9JRJRLZ4aUZWFoBksCdWgXfZQoaFxLZ2hdS2d1aBp9lCiMEmxvZzJGb2xkQ2hhbmdlICgxKZRL
+ZowSbG9nMkZvbGRDaGFuZ2UgKDIplEtmjAhwYWRqICgxKZRLZowIcGFkaiAoMimUS2aMClByb3Rl
+aW5fSUSUS2eMB0dlbmVfaWSUS2d1dWJoCymBlH2UKGgOfZQoaFVdlF2UKIwJUm93IGluZGV4lEtk
+hpRoj0tkhpRlYWgGSwJ1aBd9lChoXEtnaF1LZ3VoGn2UKIwKUHJvdGVpbl9JRJRLZowObG9nMkZv
+bGRDaGFuZ2WUS2aMBHBhZGqUS2aMB0dlbmVfaWSUS2d1dWJldS4=
+</properties>
+		<properties node_id="6" format="pickle">gASVRAUAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBBwdXJn
+ZV9hdHRyaWJ1dGVzlImMDXB1cmdlX2NsYXNzZXOUiYwTc2F2ZWRXaWRnZXRHZW9tZXRyeZRDQgHZ
+0MsAAwAAAAAHf////5UAAA2AAAAC/AAABVb////AAAAK9QAAAywAAAABAgAAAAYAAAAHgP///7MA
+AA1/AAAC+5SMEHVwZGF0ZV9vbl9jaGFuZ2WUiIwLX192ZXJzaW9uX1+USwKMEGNvbnRleHRfc2V0
+dGluZ3OUXZQojBVvcmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1
+ZXOUfZQojApjb25kaXRpb25zlF2UKIwHR2VuZV9pZJRLA0sLKXSUYWgISwJ1jAphdHRyaWJ1dGVz
+lH2UKIwSbG9nMkZvbGRDaGFuZ2UgKDEplEsCjBJsb2cyRm9sZENoYW5nZSAoMimUSwKMCHBhZGog
+KDEplEsCjAhwYWRqICgyKZRLAnWMBW1ldGFzlH2UKIwJcHJvdGVpbklklEsDjAVrb2dpZJRLA4wH
+R2VuZV9pZJRLA3V1YmgNKYGUfZQoaBB9lChoEl2UKIwHR2VuZV9pZJRLA0sLKXSUYWgISwJ1aBZ9
+lCiMDmxvZzJGb2xkQ2hhbmdllEsCjARwYWRqlEsCdWgcfZQoaB5LA2gfSwOMB0dlbmVfaWSUSwN1
+dWJoDSmBlH2UKGgQfZQoaBJdlChoIEsDSwspdJRhaAhLAnVoFn2UKIwSbG9nMkZvbGRDaGFuZ2Ug
+KDEplEsCjBJsb2cyRm9sZENoYW5nZSAoMimUSwKMCHBhZGogKDEplEsCjAhwYWRqICgyKZRLAnVo
+HH2UKIwKI3Byb3RlaW5JZJRLA4wFZWNOdW2USwOMB0dlbmVfaWSUSwN1dWJoDSmBlH2UKGgQfZQo
+jApjb25kaXRpb25zlF2UKIwHR2VuZV9pZJRLA0sLKXSUYWgISwJ1aBZ9lCiMDmxvZzJGb2xkQ2hh
+bmdllEsCjARwYWRqlEsCdWgcfZQoaDdLA2g4SwOMB0dlbmVfaWSUSwN1dWJoDSmBlH2UKGgQfZQo
+aD1dlChoRUsDSwspdJRhaAhLAnVoFn2UKIwObG9nMkZvbGRDaGFuZ2WUSwKMBHBhZGqUSwJ1aBx9
+lCiMClByb3RlaW5fSUSUSwOMBWdvQWNjlEsDjAdHZW5lX2lklEsDdXViaA0pgZR9lChoEH2UKGg9
+XZQoaEVLA0sLKXSUYWgISwJ1aBZ9lCiMDlByb3RlaW5fSUQgKDEplEsCjA5sb2cyRm9sZENoYW5n
+ZZRLAowEcGFkapRLAnVoHH2UKIwOUHJvdGVpbl9JRCAoMimUSwNoUEsDjAdHZW5lX2lklEsDdXVi
+aA0pgZR9lChoEH2UKGg9XZQoaDlLA0sLKXSUYWgISwJ1aBZ9lCiMDlByb3RlaW5fSUQgKDEplEsC
+aDJLAmgzSwJoNEsCaDVLAnVoHH2UKIwFZ29BY2OUSwOMDlByb3RlaW5fSUQgKDIplEsDaDlLA3V1
+YmgNKYGUfZQoaBB9lCiMCmNvbmRpdGlvbnOUXZQojAdHZW5lX2lklEsDSwspdJRhaAhLAnVoFn2U
+KIwSbG9nMkZvbGRDaGFuZ2UgKDEplEsCjBJsb2cyRm9sZENoYW5nZSAoMimUSwKMCHBhZGogKDEp
+lEsCjAhwYWRqICgyKZRLAnVoHH2UKGhPSwNoUEsDjAdHZW5lX2lklEsDdXViZXUu
+</properties>
+		<properties node_id="7" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf9\x00\x00\x06\x00\x00\x00\x030\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05\xff\x00\x00\x03/\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05\xff\x00\x00\x03/', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="8" format="pickle">gASVzwgAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNpZ25v
+cmVfbmV3X2ZlYXR1cmVzlImME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAAAAADAAAAAQ
+AAAF0QAAA28AAAAxAAAALgAABdAAAANuAAAAAAAAAAAGAAAAADEAAAAuAAAF0AAAA26UjBJ1c2Vf
+aW5wdXRfZmVhdHVyZXOUiYwLX192ZXJzaW9uX1+USwGMEGNvbnRleHRfc2V0dGluZ3OUXZQojBVv
+cmFuZ2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojBFkb21h
+aW5fcm9sZV9oaW50c5R9lCiMB0dlbmVfaWSUSwOGlIwJYXZhaWxhYmxllEsAhpSMEmxvZzJGb2xk
+Q2hhbmdlICgxKZRLAoaUaBVLAYaUjBJsb2cyRm9sZENoYW5nZSAoMimUSwKGlGgVSwKGlIwIcGFk
+aiAoMSmUSwKGlGgVSwOGlIwIcGFkaiAoMimUSwKGlGgVSwSGlIwJcHJvdGVpbklklEsDhpSMBG1l
+dGGUSwCGlIwFa29naWSUSwOGlGglSwGGlHVK/v///4aUaAdLAXWMCmF0dHJpYnV0ZXOUfZQojBJs
+b2cyRm9sZENoYW5nZSAoMSmUSwKMEmxvZzJGb2xkQ2hhbmdlICgyKZRLAowIcGFkaiAoMSmUSwKM
+CHBhZGogKDIplEsCdYwFbWV0YXOUfZQoaCNLA2gnSwOMB0dlbmVfaWSUSwN1dWJoDCmBlH2UKGgP
+fZQoaBF9lCiMDmxvZzJGb2xkQ2hhbmdllEsChpRoFUsAhpSMBHBhZGqUSwKGlGgVSwGGlIwHR2Vu
+ZV9pZJRLA4aUaBVLAoaUaCNLA4aUaCVLAIaUaCdLA4aUaCVLAYaUdUr+////hpRoB0sBdWgrfZQo
+jA5sb2cyRm9sZENoYW5nZZRLAowEcGFkapRLAnVoMX2UKGgjSwNoJ0sDjAdHZW5lX2lklEsDdXVi
+aAwpgZR9lChoD32UKIwRZG9tYWluX3JvbGVfaGludHOUfZQojA5Qcm90ZWluX0lEICgxKZRLAoaU
+jAlhdHRyaWJ1dGWUSwCGlIwObG9nMkZvbGRDaGFuZ2WUSwKGlGhSSwGGlIwEcGFkapRLAoaUaFJL
+AoaUjA5Qcm90ZWluX0lEICgyKZRLA4aUjARtZXRhlEsAhpSMB0dlbmVfaWSUSwOGlGhcSwGGlIwF
+Z29BY2OUSwOGlGhcSwKGlHVK/v///4aUaAdLAXVoK32UKIwOUHJvdGVpbl9JRCAoMSmUSwKMDmxv
+ZzJGb2xkQ2hhbmdllEsCjARwYWRqlEsCdWgxfZQojA5Qcm90ZWluX0lEICgyKZRLA4wFZ29BY2OU
+SwOMB0dlbmVfaWSUSwN1dWJoDCmBlH2UKGgPfZQoaBF9lChoM0sDhpRoFUsAhpRoLUsChpSMCWF0
+dHJpYnV0ZZRLAIaUaC5LAoaUaHRLAYaUaC9LAoaUaHRLAoaUaDBLAoaUaHRLA4aUjAojcHJvdGVp
+bklklEsDhpRoJUsAhpSMBWVjTnVtlEsDhpRoJUsBhpR1Sv7///+GlGgHSwF1aCt9lCiMEmxvZzJG
+b2xkQ2hhbmdlICgxKZRLAowSbG9nMkZvbGRDaGFuZ2UgKDIplEsCjAhwYWRqICgxKZRLAowIcGFk
+aiAoMimUSwJ1aDF9lCiMCiNwcm90ZWluSWSUSwOMBWVjTnVtlEsDjAdHZW5lX2lklEsDdXViaAwp
+gZR9lChoD32UKGhOfZQojAdHZW5lX2lklEsDhpSMCWF2YWlsYWJsZZRLAIaUjA5sb2cyRm9sZENo
+YW5nZZRLAoaUaJJLAYaUjARwYWRqlEsChpRokksChpSMBWVjTnVtlEsDhpRoXEsAhpSMCiNwcm90
+ZWluSWSUSwOGlGhcSwGGlHVK/v///4aUaAdLAXVoK32UKGhUSwJoV0sCdWgxfZQoaIlLA2iKSwNo
+XksDdXViaAwpgZR9lChoD32UKGhOfZQoaFRLAoaUaJJLAIaUaFdLAoaUaJJLAYaUaF5LA4aUaJJL
+AoaUjAVnb0FjY5RLA4aUaFxLAIaUjApQcm90ZWluX0lElEsDhpRoXEsBhpR1Sv7///+GlGgHSwF1
+aCt9lCiMDmxvZzJGb2xkQ2hhbmdllEsCjARwYWRqlEsCdWgxfZQojApQcm90ZWluX0lElEsDaGtL
+A4wHR2VuZV9pZJRLA3V1YmgMKYGUfZQoaA99lCiMEWRvbWFpbl9yb2xlX2hpbnRzlH2UKIwHR2Vu
+ZV9pZJRLA4aUjAlhdmFpbGFibGWUSwCGlIwSbG9nMkZvbGRDaGFuZ2UgKDEplEsChpSMCWF0dHJp
+YnV0ZZRLAIaUjBJsb2cyRm9sZENoYW5nZSAoMimUSwKGlGjFSwGGlIwIcGFkaiAoMSmUSwKGlGjF
+SwKGlIwIcGFkaiAoMimUSwKGlGjFSwOGlGhrSwOGlIwEbWV0YZRLAIaUaLhLA4aUaNFLAYaUdUr+
+////hpRoB0sBdWgrfZQojBJsb2cyRm9sZENoYW5nZSAoMSmUSwKMEmxvZzJGb2xkQ2hhbmdlICgy
+KZRLAowIcGFkaiAoMSmUSwKMCHBhZGogKDIplEsCdWgxfZQoaLhLA2hrSwOMB0dlbmVfaWSUSwN1
+dWJoDCmBlH2UKGgPfZQoaE59lChoi0sDhpRokksAhpSMDlByb3RlaW5fSUQgKDEplEsChpRoUksA
+hpRohEsChpRoUksBhpRohUsChpRoUksChpRohksChpRoUksDhpRoh0sChpRoUksEhpSMBWdvQWNj
+lEsDhpRoXEsAhpSMDlByb3RlaW5fSUQgKDIplEsDhpRoXEsBhpR1Sv7///+GlGgHSwF1aCt9lCho
+40sCaIRLAmiFSwJohksCaIdLAnVoMX2UKGjuSwNo8UsDaItLA3V1YmV1Lg==
+</properties>
+		<properties node_id="9" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xff\xff\xff\xff\xf9\x00\x00\x06\x00\x00\x00\x030\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05\xff\x00\x00\x03/\x00\x00\x00\x00\x02\x00\x00\x00\x06\x00\x00\x00\x00\x00\x00\x00\x00\x17\x00\x00\x05\xff\x00\x00\x03/', 'select_rows': False, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+		<properties node_id="10" format="literal">{'add_type_annotations': False, 'auto_save': False, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x08\x07\x00\x00\x01\x06\x00\x00\t\x80\x00\x00\x01\xa2\x00\x00\x08\x08\x00\x00\x01$\x00\x00\t\x7f\x00\x00\x01\xa1\x00\x00\x00\x01\x00\x00\x00\x00\x06\x00\x00\x00\x08\x08\x00\x00\x01$\x00\x00\t\x7f\x00\x00\x01\xa1', 'stored_name': 'Uregulated_intersection_ATS_Protein_ID_KOG.csv', 'stored_path': '.', '__version__': 3}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

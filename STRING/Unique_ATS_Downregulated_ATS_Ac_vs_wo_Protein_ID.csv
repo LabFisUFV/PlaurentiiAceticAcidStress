@@ -1,0 +1,36 @@
+Protein_ID,log2FoldChange,padj,Gene_id,,,
+537457,-5.0052923287363,2.55268279018075E-142,gene_697,expressed protein,Select seq gb|KZT20785.1|,glycosyltransferase family 18 protein
+494674,-2.34446041607705,8.20944810522483E-26,gene_5483,expressed protein,,
+499269,-2.07013943004497,7.75059056636314E-10,gene_6804,expressed protein,,
+200583,-1.92909666554138,2.46411589284702E-20,gene_2533,expressed protein,,
+484648,-1.83432823466056,7.01258991642648E-07,gene_2631,expressed protein,,
+287012,-1.69843166707352,1.86801985762298E-25,gene_4269,AhpC%2FTSA antioxidant enzyme-domain containing protein,Select seq ref|XP_021870971.1|,AhpC/TSA antioxidant enzyme-domain-containing protein
+526601,-1.58731915835365,6.00897472393414E-05,gene_3875,hypothetical protein,,
+535042,-1.57437749575775,1.11695963816891E-162,gene_3716,vacuolar ATP synthase subunit E,,
+239725,-1.55762615592948,7.49797980994019E-26,gene_3289,Domain of unknown function %28DUF4385%29-domain containing protein,Select seq ref|WP_226011952.1|,DUF4385 family protein [Halomicrobium salinisoli]
+106947,-1.55262369866087,4.38498646551997E-55,gene_7345,putative Pi-transporter A-1,Select seq gb|ODN90303.1|,Pi-transporter A-1 [Cryptococcus depauperatus CBS 7855]
+493242,-1.54745119552328,7.00200382188794E-20,gene_5084,ATP-dependent RNA helicase prh1,,
+346524,-1.49771832978574,2.42825324844924E-50,gene_5476,hypothetical protein,Select seq ref|XP_040621994.1|,SH3 domain containing protein [Sporothrix brasiliensis 5110]
+492483,-1.48002382229798,1.48559614489571E-64,gene_4863,hypothetical protein,Select seq gb|ORY34955.1|,putative long-chain-fatty-acid--CoA ligase [Naematelia encephala]
+502290,-1.39452776538759,9.69519562679468E-11,gene_7665,Transmembrane amino acid transporter protein-domain containing protein,,
+436451,-1.3890858262015,0.000253863514729,gene_2961,Purine nucleoside permease,,
+497663,-1.34840138895202,2.19815665137315E-23,gene_6355,Phosphatidylethanolamine-binding protein PEBP,,
+488095,-1.30143227809343,6.12733137081409E-21,gene_3608,putative small nucleolar ribonucleo protein protein,U3 small nucleolar RNA-associated protein MPP10 [Cryptococcus gattii E566] ,
+485861,-1.28000179020598,4.16762642083126E-09,gene_2978,putative Probable glucan 1%2C3-beta-glucosidase A,Select seq ref|XP_021871896.1|,glycoside hydrolase superfamily [Kockovaella imperatae]
+185921,-1.27289936572124,2.33530069714312E-116,gene_2200,hypothetical protein,,
+548724,-1.22191823621823,2.51877577660966E-15,gene_7514,bud site selection-related protein,,
+476714,-1.18464648802014,3.41674154593258E-07,gene_248,Fcf1-domain containing protein,,
+539738,-1.17642784481463,3.14556474618291E-23,gene_3407,expressed protein,,
+438493,-1.14048067942645,7.21333996105169E-07,gene_4006,hypothetical protein,Select seq ref|XP_019035726.1|,tRNA-dihydrouridine synthase 4 [Cryptococcus wingfieldii CBS 7118]
+443242,-1.13724146495241,6.49971087533428E-24,gene_7120,Mitochondrial import inner membrane translocase subunit TIM54,,
+456667,-1.13287639163896,1.29079937208651E-12,gene_6266,putative ATP-dependent RNA helicase,,
+489449,-1.11391115358272,1.17288960063433E-38,gene_4024,glutamate biosynthesis-related protein,Select seq gb|KIR50226.1|,S-methyl-5'-thioadenosine phosphorylase [Cryptococcus gattii CA1280]
+477422,-1.10128092692028,1.02928487411444E-08,gene_431,hypothetical protein,ribosome biogenesis protein SLX9-domain-containing protein [Naematelia encephala] ,
+502014,-1.06734761169736,2.73480427797314E-06,gene_7615,Magnesium-dependent phosphatase-1,,
+538108,-1.06614917191012,1.31173488165602E-22,gene_1505,expressed protein,,
+431716,-1.06429846752748,2.45881805748788E-49,gene_2908,RlpA-like double-psi beta-barrel-containing protein domain-containing protein,,
+499063,-1.0620372271187,1.7854129396214E-41,gene_6737,,,
+186491,-1.06012629054353,2.28525698400888E-16,gene_2218,,,
+539149,-1.04896309885798,4.78883947955006E-11,gene_2710,,,
+315262,-1.04251009832528,8.0959544312926E-33,gene_4911,,,
+496228,-1.00974998641976,1.32244043601544E-22,gene_5930,,,

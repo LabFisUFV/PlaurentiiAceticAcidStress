@@ -1,0 +1,11 @@
+Protein_ID,log2FoldChange,padj,Gene_id,,,
+490704,5.85514058856815,0,gene_4345,putative cobalamin synthesis protein,,
+488166,4.24627827735435,3.08266373308734E-23,gene_3635,hypothetical protein,,
+452077,3.16915954909387,1.64001827312258E-206,gene_3317,Glycosyl hydrolase catalytic core-domain containing protein,,
+522523,2.79031632667165,9.40099333151598E-99,gene_2144,expressed protein,,
+198321,2.6321785001717,9.56640480048325E-37,gene_2481,expressed protein,,
+2738,2.60192161252611,0,gene_76,RTA-like protein,,
+508744,2.5877684354523,7.79742323037579E-137,gene_1989,expressed protein,,
+499819,2.54029312863426,0,gene_6960,Ricin B lectin domain-containing protein,Select seq ref|XP_052949033.1|,ricin B-like lectin [Dioszegia hungarica]
+475966,2.40854993413657,1.86302312694201E-10,gene_50,putative cell wall organization and biogenesis-related protein,Select seq dbj|GFZ44497.1|,glycosylase [Saitozyma sp. JCM 24511]
+360080,2.23730740078121,5.55902548770638E-19,gene_5716,expressed protein,Select seq ref|XP_012050493.1|,"Swi5-dependent recombination DNA repair protein 1, variant [Cryptococcus neoformans var. grubii H99]"

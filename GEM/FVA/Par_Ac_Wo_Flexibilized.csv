@@ -1,0 +1,27 @@
+LogFC_Par_AC_wo,Reaction,NAME,EQUATION,SUBSYSTEM
+40.4711767243184,r_0023,2-isopropylmalate hydratase,2-isopropylmaleic acid[c] + H2O[c] <=> 2-isopropylmalate[c],"2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids;Biosynthesis of secondary metabolites;Valine, leucine and isoleucine biosynthesis"
+1.7597620219683,r_0090,6-phosphofructo-2-kinase,"ATP[c] + D-fructose 6-phosphate[c] => ADP[c] + beta-D-fructose 2,6-bisphosphate[c] + H+[c]",Fructose and mannose metabolism
+1.94644510297126,r_0105,acetyl-CoA C-acyltransferase (lauroyl-CoA),3-oxotetradecanoyl-CoA[p] + coenzyme A[p] => acetyl-CoA[p] + lauroyl-CoA[p],"Biosynthesis of antibiotics;Biosynthesis of secondary metabolites;Biosynthesis of unsaturated fatty acids;Fatty acid degradation;Fatty acid metabolism;Peroxisome;Valine, leucine and isoleucine degradation"
+1.75976202188456,r_0150,adenylate kinase (GTP),AMP[m] + GTP[m] <=> ADP[m] + GDP[m],Biosynthesis of antibiotics;Biosynthesis of secondary metabolites;Purine metabolism;Thiamine metabolism
+1.6027555957351,r_0207,argininosuccinate lyase,(N(omega)-L-arginino)succinic acid[c] <=> fumarate[c] + L-arginine[c],"Alanine, aspartate and glutamate metabolism;Arginine biosynthesis;Biosynthesis of amino acids;Biosynthesis of antibiotics;Biosynthesis of secondary metabolites"
+2.2696873181783,r_0218,aspartate transaminase,2-oxoglutarate[p] + L-aspartate[p] <=> L-glutamate[p] + oxaloacetate[p],"2-Oxocarboxylic acid metabolism;Alanine, aspartate and glutamate metabolism;Arginine and proline metabolism;Arginine biosynthesis;Biosynthesis of amino acids;Biosynthesis of antibiotics;Biosynthesis of secondary metabolites;Carbon metabolism;Cysteine and methionine metabolism;Phenylalanine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis;Tyrosine metabolism"
+1.43464525531316,r_0361,dolichyl-phosphate D-mannosyltransferase,dolichyl phosphate[c] + GDP-alpha-D-mannose[c] => dolichyl D-mannosyl phosphate[er] + GDP[c],N-Glycan biosynthesis
+2.48427555733,r_0502,glycine hydroxymethyltransferase,"L-serine[c] + THF[c] <=> 5,10-methylenetetrahydrofolate[c] + H2O[c] + L-glycine[c]","Biosynthesis of amino acids;Biosynthesis of antibiotics;Biosynthesis of secondary metabolites;Carbon metabolism;Glycine, serine and threonine metabolism;Glyoxylate and dicarboxylate metabolism;One carbon pool by folate"
+5.7961320360569,r_0503,glycine hydroxymethyltransferase,"L-serine[m] + THF[m] <=> 5,10-methylenetetrahydrofolate[m] + H2O[m] + L-glycine[m]","Biosynthesis of amino acids;Biosynthesis of antibiotics;Biosynthesis of secondary metabolites;Carbon metabolism;Glycine, serine and threonine metabolism;Glyoxylate and dicarboxylate metabolism;One carbon pool by folate"
+1.43464525531316,r_0722,mannose-1-phosphate guanylyltransferase,D-mannose 1-phosphate[c] + GTP[c] + H+[c] => diphosphate[c] + GDP-alpha-D-mannose[c],Amino sugar and nucleotide sugar metabolism;Biosynthesis of secondary metabolites;Fructose and mannose metabolism
+1.43464525531316,r_0902,phosphomannomutase,D-mannose 1-phosphate[c] <=> D-mannose 6-phosphate[c],Amino sugar and nucleotide sugar metabolism;Biosynthesis of antibiotics;Biosynthesis of secondary metabolites;Fructose and mannose metabolism
+1.40426355428945,r_1063,tyrosine transaminase,3-(4-hydroxyphenyl)pyruvate[c] + L-glutamate[c] <=> 2-oxoglutarate[c] + L-tyrosine[c],"2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids;Biosynthesis of antibiotics;Biosynthesis of secondary metabolites;Cysteine and methionine metabolism;Lysine biosynthesis;Phenylalanine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis;Tryptophan metabolism;Tyrosine metabolism;Ubiquinone and other terpenoid-quinone biosynthesis"
+1.49694159702145,r_1660,ATP diffusion,ATP[c] <=> ATP[n],
+2.16992500144231,r_1718,D-xylose exchange,D-xylose[e] <=>,
+1.74583715668876,r_1978,O2 transport,oxygen[c] <=> oxygen[m],
+1.35907667038355,r_3513,"oleate transport, cytoplasm-ER membrane",oleate[c] <=> oleate[erm],
+2.54871390383408,r_3525,"H+ transport, cytoplasm-ER membrane",H+[c] <=> H+[erm],
+2.87989111770213,r_3533,"NAD transport, cytoplasm-ER membrane",NAD[c] <=> NAD[erm],
+3.1060112794727,r_3573,"octadecanoate (n-C18:0) transport, cytoplasm-lipid particle",stearate[c] <=> stearate[lp],
+4.39602056986821,r_4039,succinyl-CoA:acetate CoA transferase,acetate[m] + succinyl-CoA[m] <=> acetyl-CoA[m] + succinate[m],Pyruvate metabolism
+1.51699632397019,t_0057,acetyl-CoA C-acyltransferase (hexanoyl-CoA),3-oxooctanoyl-CoA[m] + coenzyme A[m] <=> hexanoyl-CoA[m] + acetyl-CoA[m],Fatty acid degradation (mitochondrial)
+9.04071575442732,t_0064,acyl-CoA oxidase (butanoyl-CoA),butanoyl-CoA[m] + FAD[m] <=> trans-but-2-enoyl-CoA[m] + FADH2[m],Fatty acid degradation (mitochondrial)
+1.21224171835027,t_0070,acyl-CoA oxidase (hexanoyl-CoA),hexanoyl-CoA[m] + FAD[m] <=> trans-hex-2-enoyl-CoA[m] + FADH2[m],Fatty acid degradation (mitochondrial)
+1.21997361994797,t_0225,"fatty-acid--CoA ligase (palmitate), endoplasmic reticulum membrane",coenzyme A[erm] + ATP[erm] + palmitate[erm] <=> palmitoyl-CoA[erm] + AMP[erm] + diphosphate[erm],
+1.39617224439817,t_0231,"fatty-acid--CoA ligase (stearate), lipid particle",coenzyme A[lp] + ATP[lp] + stearate[lp] <=> diphosphate[lp] + AMP[lp] + stearoyl-CoA[lp],
+38.5150601113397,t_1083,"PC (1-18:1, 2-18:1) diacylglycerol (1-16:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane","diglyceride (1-16:0, 2-18:2)[erm] + phosphatidylcholine (1-18:1, 2-18:1)[erm] <=> triglyceride (1-16:0, 2-18:2, 3-18:1)[erm] + 1-acylglycerophosphocholine (18:1)[erm]",

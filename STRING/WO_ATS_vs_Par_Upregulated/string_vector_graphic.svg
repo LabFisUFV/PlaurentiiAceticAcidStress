@@ -1,0 +1,760 @@
+<svg class='notselectable nwlinkhovertoggle' height='1500' id='svg_network_image' width='1492' style='vertical-align:top;' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+<style type='text/css'><![CDATA[
+.nwbubblecoloredcircle { opacity: 0.4; }
+.nwbubbletransparentdcircle { opacity: 0.1; }
+.nwnodecontainer:hover { cursor: pointer; }
+.nwnodecontainer:hover .nwbubblecoloredcircle { opacity: 0.2; }
+.nwnodecontainerselected .nwbubblecoloredcircle { fill: rgb(255,0,0) !important; }
+.nwnodecontainerwhiteout .nwbubblecoloredcircle { fill: rgb(255,255,255) !important; }
+text { font-family: Arial; font-size: 12px; }
+.nwlinkhovertoggle .nwlinkwrapper:hover { cursor: pointer; }
+]]></style>
+<g id='edges'>
+<g class='nwlinkwrapper' id='edge.95000259.95000888'>
+<line class='nw_edge' id='line.95000259.95000888.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1184.0' x2='1064.0'  y1='635.0' y2='614.0' />
+<line class='nw_edge' id='line.95000259.95000888.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.56' stroke-width='3.36' x1='1184.5' x2='1064.5' y1='635.5' y2='614.5' /></g>
+<g class='nwlinkwrapper' id='edge.95000349.95007253'>
+<line class='nw_edge' id='line.95000349.95007253.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='608.0' x2='466.0'  y1='810.0' y2='831.0' />
+<line class='nw_edge' id='line.95000349.95007253.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.328' stroke-width='1.968' x1='608.5' x2='466.5' y1='810.5' y2='831.5' /></g>
+<g class='nwlinkwrapper' id='edge.95000434.95001290'>
+<line class='nw_edge' id='line.95000434.95001290.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='500.0' x2='356.0'  y1='514.0' y2='513.0' />
+<line class='nw_edge' id='line.95000434.95001290.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.28733333333333333' stroke-width='1.724' x1='500.5' x2='356.5' y1='514.5' y2='513.5' /></g>
+<g class='nwlinkwrapper' id='edge.95000434.95005226'>
+<line class='nw_edge' id='line.95000434.95005226.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='500.0' x2='429.0'  y1='514.0' y2='390.0' />
+<line class='nw_edge' id='line.95000434.95005226.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.28733333333333333' stroke-width='1.724' x1='500.5' x2='429.5' y1='514.5' y2='390.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001385.95002165'>
+<line class='nw_edge' id='line.95001385.95002165.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='802.0' x2='783.0'  y1='1136.0' y2='1012.0' />
+<line class='nw_edge' id='line.95001385.95002165.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.39666666666666667' stroke-width='2.38' x1='802.5' x2='783.5' y1='1136.5' y2='1012.5' /></g>
+<g class='nwlinkwrapper' id='edge.95000888.95006023'>
+<line class='nw_edge' id='line.95000888.95006023.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1064.0' x2='966.0'  y1='614.0' y2='733.0' />
+<line class='nw_edge' id='line.95000888.95006023.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.30266666666666664' stroke-width='1.816' x1='1064.5' x2='966.5' y1='614.5' y2='733.5' /></g>
+<g class='nwlinkwrapper' id='edge.95000888.95003278'>
+<line class='nw_edge' id='line.95000888.95003278.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1064.0' x2='1011.0'  y1='614.0' y2='470.0' />
+<line class='nw_edge' id='line.95000888.95003278.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.2986666666666667' stroke-width='1.792' x1='1064.5' x2='1011.5' y1='614.5' y2='470.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001290.95005226'>
+<line class='nw_edge' id='line.95001290.95005226.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='356.0' x2='429.0'  y1='513.0' y2='390.0' />
+<line class='nw_edge' id='line.95001290.95005226.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.292' stroke-width='1.752' x1='356.5' x2='429.5' y1='513.5' y2='390.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001291.95004369'>
+<line class='nw_edge' id='line.95001291.95004369.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='925.0' x2='896.0'  y1='1142.0' y2='1030.0' />
+<line class='nw_edge' id='line.95001291.95004369.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.49466666666666664' stroke-width='2.968' x1='925.5' x2='896.5' y1='1142.5' y2='1030.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001291.95005421'>
+<line class='nw_edge' id='line.95001291.95005421.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='925.0' x2='921.0'  y1='1142.0' y2='1257.0' />
+<line class='nw_edge' id='line.95001291.95005421.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.572' stroke-width='3.432' x1='925.5' x2='921.5' y1='1142.5' y2='1257.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001360.95003891'>
+<line class='nw_edge' id='line.95001360.95003891.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1202.0' x2='1056.0'  y1='933.0' y2='896.0' />
+<line class='nw_edge' id='line.95001360.95003891.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.354' stroke-width='2.124' x1='1202.5' x2='1056.5' y1='933.5' y2='896.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001360.95005083'>
+<line class='nw_edge' id='line.95001360.95005083.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1202.0' x2='1129.0'  y1='933.0' y2='990.0' />
+<line class='nw_edge' id='line.95001360.95005083.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.38066666666666665' stroke-width='2.284' x1='1202.5' x2='1129.5' y1='933.5' y2='990.5' /></g>
+<g class='nwlinkwrapper' id='edge.95000559.95001642'>
+<line class='nw_edge' id='line.95000559.95001642.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='854.0' x2='721.0'  y1='743.0' y2='742.0' />
+<line class='nw_edge' id='line.95000559.95001642.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.38133333333333336' stroke-width='2.288' x1='854.5' x2='721.5' y1='743.5' y2='742.5' /></g>
+<g class='nwlinkwrapper' id='edge.95000559.95001680'>
+<line class='nw_edge' id='line.95000559.95001680.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='854.0' x2='784.0'  y1='743.0' y2='825.0' />
+<line class='nw_edge' id='line.95000559.95001680.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.41333333333333333' stroke-width='2.48' x1='854.5' x2='784.5' y1='743.5' y2='825.5' /></g>
+<g class='nwlinkwrapper' id='edge.95000559.95004525'>
+<line class='nw_edge' id='line.95000559.95004525.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='854.0' x2='949.0'  y1='743.0' y2='783.0' />
+<line class='nw_edge' id='line.95000559.95004525.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.378' stroke-width='2.268' x1='854.5' x2='949.5' y1='743.5' y2='783.5' /></g>
+<g class='nwlinkwrapper' id='edge.95000573.95005421'>
+<line class='nw_edge' id='line.95000573.95005421.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='906.0' x2='921.0'  y1='1372.0' y2='1257.0' />
+<line class='nw_edge' id='line.95000573.95005421.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.4033333333333333' stroke-width='2.42' x1='906.5' x2='921.5' y1='1372.5' y2='1257.5' /></g>
+<g class='nwlinkwrapper' id='edge.95000678.95004525'>
+<line class='nw_edge' id='line.95000678.95004525.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1074.0' x2='949.0'  y1='798.0' y2='783.0' />
+<line class='nw_edge' id='line.95000678.95004525.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.378' stroke-width='2.268' x1='1074.5' x2='949.5' y1='798.5' y2='783.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001028.95002824'>
+<line class='nw_edge' id='line.95001028.95002824.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='660.0' x2='546.0'  y1='450.0' y2='467.0' />
+<line class='nw_edge' id='line.95001028.95002824.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.6273333333333333' stroke-width='3.764' x1='660.5' x2='546.5' y1='450.5' y2='467.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001642.95003487'>
+<line class='nw_edge' id='line.95001642.95003487.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='721.0' x2='715.0'  y1='742.0' y2='861.0' />
+<line class='nw_edge' id='line.95001642.95003487.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.37333333333333335' stroke-width='2.24' x1='721.5' x2='715.5' y1='742.5' y2='861.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001642.95003986'>
+<line class='nw_edge' id='line.95001642.95003986.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='721.0' x2='671.0'  y1='742.0' y2='628.0' />
+<line class='nw_edge' id='line.95001642.95003986.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.43266666666666664' stroke-width='2.596' x1='721.5' x2='671.5' y1='742.5' y2='628.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001642.95002420'>
+<line class='nw_edge' id='line.95001642.95002420.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='721.0' x2='631.0'  y1='742.0' y2='861.0' />
+<line class='nw_edge' id='line.95001642.95002420.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.4106666666666667' stroke-width='2.464' x1='721.5' x2='631.5' y1='742.5' y2='861.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001642.95004525'>
+<line class='nw_edge' id='line.95001642.95004525.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='721.0' x2='949.0'  y1='742.0' y2='783.0' />
+<line class='nw_edge' id='line.95001642.95004525.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.38133333333333336' stroke-width='2.288' x1='721.5' x2='949.5' y1='742.5' y2='783.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001642.95005527'>
+<line class='nw_edge' id='line.95001642.95005527.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='721.0' x2='786.0'  y1='742.0' y2='598.0' />
+<line class='nw_edge' id='line.95001642.95005527.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.6113333333333333' stroke-width='3.668' x1='721.5' x2='786.5' y1='742.5' y2='598.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001642.95005806'>
+<line class='nw_edge' id='line.95001642.95005806.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='721.0' x2='579.0'  y1='742.0' y2='679.0' />
+<line class='nw_edge' id='line.95001642.95005806.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.42933333333333334' stroke-width='2.576' x1='721.5' x2='579.5' y1='742.5' y2='679.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001659.95003533'>
+<line class='nw_edge' id='line.95001659.95003533.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='640.0' x2='526.0'  y1='410.0' y2='427.0' />
+<line class='nw_edge' id='line.95001659.95003533.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.376' stroke-width='2.256' x1='640.5' x2='526.5' y1='410.5' y2='427.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001680.95003487'>
+<line class='nw_edge' id='line.95001680.95003487.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='784.0' x2='715.0'  y1='825.0' y2='861.0' />
+<line class='nw_edge' id='line.95001680.95003487.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.38266666666666665' stroke-width='2.296' x1='784.5' x2='715.5' y1='825.5' y2='861.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001680.95002165'>
+<line class='nw_edge' id='line.95001680.95002165.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='784.0' x2='783.0'  y1='825.0' y2='1012.0' />
+<line class='nw_edge' id='line.95001680.95002165.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.26866666666666666' stroke-width='1.612' x1='784.5' x2='783.5' y1='825.5' y2='1012.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001680.95002420'>
+<line class='nw_edge' id='line.95001680.95002420.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='784.0' x2='631.0'  y1='825.0' y2='861.0' />
+<line class='nw_edge' id='line.95001680.95002420.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.41333333333333333' stroke-width='2.48' x1='784.5' x2='631.5' y1='825.5' y2='861.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001680.95004525'>
+<line class='nw_edge' id='line.95001680.95004525.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='784.0' x2='949.0'  y1='825.0' y2='783.0' />
+<line class='nw_edge' id='line.95001680.95004525.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.4126666666666667' stroke-width='2.476' x1='784.5' x2='949.5' y1='825.5' y2='783.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001680.95004536'>
+<line class='nw_edge' id='line.95001680.95004536.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='784.0' x2='908.0'  y1='825.0' y2='934.0' />
+<line class='nw_edge' id='line.95001680.95004536.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.2693333333333333' stroke-width='1.616' x1='784.5' x2='908.5' y1='825.5' y2='934.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001680.95005527'>
+<line class='nw_edge' id='line.95001680.95005527.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='784.0' x2='786.0'  y1='825.0' y2='598.0' />
+<line class='nw_edge' id='line.95001680.95005527.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.6586666666666666' stroke-width='3.952' x1='784.5' x2='786.5' y1='825.5' y2='598.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001680.95005806'>
+<line class='nw_edge' id='line.95001680.95005806.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='784.0' x2='579.0'  y1='825.0' y2='679.0' />
+<line class='nw_edge' id='line.95001680.95005806.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.3473333333333333' stroke-width='2.084' x1='784.5' x2='579.5' y1='825.5' y2='679.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001713.95004182'>
+<line class='nw_edge' id='line.95001713.95004182.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1200.0' x2='1086.0'  y1='680.0' y2='697.0' />
+<line class='nw_edge' id='line.95001713.95004182.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.396' stroke-width='2.376' x1='1200.5' x2='1086.5' y1='680.5' y2='697.5' /></g>
+<g class='nwlinkwrapper' id='edge.95002186.95003891'>
+<line class='nw_edge' id='line.95002186.95003891.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1130.0' x2='1056.0'  y1='840.0' y2='896.0' />
+<line class='nw_edge' id='line.95002186.95003891.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.354' stroke-width='2.124' x1='1130.5' x2='1056.5' y1='840.5' y2='896.5' /></g>
+<g class='nwlinkwrapper' id='edge.95002186.95005083'>
+<line class='nw_edge' id='line.95002186.95005083.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1130.0' x2='1129.0'  y1='840.0' y2='990.0' />
+<line class='nw_edge' id='line.95002186.95005083.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.38066666666666665' stroke-width='2.284' x1='1130.5' x2='1129.5' y1='840.5' y2='990.5' /></g>
+<g class='nwlinkwrapper' id='edge.95002154.95005249'>
+<line class='nw_edge' id='line.95002154.95005249.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='510.0' x2='396.0'  y1='928.0' y2='910.0' />
+<line class='nw_edge' id='line.95002154.95005249.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.38133333333333336' stroke-width='2.288' x1='510.5' x2='396.5' y1='928.5' y2='910.5' /></g>
+<g class='nwlinkwrapper' id='edge.95002154.95006461'>
+<line class='nw_edge' id='line.95002154.95006461.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='510.0' x2='437.0'  y1='928.0' y2='1018.0' />
+<line class='nw_edge' id='line.95002154.95006461.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.4266666666666667' stroke-width='2.56' x1='510.5' x2='437.5' y1='928.5' y2='1018.5' /></g>
+<g class='nwlinkwrapper' id='edge.95001856.95003126'>
+<line class='nw_edge' id='line.95001856.95003126.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1368.0' x2='1242.0'  y1='1181.0' y2='1072.0' />
+<line class='nw_edge' id='line.95001856.95003126.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.288' stroke-width='1.728' x1='1368.5' x2='1242.5' y1='1181.5' y2='1072.5' /></g>
+<g class='nwlinkwrapper' id='edge.95002476.95006090'>
+<line class='nw_edge' id='line.95002476.95006090.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='690.0' x2='743.0'  y1='1074.0' y2='1209.0' />
+<line class='nw_edge' id='line.95002476.95006090.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.30266666666666664' stroke-width='1.816' x1='690.5' x2='743.5' y1='1074.5' y2='1209.5' /></g>
+<g class='nwlinkwrapper' id='edge.95002476.95006370'>
+<line class='nw_edge' id='line.95002476.95006370.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='690.0' x2='631.0'  y1='1074.0' y2='1220.0' />
+<line class='nw_edge' id='line.95002476.95006370.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.30266666666666664' stroke-width='1.816' x1='690.5' x2='631.5' y1='1074.5' y2='1220.5' /></g>
+<g class='nwlinkwrapper' id='edge.95002420.95006070'>
+<line class='nw_edge' id='line.95002420.95006070.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='631.0' x2='557.0'  y1='861.0' y2='975.0' />
+<line class='nw_edge' id='line.95002420.95006070.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.41333333333333333' stroke-width='2.48' x1='631.5' x2='557.5' y1='861.5' y2='975.5' /></g>
+<g class='nwlinkwrapper' id='edge.95002388.95002476'>
+<line class='nw_edge' id='line.95002388.95002476.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='720.0' x2='690.0'  y1='960.0' y2='1074.0' />
+<line class='nw_edge' id='line.95002388.95002476.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.6406666666666667' stroke-width='3.844' x1='720.5' x2='690.5' y1='960.5' y2='1074.5' /></g>
+<g class='nwlinkwrapper' id='edge.95002826.95006370'>
+<line class='nw_edge' id='line.95002826.95006370.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='476.0' x2='631.0'  y1='1237.0' y2='1220.0' />
+<line class='nw_edge' id='line.95002826.95006370.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.30133333333333334' stroke-width='1.808' x1='476.5' x2='631.5' y1='1237.5' y2='1220.5' /></g>
+<g class='nwlinkwrapper' id='edge.95003986.95005806'>
+<line class='nw_edge' id='line.95003986.95005806.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='671.0' x2='579.0'  y1='628.0' y2='679.0' />
+<line class='nw_edge' id='line.95003986.95005806.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.568' stroke-width='3.408' x1='671.5' x2='579.5' y1='628.5' y2='679.5' /></g>
+<g class='nwlinkwrapper' id='edge.95003986.95004235'>
+<line class='nw_edge' id='line.95003986.95004235.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='671.0' x2='614.0'  y1='628.0' y2='516.0' />
+<line class='nw_edge' id='line.95003986.95004235.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.5306666666666666' stroke-width='3.184' x1='671.5' x2='614.5' y1='628.5' y2='516.5' /></g>
+<g class='nwlinkwrapper' id='edge.95002830.95007470'>
+<line class='nw_edge' id='line.95002830.95007470.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1442.0' x2='1352.0'  y1='875.0' y2='954.0' />
+<line class='nw_edge' id='line.95002830.95007470.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.5706666666666667' stroke-width='3.424' x1='1442.5' x2='1352.5' y1='875.5' y2='954.5' /></g>
+<g class='nwlinkwrapper' id='edge.95002969.95004446'>
+<line class='nw_edge' id='line.95002969.95004446.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='296.0' x2='449.0'  y1='599.0' y2='653.0' />
+<line class='nw_edge' id='line.95002969.95004446.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.30666666666666664' stroke-width='1.84' x1='296.5' x2='449.5' y1='599.5' y2='653.5' /></g>
+<g class='nwlinkwrapper' id='edge.95003067.95003126'>
+<line class='nw_edge' id='line.95003067.95003126.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1112.0' x2='1242.0'  y1='1101.0' y2='1072.0' />
+<line class='nw_edge' id='line.95003067.95003126.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.4593333333333333' stroke-width='2.756' x1='1112.5' x2='1242.5' y1='1101.5' y2='1072.5' /></g>
+<g class='nwlinkwrapper' id='edge.95003067.95005720'>
+<line class='nw_edge' id='line.95003067.95005720.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1112.0' x2='1037.0'  y1='1101.0' y2='1204.0' />
+<line class='nw_edge' id='line.95003067.95005720.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.37866666666666665' stroke-width='2.272' x1='1112.5' x2='1037.5' y1='1101.5' y2='1204.5' /></g>
+<g class='nwlinkwrapper' id='edge.95003067.95006172'>
+<line class='nw_edge' id='line.95003067.95006172.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1112.0' x2='1144.0'  y1='1101.0' y2='1273.0' />
+<line class='nw_edge' id='line.95003067.95006172.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.292' stroke-width='1.752' x1='1112.5' x2='1144.5' y1='1101.5' y2='1273.5' /></g>
+<g class='nwlinkwrapper' id='edge.95003067.95006373'>
+<line class='nw_edge' id='line.95003067.95006373.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1112.0' x2='989.0'  y1='1101.0' y2='1098.0' />
+<line class='nw_edge' id='line.95003067.95006373.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.5013333333333333' stroke-width='3.008' x1='1112.5' x2='989.5' y1='1101.5' y2='1098.5' /></g>
+<g class='nwlinkwrapper' id='edge.95003067.95006459'>
+<line class='nw_edge' id='line.95003067.95006459.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1112.0' x2='1027.0'  y1='1101.0' y2='948.0' />
+<line class='nw_edge' id='line.95003067.95006459.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.33266666666666667' stroke-width='1.996' x1='1112.5' x2='1027.5' y1='1101.5' y2='948.5' /></g>
+<g class='nwlinkwrapper' id='edge.95003126.95007470'>
+<line class='nw_edge' id='line.95003126.95007470.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1242.0' x2='1352.0'  y1='1072.0' y2='954.0' />
+<line class='nw_edge' id='line.95003126.95007470.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.2833333333333333' stroke-width='1.7' x1='1242.5' x2='1352.5' y1='1072.5' y2='954.5' /></g>
+<g class='nwlinkwrapper' id='edge.95003543.95007518'>
+<line class='nw_edge' id='line.95003543.95007518.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1204.0' x2='1131.0'  y1='590.0' y2='500.0' />
+<line class='nw_edge' id='line.95003543.95007518.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.37933333333333336' stroke-width='2.276' x1='1204.5' x2='1131.5' y1='590.5' y2='500.5' /></g>
+<g class='nwlinkwrapper' id='edge.95004096.95006458'>
+<line class='nw_edge' id='line.95004096.95006458.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='894.0' x2='819.0'  y1='532.0' y2='468.0' />
+<line class='nw_edge' id='line.95004096.95006458.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.6506666666666666' stroke-width='3.904' x1='894.5' x2='819.5' y1='532.5' y2='468.5' /></g>
+<g class='nwlinkwrapper' id='edge.95004096.95005527'>
+<line class='nw_edge' id='line.95004096.95005527.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='894.0' x2='786.0'  y1='532.0' y2='598.0' />
+<line class='nw_edge' id='line.95004096.95005527.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.3406666666666667' stroke-width='2.044' x1='894.5' x2='786.5' y1='532.5' y2='598.5' /></g>
+<g class='nwlinkwrapper' id='edge.95004235.95004418'>
+<line class='nw_edge' id='line.95004235.95004418.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='614.0' x2='518.0'  y1='516.0' y2='562.0' />
+<line class='nw_edge' id='line.95004235.95004418.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.26666666666666666' stroke-width='1.6' x1='614.5' x2='518.5' y1='516.5' y2='562.5' /></g>
+<g class='nwlinkwrapper' id='edge.95004235.95005806'>
+<line class='nw_edge' id='line.95004235.95005806.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='614.0' x2='579.0'  y1='516.0' y2='679.0' />
+<line class='nw_edge' id='line.95004235.95005806.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.5353333333333333' stroke-width='3.212' x1='614.5' x2='579.5' y1='516.5' y2='679.5' /></g>
+<g class='nwlinkwrapper' id='edge.95004193.95006086'>
+<line class='nw_edge' id='line.95004193.95006086.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='705.0' x2='770.0'  y1='1320.0' y2='1455.0' />
+<line class='nw_edge' id='line.95004193.95006086.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.30266666666666664' stroke-width='1.816' x1='705.5' x2='770.5' y1='1320.5' y2='1455.5' /></g>
+<g class='nwlinkwrapper' id='edge.95004193.95006090'>
+<line class='nw_edge' id='line.95004193.95006090.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='705.0' x2='743.0'  y1='1320.0' y2='1209.0' />
+<line class='nw_edge' id='line.95004193.95006090.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.598' stroke-width='3.588' x1='705.5' x2='743.5' y1='1320.5' y2='1209.5' /></g>
+<g class='nwlinkwrapper' id='edge.95004193.95006370'>
+<line class='nw_edge' id='line.95004193.95006370.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='705.0' x2='631.0'  y1='1320.0' y2='1220.0' />
+<line class='nw_edge' id='line.95004193.95006370.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.396' stroke-width='2.376' x1='705.5' x2='631.5' y1='1320.5' y2='1220.5' /></g>
+<g class='nwlinkwrapper' id='edge.95004418.95005806'>
+<line class='nw_edge' id='line.95004418.95005806.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='518.0' x2='579.0'  y1='562.0' y2='679.0' />
+<line class='nw_edge' id='line.95004418.95005806.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.39666666666666667' stroke-width='2.38' x1='518.5' x2='579.5' y1='562.5' y2='679.5' /></g>
+<g class='nwlinkwrapper' id='edge.95005224.95007518'>
+<line class='nw_edge' id='line.95005224.95007518.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1096.0' x2='1131.0'  y1='390.0' y2='500.0' />
+<line class='nw_edge' id='line.95005224.95007518.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.382' stroke-width='2.292' x1='1096.5' x2='1131.5' y1='390.5' y2='500.5' /></g>
+<g class='nwlinkwrapper' id='edge.95004436.95006458'>
+<line class='nw_edge' id='line.95004436.95006458.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='877.0' x2='819.0'  y1='320.0' y2='468.0' />
+<line class='nw_edge' id='line.95004436.95006458.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.2846666666666667' stroke-width='1.708' x1='877.5' x2='819.5' y1='320.5' y2='468.5' /></g>
+<g class='nwlinkwrapper' id='edge.95004446.95005806'>
+<line class='nw_edge' id='line.95004446.95005806.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='449.0' x2='579.0'  y1='653.0' y2='679.0' />
+<line class='nw_edge' id='line.95004446.95005806.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.41333333333333333' stroke-width='2.48' x1='449.5' x2='579.5' y1='653.5' y2='679.5' /></g>
+<g class='nwlinkwrapper' id='edge.95005527.95005806'>
+<line class='nw_edge' id='line.95005527.95005806.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='786.0' x2='579.0'  y1='598.0' y2='679.0' />
+<line class='nw_edge' id='line.95005527.95005806.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.584' stroke-width='3.504' x1='786.5' x2='579.5' y1='598.5' y2='679.5' /></g>
+<g class='nwlinkwrapper' id='edge.95005527.95006458'>
+<line class='nw_edge' id='line.95005527.95006458.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='786.0' x2='819.0'  y1='598.0' y2='468.0' />
+<line class='nw_edge' id='line.95005527.95006458.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.44133333333333336' stroke-width='2.648' x1='786.5' x2='819.5' y1='598.5' y2='468.5' /></g>
+<g class='nwlinkwrapper' id='edge.95005249.95006461'>
+<line class='nw_edge' id='line.95005249.95006461.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='396.0' x2='437.0'  y1='910.0' y2='1018.0' />
+<line class='nw_edge' id='line.95005249.95006461.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.4513333333333333' stroke-width='2.708' x1='396.5' x2='437.5' y1='910.5' y2='1018.5' /></g>
+<g class='nwlinkwrapper' id='edge.95006461.95007429'>
+<line class='nw_edge' id='line.95006461.95007429.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='437.0' x2='413.0'  y1='1018.0' y2='1163.0' />
+<line class='nw_edge' id='line.95006461.95007429.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.292' stroke-width='1.752' x1='437.5' x2='413.5' y1='1018.5' y2='1163.5' /></g>
+<g class='nwlinkwrapper' id='edge.95005806.95005809'>
+<line class='nw_edge' id='line.95005806.95005809.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='579.0' x2='440.0'  y1='679.0' y2='778.0' />
+<line class='nw_edge' id='line.95005806.95005809.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.27466666666666667' stroke-width='1.648' x1='579.5' x2='440.5' y1='679.5' y2='778.5' /></g>
+<g class='nwlinkwrapper' id='edge.95006090.95006370'>
+<line class='nw_edge' id='line.95006090.95006370.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='743.0' x2='631.0'  y1='1209.0' y2='1220.0' />
+<line class='nw_edge' id='line.95006090.95006370.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.596' stroke-width='3.576' x1='743.5' x2='631.5' y1='1209.5' y2='1220.5' /></g>
+<g class='nwlinkwrapper' id='edge.95006459.95007485'>
+<line class='nw_edge' id='line.95006459.95007485.0' stroke='rgb(200,200,200)' stroke-opacity='0' stroke-width='7' x1='1027.0' x2='916.0'  y1='948.0' y2='840.0' />
+<line class='nw_edge' id='line.95006459.95007485.1'  stroke='rgb(31,41,74)'  stroke-opacity='0.2786666666666667' stroke-width='1.672' x1='1027.5' x2='916.5' y1='948.5' y2='840.5' /></g>
+</g>
+<g id='nodes'>
+<defs>
+    <filter id='filter_shadow'>
+        <feGaussianBlur stdDeviation='1' />
+    </filter>
+</defs>
+<defs>
+    <filter height='200%' id='filter_bg_text' width='200%' x='-50%' y='-50%'>
+        <feGaussianBlur stdDeviation='1.8' />
+    </filter>
+    <filter height='200%' id='filter_bg_textFlat' width='200%' x='-50%' y='-50%'>
+        <feGaussianBlur stdDeviation='0' />
+    </filter>
+</defs>
+<defs>
+    <linearGradient id='bubble_gradient1' x1='50%' x2='50%' y1='100%' y2='0%'>
+        <stop offset='0.2472' style='stop-color:#FAFAFA;' />
+        <stop offset='0.4517' style='stop-color:#A2A2A2;' />
+        <stop offset='0.6785' style='stop-color:#5E5E5E;' />
+        <stop offset='0.8975' style='stop-color:#3C3C3C;' />
+        <stop offset='1' style='stop-color:#383838;' />
+    </linearGradient>
+    <radialGradient cx='50%' cy='50%' id='bubble_gradient2' r='50%'>
+        <stop offset='0' style='stop-color:#FFFFFF;' />
+        <stop offset='0.3726' style='stop-color:#FDFDFD;' />
+        <stop offset='0.6026' style='stop-color:#EBEBEB;' />
+        <stop offset='0.7463' style='stop-color:#C4C4C4;' />
+        <stop offset='0.8581' style='stop-color:#888888;' />
+        <stop offset='0.9523' style='stop-color:#373737;' />
+        <stop offset='0.9926' style='stop-color:#090909;' />
+        <stop offset='1' style='stop-color:#000000;' />
+    </radialGradient>
+    <radialGradient cx='50%' cy='50%' id='bubble_gradientFbbb' r='50%'>
+        <stop offset='0' style='stop-color:#FFFFFF;' />
+        <stop offset='0.8400' style='stop-color:#FFFFFF;' />
+        <stop offset='0.8800' style='stop-color:#000000;' />
+        <stop offset='1' style='stop-color:#000000;' />
+    </radialGradient>
+</defs>
+<defs>
+    <linearGradient id='brilliance_gradient' x1='50%' x2='50%' y1='0%' y2='100%'>
+        <stop offset='0' style='stop-color:#FFFFFF;stop-opacity:1;' />
+        <stop offset='0.1' style='stop-color:#FFFFFF;stop-opacity:0.99;' />
+        <stop offset='1' style='stop-color:#FFFFFF;stop-opacity:0;' />
+    </linearGradient>
+</defs>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='476298' data-x_pos='1130.0' data-y_pos='840.0' id='node.95002186'>
+<circle cx='1130.0' cy='840.0' fill='#FFFFFF' r='20' />
+<circle cx='1130.0' cy='840.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1130.0' cy='840.0' fill='rgb(239,122,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1130.0' y='844.0'>476298</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1130.0' y='844.0'>476298</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='481039' data-x_pos='546.0' data-y_pos='467.0' id='node.95002824'>
+<circle cx='546.0' cy='467.0' fill='#FFFFFF' r='20' />
+<circle cx='546.0' cy='467.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='546.0' cy='467.0' fill='rgb(239,126,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='546.0' y='471.0'>481039</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='546.0' y='471.0'>481039</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='481054' data-x_pos='476.0' data-y_pos='1237.0' id='node.95002826'>
+<circle cx='476.0' cy='1237.0' fill='#FFFFFF' r='20' />
+<circle cx='476.0' cy='1237.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='476.0' cy='1237.0' fill='rgb(239,128,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='476.0' y='1241.0'>481054</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='476.0' y='1241.0'>481054</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='481070' data-x_pos='1442.0' data-y_pos='875.0' id='node.95002830'>
+<circle cx='1442.0' cy='875.0' fill='#FFFFFF' r='20' />
+<circle cx='1442.0' cy='875.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1442.0' cy='875.0' fill='rgb(239,130,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1442.0' y='879.0'>481070</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1442.0' y='879.0'>481070</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='508337' data-x_pos='966.0' data-y_pos='733.0' id='node.95006023'>
+<circle cx='966.0' cy='733.0' fill='#FFFFFF' r='20' />
+<circle cx='966.0' cy='733.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='966.0' cy='733.0' fill='rgb(239,134,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='966.0' y='737.0'>508337</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='966.0' y='737.0'>508337</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='481987' data-x_pos='296.0' data-y_pos='599.0' id='node.95002969'>
+<circle cx='296.0' cy='599.0' fill='#FFFFFF' r='20' />
+<circle cx='296.0' cy='599.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='296.0' cy='599.0' fill='rgb(239,151,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='296.0' y='603.0'>481987</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='296.0' y='603.0'>481987</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='173947' data-x_pos='1184.0' data-y_pos='635.0' id='node.95000259'>
+<circle cx='1184.0' cy='635.0' fill='#FFFFFF' r='20' />
+<circle cx='1184.0' cy='635.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1184.0' cy='635.0' fill='rgb(239,170,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1184.0' y='639.0'>173947</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1184.0' y='639.0'>173947</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='482620' data-x_pos='1112.0' data-y_pos='1101.0' id='node.95003067'>
+<circle cx='1112.0' cy='1101.0' fill='#FFFFFF' r='20' />
+<circle cx='1112.0' cy='1101.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1112.0' cy='1101.0' fill='rgb(239,173,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1112.0' y='1105.0'>482620</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1112.0' y='1105.0'>482620</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='508856' data-x_pos='557.0' data-y_pos='975.0' id='node.95006070'>
+<circle cx='557.0' cy='975.0' fill='#FFFFFF' r='20' />
+<circle cx='557.0' cy='975.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='557.0' cy='975.0' fill='rgb(239,177,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='557.0' y='979.0'>508856</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='557.0' y='979.0'>508856</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='483020' data-x_pos='1242.0' data-y_pos='1072.0' id='node.95003126'>
+<circle cx='1242.0' cy='1072.0' fill='#FFFFFF' r='20' />
+<circle cx='1242.0' cy='1072.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1242.0' cy='1072.0' fill='rgb(239,179,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1242.0' y='1076.0'>483020</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1242.0' y='1076.0'>483020</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='9431' data-x_pos='1131.0' data-y_pos='500.0' id='node.95007518'>
+<circle cx='1131.0' cy='500.0' fill='#FFFFFF' r='20' />
+<circle cx='1131.0' cy='500.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1131.0' cy='500.0' fill='rgb(239,181,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1131.0' y='504.0'>9431</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1131.0' y='504.0'>9431</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='471319' data-x_pos='1368.0' data-y_pos='1181.0' id='node.95001856'>
+<circle cx='1368.0' cy='1181.0' fill='#FFFFFF' r='20' />
+<circle cx='1368.0' cy='1181.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1368.0' cy='1181.0' fill='rgb(239,186,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1368.0' y='1185.0'>471319</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1368.0' y='1185.0'>471319</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='504469' data-x_pos='579.0' data-y_pos='679.0' id='node.95005806'>
+<circle cx='579.0' cy='679.0' fill='#FFFFFF' r='20' />
+<circle cx='579.0' cy='679.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='579.0' cy='679.0' fill='rgb(239,194,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='579.0' y='683.0'>504469</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='579.0' y='683.0'>504469</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='194376' data-x_pos='608.0' data-y_pos='810.0' id='node.95000349'>
+<circle cx='608.0' cy='810.0' fill='#FFFFFF' r='20' />
+<circle cx='608.0' cy='810.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='608.0' cy='810.0' fill='rgb(239,207,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='608.0' y='814.0'>194376</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='608.0' y='814.0'>194376</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='509117' data-x_pos='770.0' data-y_pos='1455.0' id='node.95006086'>
+<circle cx='770.0' cy='1455.0' fill='#FFFFFF' r='20' />
+<circle cx='770.0' cy='1455.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='770.0' cy='1455.0' fill='rgb(239,209,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='770.0' y='1459.0'>509117</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='770.0' y='1459.0'>509117</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='484083' data-x_pos='1011.0' data-y_pos='470.0' id='node.95003278'>
+<circle cx='1011.0' cy='470.0' fill='#FFFFFF' r='20' />
+<circle cx='1011.0' cy='470.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1011.0' cy='470.0' fill='rgb(239,213,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1011.0' y='474.0'>484083</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1011.0' y='474.0'>484083</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='509145' data-x_pos='743.0' data-y_pos='1209.0' id='node.95006090'>
+<circle cx='743.0' cy='1209.0' fill='#FFFFFF' r='20' />
+<circle cx='743.0' cy='1209.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='743.0' cy='1209.0' fill='rgb(239,215,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='743.0' y='1213.0'>509145</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='743.0' y='1213.0'>509145</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='485414' data-x_pos='715.0' data-y_pos='861.0' id='node.95003487'>
+<circle cx='715.0' cy='861.0' fill='#FFFFFF' r='20' />
+<circle cx='715.0' cy='861.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='715.0' cy='861.0' fill='rgb(232,239,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='715.0' y='865.0'>485414</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='715.0' y='865.0'>485414</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='217983' data-x_pos='500.0' data-y_pos='514.0' id='node.95000434'>
+<circle cx='500.0' cy='514.0' fill='#FFFFFF' r='20' />
+<circle cx='500.0' cy='514.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='500.0' cy='514.0' fill='rgb(226,239,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='500.0' y='518.0'>217983</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='500.0' y='518.0'>217983</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='504739' data-x_pos='440.0' data-y_pos='778.0' id='node.95005809'>
+<circle cx='440.0' cy='778.0' fill='#FFFFFF' r='20' />
+<circle cx='440.0' cy='778.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='440.0' cy='778.0' fill='rgb(218,239,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='440.0' y='782.0'>504739</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='440.0' y='782.0'>504739</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='485787' data-x_pos='526.0' data-y_pos='427.0' id='node.95003533'>
+<circle cx='526.0' cy='427.0' fill='#FFFFFF' r='20' />
+<circle cx='526.0' cy='427.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='526.0' cy='427.0' fill='rgb(211,239,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='526.0' y='431.0'>485787</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='526.0' y='431.0'>485787</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='485861' data-x_pos='1204.0' data-y_pos='590.0' id='node.95003543'>
+<circle cx='1204.0' cy='590.0' fill='#FFFFFF' r='20' />
+<circle cx='1204.0' cy='590.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1204.0' cy='590.0' fill='rgb(205,239,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1204.0' y='594.0'>485861</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1204.0' y='594.0'>485861</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='510132' data-x_pos='1144.0' data-y_pos='1273.0' id='node.95006172'>
+<circle cx='1144.0' cy='1273.0' fill='#FFFFFF' r='20' />
+<circle cx='1144.0' cy='1273.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1144.0' cy='1273.0' fill='rgb(171,239,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1144.0' y='1277.0'>510132</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1144.0' y='1277.0'>510132</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='256397' data-x_pos='854.0' data-y_pos='743.0' id='node.95000559'>
+<circle cx='854.0' cy='743.0' fill='#FFFFFF' r='20' />
+<circle cx='854.0' cy='743.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='854.0' cy='743.0' fill='rgb(160,239,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='854.0' y='747.0'>256397</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='854.0' y='747.0'>256397</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='488363' data-x_pos='1056.0' data-y_pos='896.0' id='node.95003891'>
+<circle cx='1056.0' cy='896.0' fill='#FFFFFF' r='20' />
+<circle cx='1056.0' cy='896.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1056.0' cy='896.0' fill='rgb(158,239,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1056.0' y='900.0'>488363</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1056.0' y='900.0'>488363</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='463365' data-x_pos='721.0' data-y_pos='742.0' id='node.95001642'>
+<circle cx='721.0' cy='742.0' fill='#FFFFFF' r='20' />
+<circle cx='721.0' cy='742.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='721.0' cy='742.0' fill='rgb(147,239,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='721.0' y='746.0'>463365</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='721.0' y='746.0'>463365</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='257990' data-x_pos='906.0' data-y_pos='1372.0' id='node.95000573'>
+<circle cx='906.0' cy='1372.0' fill='#FFFFFF' r='20' />
+<circle cx='906.0' cy='1372.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='906.0' cy='1372.0' fill='rgb(139,239,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='906.0' y='1376.0'>257990</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='906.0' y='1376.0'>257990</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='546027' data-x_pos='466.0' data-y_pos='831.0' id='node.95007253'>
+<circle cx='466.0' cy='831.0' fill='#FFFFFF' r='20' />
+<circle cx='466.0' cy='831.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='466.0' cy='831.0' fill='rgb(138,239,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='466.0' y='835.0'>546027</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='466.0' y='835.0'>546027</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='488999' data-x_pos='671.0' data-y_pos='628.0' id='node.95003986'>
+<circle cx='671.0' cy='628.0' fill='#FFFFFF' r='20' />
+<circle cx='671.0' cy='628.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='671.0' cy='628.0' fill='rgb(128,239,117)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='671.0' y='632.0'>488999</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='671.0' y='632.0'>488999</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='489665' data-x_pos='894.0' data-y_pos='532.0' id='node.95004096'>
+<circle cx='894.0' cy='532.0' fill='#FFFFFF' r='20' />
+<circle cx='894.0' cy='532.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='894.0' cy='532.0' fill='rgb(117,239,119)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='894.0' y='536.0'>489665</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='894.0' y='536.0'>489665</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='490434' data-x_pos='1086.0' data-y_pos='697.0' id='node.95004182'>
+<circle cx='1086.0' cy='697.0' fill='#FFFFFF' r='20' />
+<circle cx='1086.0' cy='697.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1086.0' cy='697.0' fill='rgb(117,239,130)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1086.0' y='701.0'>490434</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1086.0' y='701.0'>490434</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='490518' data-x_pos='705.0' data-y_pos='1320.0' id='node.95004193'>
+<circle cx='705.0' cy='1320.0' fill='#FFFFFF' r='20' />
+<circle cx='705.0' cy='1320.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='705.0' cy='1320.0' fill='rgb(117,239,132)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='705.0' y='1324.0'>490518</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='705.0' y='1324.0'>490518</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='291975' data-x_pos='1074.0' data-y_pos='798.0' id='node.95000678'>
+<circle cx='1074.0' cy='798.0' fill='#FFFFFF' r='20' />
+<circle cx='1074.0' cy='798.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1074.0' cy='798.0' fill='rgb(117,239,143)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1074.0' y='802.0'>291975</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1074.0' y='802.0'>291975</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='464238' data-x_pos='640.0' data-y_pos='410.0' id='node.95001659'>
+<circle cx='640.0' cy='410.0' fill='#FFFFFF' r='20' />
+<circle cx='640.0' cy='410.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='640.0' cy='410.0' fill='rgb(117,239,147)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='640.0' y='414.0'>464238</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='640.0' y='414.0'>464238</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='490825' data-x_pos='614.0' data-y_pos='516.0' id='node.95004235'>
+<circle cx='614.0' cy='516.0' fill='#FFFFFF' r='20' />
+<circle cx='614.0' cy='516.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='614.0' cy='516.0' fill='rgb(117,239,151)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='614.0' y='520.0'>490825</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='614.0' y='520.0'>490825</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='491854' data-x_pos='896.0' data-y_pos='1030.0' id='node.95004369'>
+<circle cx='896.0' cy='1030.0' fill='#FFFFFF' r='20' />
+<circle cx='896.0' cy='1030.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='896.0' cy='1030.0' fill='rgb(117,239,170)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='896.0' y='1034.0'>491854</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='896.0' y='1034.0'>491854</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='492162' data-x_pos='518.0' data-y_pos='562.0' id='node.95004418'>
+<circle cx='518.0' cy='562.0' fill='#FFFFFF' r='20' />
+<circle cx='518.0' cy='562.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='518.0' cy='562.0' fill='rgb(117,239,175)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='518.0' y='566.0'>492162</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='518.0' y='566.0'>492162</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='492276' data-x_pos='877.0' data-y_pos='320.0' id='node.95004436'>
+<circle cx='877.0' cy='320.0' fill='#FFFFFF' r='20' />
+<circle cx='877.0' cy='320.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='877.0' cy='320.0' fill='rgb(117,239,181)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='877.0' y='324.0'>492276</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='877.0' y='324.0'>492276</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='492368' data-x_pos='449.0' data-y_pos='653.0' id='node.95004446'>
+<circle cx='449.0' cy='653.0' fill='#FFFFFF' r='20' />
+<circle cx='449.0' cy='653.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='449.0' cy='653.0' fill='rgb(117,239,186)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='449.0' y='657.0'>492368</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='449.0' y='657.0'>492368</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='493021' data-x_pos='949.0' data-y_pos='783.0' id='node.95004525'>
+<circle cx='949.0' cy='783.0' fill='#FFFFFF' r='20' />
+<circle cx='949.0' cy='783.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='949.0' cy='783.0' fill='rgb(117,239,203)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='949.0' y='787.0'>493021</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='949.0' y='787.0'>493021</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='493075' data-x_pos='908.0' data-y_pos='934.0' id='node.95004536'>
+<circle cx='908.0' cy='934.0' fill='#FFFFFF' r='20' />
+<circle cx='908.0' cy='934.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='908.0' cy='934.0' fill='rgb(117,239,207)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='908.0' y='938.0'>493075</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='908.0' y='938.0'>493075</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='465452' data-x_pos='784.0' data-y_pos='825.0' id='node.95001680'>
+<circle cx='784.0' cy='825.0' fill='#FFFFFF' r='20' />
+<circle cx='784.0' cy='825.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='784.0' cy='825.0' fill='rgb(117,239,209)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='784.0' y='829.0'>465452</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='784.0' y='829.0'>465452</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='477764' data-x_pos='720.0' data-y_pos='960.0' id='node.95002388'>
+<circle cx='720.0' cy='960.0' fill='#FFFFFF' r='20' />
+<circle cx='720.0' cy='960.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='720.0' cy='960.0' fill='rgb(117,239,230)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='720.0' y='964.0'>477764</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='720.0' y='964.0'>477764</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='357768' data-x_pos='1064.0' data-y_pos='614.0' id='node.95000888'>
+<circle cx='1064.0' cy='614.0' fill='#FFFFFF' r='20' />
+<circle cx='1064.0' cy='614.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1064.0' cy='614.0' fill='rgb(117,239,235)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1064.0' y='618.0'>357768</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1064.0' y='618.0'>357768</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='441099' data-x_pos='925.0' data-y_pos='1142.0' id='node.95001291'>
+<circle cx='925.0' cy='1142.0' fill='#FFFFFF' r='20' />
+<circle cx='925.0' cy='1142.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='925.0' cy='1142.0' fill='rgb(117,234,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='925.0' y='1146.0'>441099</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='925.0' y='1146.0'>441099</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='440973' data-x_pos='356.0' data-y_pos='513.0' id='node.95001290'>
+<circle cx='356.0' cy='513.0' fill='#FFFFFF' r='20' />
+<circle cx='356.0' cy='513.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='356.0' cy='513.0' fill='rgb(117,230,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='356.0' y='517.0'>440973</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='356.0' y='517.0'>440973</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='467200' data-x_pos='1200.0' data-y_pos='680.0' id='node.95001713'>
+<circle cx='1200.0' cy='680.0' fill='#FFFFFF' r='20' />
+<circle cx='1200.0' cy='680.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1200.0' cy='680.0' fill='rgb(117,209,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1200.0' y='684.0'>467200</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1200.0' y='684.0'>467200</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='478026' data-x_pos='631.0' data-y_pos='861.0' id='node.95002420'>
+<circle cx='631.0' cy='861.0' fill='#FFFFFF' r='20' />
+<circle cx='631.0' cy='861.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='631.0' cy='861.0' fill='rgb(117,200,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='631.0' y='865.0'>478026</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='631.0' y='865.0'>478026</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='497041' data-x_pos='1129.0' data-y_pos='990.0' id='node.95005083'>
+<circle cx='1129.0' cy='990.0' fill='#FFFFFF' r='20' />
+<circle cx='1129.0' cy='990.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1129.0' cy='990.0' fill='rgb(117,196,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1129.0' y='994.0'>497041</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1129.0' y='994.0'>497041</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='512727' data-x_pos='631.0' data-y_pos='1220.0' id='node.95006370'>
+<circle cx='631.0' cy='1220.0' fill='#FFFFFF' r='20' />
+<circle cx='631.0' cy='1220.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='631.0' cy='1220.0' fill='rgb(117,175,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='631.0' y='1224.0'>512727</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='631.0' y='1224.0'>512727</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='512731' data-x_pos='989.0' data-y_pos='1098.0' id='node.95006373'>
+<circle cx='989.0' cy='1098.0' fill='#FFFFFF' r='20' />
+<circle cx='989.0' cy='1098.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='989.0' cy='1098.0' fill='rgb(117,173,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='989.0' y='1102.0'>512731</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='989.0' y='1102.0'>512731</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='497895' data-x_pos='1096.0' data-y_pos='390.0' id='node.95005224'>
+<circle cx='1096.0' cy='390.0' fill='#FFFFFF' r='20' />
+<circle cx='1096.0' cy='390.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1096.0' cy='390.0' fill='rgb(117,170,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1096.0' y='394.0'>497895</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1096.0' y='394.0'>497895</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='497909' data-x_pos='429.0' data-y_pos='390.0' id='node.95005226'>
+<circle cx='429.0' cy='390.0' fill='#FFFFFF' r='20' />
+<circle cx='429.0' cy='390.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='429.0' cy='390.0' fill='rgb(117,166,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='429.0' y='394.0'>497909</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='429.0' y='394.0'>497909</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='498292' data-x_pos='396.0' data-y_pos='910.0' id='node.95005249'>
+<circle cx='396.0' cy='910.0' fill='#FFFFFF' r='20' />
+<circle cx='396.0' cy='910.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='396.0' cy='910.0' fill='rgb(117,156,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='396.0' y='914.0'>498292</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='396.0' y='914.0'>498292</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='71299' data-x_pos='413.0' data-y_pos='1163.0' id='node.95007429'>
+<circle cx='413.0' cy='1163.0' fill='#FFFFFF' r='20' />
+<circle cx='413.0' cy='1163.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='413.0' cy='1163.0' fill='rgb(117,151,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='413.0' y='1167.0'>71299</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='413.0' y='1167.0'>71299</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='84518' data-x_pos='1352.0' data-y_pos='954.0' id='node.95007470'>
+<circle cx='1352.0' cy='954.0' fill='#FFFFFF' r='20' />
+<circle cx='1352.0' cy='954.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1352.0' cy='954.0' fill='rgb(117,138,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1352.0' y='958.0'>84518</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1352.0' y='958.0'>84518</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='476059' data-x_pos='510.0' data-y_pos='928.0' id='node.95002154'>
+<circle cx='510.0' cy='928.0' fill='#FFFFFF' r='20' />
+<circle cx='510.0' cy='928.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='510.0' cy='928.0' fill='rgb(117,126,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='510.0' y='932.0'>476059</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='510.0' y='932.0'>476059</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='87007' data-x_pos='916.0' data-y_pos='840.0' id='node.95007485'>
+<circle cx='916.0' cy='840.0' fill='#FFFFFF' r='20' />
+<circle cx='916.0' cy='840.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='916.0' cy='840.0' fill='rgb(117,121,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='916.0' y='844.0'>87007</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='916.0' y='844.0'>87007</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='499748' data-x_pos='921.0' data-y_pos='1257.0' id='node.95005421'>
+<circle cx='921.0' cy='1257.0' fill='#FFFFFF' r='20' />
+<circle cx='921.0' cy='1257.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='921.0' cy='1257.0' fill='rgb(117,117,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='921.0' y='1261.0'>499748</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='921.0' y='1261.0'>499748</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='500582' data-x_pos='786.0' data-y_pos='598.0' id='node.95005527'>
+<circle cx='786.0' cy='598.0' fill='#FFFFFF' r='20' />
+<circle cx='786.0' cy='598.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='786.0' cy='598.0' fill='rgb(117,117,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='786.0' y='602.0'>500582</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='786.0' y='602.0'>500582</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='478367' data-x_pos='690.0' data-y_pos='1074.0' id='node.95002476'>
+<circle cx='690.0' cy='1074.0' fill='#FFFFFF' r='20' />
+<circle cx='690.0' cy='1074.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='690.0' cy='1074.0' fill='rgb(117,117,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='690.0' y='1078.0'>478367</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='690.0' y='1078.0'>478367</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='443318' data-x_pos='1202.0' data-y_pos='933.0' id='node.95001360'>
+<circle cx='1202.0' cy='933.0' fill='#FFFFFF' r='20' />
+<circle cx='1202.0' cy='933.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1202.0' cy='933.0' fill='rgb(117,117,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1202.0' y='937.0'>443318</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1202.0' y='937.0'>443318</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='443935' data-x_pos='802.0' data-y_pos='1136.0' id='node.95001385'>
+<circle cx='802.0' cy='1136.0' fill='#FFFFFF' r='20' />
+<circle cx='802.0' cy='1136.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='802.0' cy='1136.0' fill='rgb(117,117,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='802.0' y='1140.0'>443935</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='802.0' y='1140.0'>443935</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='513684' data-x_pos='819.0' data-y_pos='468.0' id='node.95006458'>
+<circle cx='819.0' cy='468.0' fill='#FFFFFF' r='20' />
+<circle cx='819.0' cy='468.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='819.0' cy='468.0' fill='rgb(117,117,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='819.0' y='472.0'>513684</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='819.0' y='472.0'>513684</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='513738' data-x_pos='1027.0' data-y_pos='948.0' id='node.95006459'>
+<circle cx='1027.0' cy='948.0' fill='#FFFFFF' r='20' />
+<circle cx='1027.0' cy='948.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1027.0' cy='948.0' fill='rgb(117,117,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1027.0' y='952.0'>513738</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1027.0' y='952.0'>513738</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='513743' data-x_pos='437.0' data-y_pos='1018.0' id='node.95006461'>
+<circle cx='437.0' cy='1018.0' fill='#FFFFFF' r='20' />
+<circle cx='437.0' cy='1018.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='437.0' cy='1018.0' fill='rgb(117,117,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='437.0' y='1022.0'>513743</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='437.0' y='1022.0'>513743</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='502072' data-x_pos='1037.0' data-y_pos='1204.0' id='node.95005720'>
+<circle cx='1037.0' cy='1204.0' fill='#FFFFFF' r='20' />
+<circle cx='1037.0' cy='1204.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='1037.0' cy='1204.0' fill='rgb(117,117,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='1037.0' y='1208.0'>502072</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='1037.0' y='1208.0'>502072</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='39328' data-x_pos='660.0' data-y_pos='450.0' id='node.95001028'>
+<circle cx='660.0' cy='450.0' fill='#FFFFFF' r='20' />
+<circle cx='660.0' cy='450.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='660.0' cy='450.0' fill='rgb(117,117,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='660.0' y='454.0'>39328</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='660.0' y='454.0'>39328</text>
+</g>
+<g class='nwnodecontainer' data-action_option='remove' data-exp_height='250' data-exp_width='324' data-radius='20' data-safe_div_label='476177' data-x_pos='783.0' data-y_pos='1012.0' id='node.95002165'>
+<circle cx='783.0' cy='1012.0' fill='#FFFFFF' r='20' />
+<circle cx='783.0' cy='1012.0' fill='url(#bubble_gradientFbbb)' opacity='0.45' r='20' />
+<circle class='nwbubblecoloredcircle'  cx='783.0' cy='1012.0' fill='rgb(117,117,239)' r='20' />
+<text fill='rgb(247,246,242)' filter='url(#filter_bg_textFlat)' opacity='1.0' stroke='rgb(247,246,242)' stroke-width='3' stroke-linecap='butt' text-anchor='middle' x='783.0' y='1016.0'>476177</text>
+<text fill='rgb(0,0,0)' opacity='1.0' text-anchor='middle' x='783.0' y='1016.0'>476177</text>
+</g>
+</g>
+</svg>

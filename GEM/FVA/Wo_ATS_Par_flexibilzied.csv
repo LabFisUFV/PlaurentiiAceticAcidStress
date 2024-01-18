@@ -1,0 +1,9 @@
+LogFC_Wo_ATS_Par,Reaction,NAME,EQUATION,SUBSYSTEM
+4.8332574048414,r_0503,glycine hydroxymethyltransferase,"L-serine[m] + THF[m] <=> 5,10-methylenetetrahydrofolate[m] + H2O[m] + L-glycine[m]","Biosynthesis of amino acids;Biosynthesis of antibiotics;Biosynthesis of secondary metabolites;Carbon metabolism;Glycine, serine and threonine metabolism;Glyoxylate and dicarboxylate metabolism;One carbon pool by folate"
+5.87941800187525,r_0664,isoleucine transaminase,2-oxoglutarate[m] + L-isoleucine[m] <=> (S)-3-methyl-2-oxopentanoate[m] + L-glutamate[m],"2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids;Biosynthesis of antibiotics;Biosynthesis of secondary metabolites;Cysteine and methionine metabolism;Pantothenate and CoA biosynthesis;Valine, leucine and isoleucine biosynthesis;Valine, leucine and isoleucine degradation"
+5.030994548251,r_0771,NADH kinase,ATP[c] + NADH[c] => ADP[c] + H+[c] + NADPH[c],Nicotinate and nicotinamide metabolism
+2.32192809488736,r_1718,D-xylose exchange,D-xylose[e] <=>,
+4.72170679628611,r_3533,"NAD transport, cytoplasm-ER membrane",NAD[c] <=> NAD[erm],
+2.81075994439984,r_3573,"octadecanoate (n-C18:0) transport, cytoplasm-lipid particle",stearate[c] <=> stearate[lp],
+9.11818428039035,t_0064,acyl-CoA oxidase (butanoyl-CoA),butanoyl-CoA[m] + FAD[m] <=> trans-but-2-enoyl-CoA[m] + FADH2[m],Fatty acid degradation (mitochondrial)
+38.868937628095,t_1083,"PC (1-18:1, 2-18:1) diacylglycerol (1-16:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane","diglyceride (1-16:0, 2-18:2)[erm] + phosphatidylcholine (1-18:1, 2-18:1)[erm] <=> triglyceride (1-16:0, 2-18:2, 3-18:1)[erm] + 1-acylglycerophosphocholine (18:1)[erm]",

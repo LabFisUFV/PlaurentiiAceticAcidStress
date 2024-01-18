@@ -1,0 +1,259 @@
+## ec_Model_BRENDA
+
+Growth rate: 0.060288 /hour.
+
+>> ecModel = setProtPoolSize(ecModel);
+
+>> [ecModel, tunedKcats] = sensitivityTuning(ecModel);
+
+Iteration 1: Growth: 0.060288
+Iteration 2: Growth: 0.16069
+Iteration 3: Growth: 0.20903
+Iteration 4: Growth: 0.28249
+Iteration 5: Growth: 0.39942
+Iteration 6: Growth: 0.42711
+
+>> struct2table(tunedKcats)
+ans =
+  4×6 table
+          rxns                                   rxnNames                                enzymes        oldKcat     newKcat        source   
+    ________________    ___________________________________________________________    ____________    _________    ________    ____________
+    {'r_0362_EXP_1'}    {'dolichyl-phosphate-mannose--protein mannosyltransferase'}    {'E6R3P8'  }    0.0053667    0.053667    {'brenda'  }
+    {'r_0510'      }    {'glycogen (starch) synthase'                             }    {'E6RBI4'  }       0.0183        1.83    {'brenda'  }
+    {'r_0558'      }    {'hydroxymethylglutaryl CoA reductase'                    }    {'E6R7I5'  }        0.023        0.23    {'brenda'  }
+    {'r_0892'      }    {'phosphoglycerate kinase'                                }    {'standard'}          176        1760    {'standard'}
+	
+## ec_Model_DLKcat
+
+Growth rate: 0.009565 /hour.
+>> ecModel = setProtPoolSize(ecModel);
+[ecModel, tunedKcats] = sensitivityTuning(ecModel);
+Iteration 1: Growth: 0.0095646
+Iteration 2: Growth: 0.012657
+Iteration 3: Growth: 0.016638
+Iteration 4: Growth: 0.024685
+Iteration 5: Growth: 0.033576
+Iteration 6: Growth: 0.041532
+Iteration 7: Growth: 0.050372
+Iteration 8: Growth: 0.060439
+Iteration 9: Growth: 0.065744
+Iteration 10: Growth: 0.077485
+Iteration 11: Growth: 0.090395
+Iteration 12: Growth: 0.10373
+Iteration 13: Growth: 0.10928
+Iteration 14: Growth: 0.11821
+Iteration 15: Growth: 0.12519
+Iteration 16: Growth: 0.1335
+Iteration 17: Growth: 0.14263
+Iteration 18: Growth: 0.15044
+Iteration 19: Growth: 0.15887
+Iteration 20: Growth: 0.16767
+Iteration 21: Growth: 0.17669
+Iteration 22: Growth: 0.1863
+Iteration 23: Growth: 0.19551
+Iteration 24: Growth: 0.20405
+Iteration 25: Growth: 0.21647
+Iteration 26: Growth: 0.22672
+Iteration 27: Growth: 0.23903
+Iteration 28: Growth: 0.25078
+Iteration 29: Growth: 0.25438
+Iteration 30: Growth: 0.25718
+Iteration 31: Growth: 0.26936
+Iteration 32: Growth: 0.28171
+Iteration 33: Growth: 0.2949
+Iteration 34: Growth: 0.30835
+Iteration 35: Growth: 0.32214
+Iteration 36: Growth: 0.32657
+Iteration 37: Growth: 0.33069
+Iteration 38: Growth: 0.34424
+Iteration 39: Growth: 0.3566
+Iteration 40: Growth: 0.36125
+Iteration 41: Growth: 0.37432
+Iteration 42: Growth: 0.37756
+Iteration 43: Growth: 0.38945
+Iteration 44: Growth: 0.40108
+Iteration 45: Growth: 0.41521
+Iteration 46: Growth: 0.4181
+Iteration 47: Growth: 0.43411
+
+>> struct2table(tunedKcats)
+ans =
+  33×6 table
+          rxns     
+      rxns                                  rxnNames                               enzymes         oldKcat    newKcat       source   
+    ____________________    ____________________________________________________    _________________    _______    _______    ____________
+    {'r_0040'          }    {'3-dehydroquinate synthase'                       }    {'E6R0Z8'       }    2.5708     25.708     {'DLKcat'  }
+    {'r_0109'          }    {'acetyl-CoA carboxylase, reaction'                }    {'E6R2T3;E6R880'}    15.796     157.96     {'DLKcat'  }
+    {'r_0112'          }    {'acetyl-CoA synthetase'                           }    {'E6QYP9'       }    3.6511     36.511     {'DLKcat'  }
+    {'r_0209'          }    {'arginyl-tRNA synthetase'                         }    {'E6R9T2'       }    0.1718      1.718     {'DLKcat'  }
+    {'r_0233'          }    {'C-22 sterol desaturase (NADP)'                   }    {'E6R7T9'       }    0.0148      0.148     {'DLKcat'  }
+    {'r_0313'          }    {'cysteinyl-tRNA synthetase'                       }    {'E6R1B1'       }    0.0637      0.637     {'DLKcat'  }
+    {'r_0366'          }    {'enolase'                                         }    {'standard'     }    6.8659     6865.9     {'standard'}
+    {'r_0450'          }    {'fructose-bisphosphate aldolase'                  }    {'E6R1G7'       }    6.8659     686.59     {'standard'}
+    {'r_0467'          }    {'glucose-6-phosphate isomerase'                   }    {'E6QZC4'       }    4.1433     414.33     {'DLKcat'  }
+    {'r_0472'          }    {'glutamate synthase (NADH2)'                      }    {'E6RCF1'       }     6.226      62.26     {'DLKcat'  }
+    {'r_0486'          }    {'glyceraldehyde-3-phosphate dehydrogenase'        }    {'E6RAC7'       }    16.924     1692.4     {'DLKcat'  }
+    {'r_0534_EXP_2'    }    {'hexokinase (D-glucose:ATP)'                      }    {'E6R0S9'       }    13.802     1380.2     {'DLKcat'  }
+    {'r_0538'          }    {'histidinol-phosphate transaminase'               }    {'E6QZM5'       }    0.1255      1.255     {'DLKcat'  }
+    {'r_0568'          }    {'inorganic diphosphatase'                         }    {'E6R6B6'       }    6.8659     68.659     {'standard'}
+    {'r_0886'          }    {'phosphofructokinase'                             }    {'E6R4V9'       }    12.392     1239.2     {'DLKcat'  }
+    {'r_0888'          }    {'phosphoglucomutase'                              }    {'standard'     }    6.8659     68.659     {'standard'}
+    {'r_0892'          }    {'phosphoglycerate kinase'                         }    {'standard'     }    6.8659     6865.9     {'standard'}
+    {'r_0893'          }    {'phosphoglycerate mutase'                         }    {'E6R4N5'       }     2.851      285.1     {'DLKcat'  }
+    {'r_0958_EXP_3'    }    {'pyruvate carboxylase'                            }    {'E6R8M7'       }    10.763     107.63     {'DLKcat'  }
+    {'r_0959'          }    {'pyruvate decarboxylase'                          }    {'E6R4X3'       }    134.53     1345.3     {'DLKcat'  }
+    {'r_0962'          }    {'pyruvate kinase'                                 }    {'E6R3H0'       }     12.85       1285     {'DLKcat'  }
+    {'r_0996'          }    {'shikimate dehydrogenase'                         }    {'E6R0Z8'       }    3.9822     39.822     {'DLKcat'  }
+    {'r_0997'          }    {'shikimate kinase'                                }    {'E6R0Z8'       }    3.7787     37.787     {'DLKcat'  }
+    {'r_1054'          }    {'triose-phosphate isomerase'                      }    {'E6R685'       }     42.13      421.3     {'DLKcat'  }
+    {'r_1057'          }    {'tryptophanyl-tRNA synthetase'                    }    {'E6R526'       }    0.1547      1.547     {'DLKcat'  }
+    {'r_1115_EXP_1'    }    {'ammonia transport'                               }    {'E6RC55'       }    6.8659     68.659     {'standard'}
+    {'r_1166_EXP_1'    }    {'glucose transport'                               }    {'E6RFT0'       }    41.258     412.58     {'DLKcat'  }
+    {'r_1277_REV_EXP_3'}    {'water diffusion (reversible)'                    }    {'E6R3A1'       }    6.8659     68.659     {'standard'}
+    {'r_1667_EXP_2'    }    {'bicarbonate formation'                           }    {'E6R5R6'       }     12.36      123.6     {'DLKcat'  }
+    {'r_2115'          }    {'alcohol dehydrogenase, (acetaldehyde to ethanol)'}    {'E6R6H0'       }    10.492     1049.2     {'DLKcat'  }
+    {'r_2141'          }    {'fatty-acyl-CoA synthase (n-C18:0CoA)'            }    {'E6R621;E6R622'}    6.3319     63.319     {'DLKcat'  }
+    {'r_4046'          }    {'non-growth associated maintenance reaction'      }    {'standard'     }    6.8659     686.59     {'standard'}
+    {'t_0027_EXP_4'    }    {'malic enzyme (NADP) cytoplasmic'                 }    {'E6RAW3'       }    15.443     154.43     {'DLKcat'  }		  
+
+## ec_Model_merged
+
+Growth rate: 0.042335 /hour.
+>> ecModel = setProtPoolSize(ecModel);
+[ecModel, tunedKcats] = sensitivityTuning(ecModel);
+Iteration 1: Growth: 0.042335
+Iteration 2: Growth: 0.083062
+Iteration 3: Growth: 0.10396
+Iteration 4: Growth: 0.13587
+Iteration 5: Growth: 0.17065
+Iteration 6: Growth: 0.21912
+Iteration 7: Growth: 0.28704
+Iteration 8: Growth: 0.30506
+Iteration 9: Growth: 0.35501
+Iteration 10: Growth: 0.38228
+Iteration 11: Growth: 0.41232
+Iteration 12: Growth: 0.426
+>> struct2table(tunedKcats)
+ans =
+  8×6 table
+          rxns                                   rxnNames                                enzymes        oldKcat     newKcat        source   
+    ________________    ___________________________________________________________    ____________    _________    ________    ____________
+    {'r_0362_EXP_1'}    {'dolichyl-phosphate-mannose--protein mannosyltransferase'}    {'E6R3P8'  }    0.0053667    0.053667    {'brenda'  }
+    {'r_0366'      }    {'enolase'                                                }    {'standard'}         14.8        1480    {'standard'}
+    {'r_0450'      }    {'fructose-bisphosphate aldolase'                         }    {'E6R1G7'  }         64.5         645    {'brenda'  }
+    {'r_0510'      }    {'glycogen (starch) synthase'                             }    {'E6RBI4'  }       0.0183        1.83    {'brenda'  }
+    {'r_0558'      }    {'hydroxymethylglutaryl CoA reductase'                    }    {'E6R7I5'  }        0.023        0.23    {'brenda'  }
+    {'r_0892'      }    {'phosphoglycerate kinase'                                }    {'standard'}         14.8        1480    {'standard'}
+    {'r_1166_EXP_1'}    {'glucose transport'                                      }    {'E6RFT0'  }       41.258      412.58    {'DLKcat'  }
+    {'r_4046'      }    {'non-growth associated maintenance reaction'             }    {'standard'}         14.8         148    {'standard'}
+	
+## ec_Model_BRENDA_wostd
+
+Growth rate: 0.062733 /hour.
+>> ecModel = setProtPoolSize(ecModel);
+[ecModel, tunedKcats] = sensitivityTuning(ecModel);
+Iteration 1: Growth: 0.062733
+Iteration 2: Growth: 0.17582
+Iteration 3: Growth: 0.23453
+Iteration 4: Growth: 0.32969
+Iteration 5: Growth: 0.49805
+>> le format.
+Error using  <= 
+Not enough input arguments. 
+>> struct2table(tunedKcats)
+ans =
+  3×6 table
+          rxns                                   rxnNames                               enzymes       oldKcat     newKcat       source  
+    ________________    ___________________________________________________________    __________    _________    ________    __________
+    {'r_0362_EXP_1'}    {'dolichyl-phosphate-mannose--protein mannosyltransferase'}    {'E6R3P8'}    0.0053667    0.053667    {'brenda'}
+    {'r_0510'      }    {'glycogen (starch) synthase'                             }    {'E6RBI4'}       0.0183        1.83    {'brenda'}
+    {'r_0558'      }    {'hydroxymethylglutaryl CoA reductase'                    }    {'E6R7I5'}        0.023        0.23    {'brenda'}
+	
+
+## ec_Model_DLKcat_wostd
+
+Growth rate: 0.023466 /hour.
+>> ecModel = setProtPoolSize(ecModel);
+[ecModel, tunedKcats] = sensitivityTuning(ecModel);
+Iteration 1: Growth: 0.023466
+Iteration 2: Growth: 0.034671
+Iteration 3: Growth: 0.047888
+Iteration 4: Growth: 0.06052
+Iteration 5: Growth: 0.075566
+Iteration 6: Growth: 0.094102
+Iteration 7: Growth: 0.11246
+Iteration 8: Growth: 0.1324
+Iteration 9: Growth: 0.14512
+Iteration 10: Growth: 0.15605
+Iteration 11: Growth: 0.16827
+Iteration 12: Growth: 0.17916
+Iteration 13: Growth: 0.19107
+Iteration 14: Growth: 0.20361
+Iteration 15: Growth: 0.21673
+Iteration 16: Growth: 0.22904
+Iteration 17: Growth: 0.24062
+Iteration 18: Growth: 0.25785
+Iteration 19: Growth: 0.27233
+Iteration 20: Growth: 0.28988
+Iteration 21: Growth: 0.30697
+Iteration 22: Growth: 0.31231
+Iteration 23: Growth: 0.32888
+Iteration 24: Growth: 0.34546
+Iteration 25: Growth: 0.3627
+Iteration 26: Growth: 0.36774
+Iteration 27: Growth: 0.38435
+Iteration 28: Growth: 0.39968
+Iteration 29: Growth: 0.40549
+Iteration 30: Growth: 0.42189
+
+>> struct2table(tunedKcats)
+ans =
+  22×6 table
+ 
+       rxns                                rxnNames                               enzymes         oldKcat    newKcat      source  
+    ________________    ____________________________________________________    _________________    _______    _______    __________
+    {'r_0040'      }    {'3-dehydroquinate synthase'                       }    {'E6R0Z8'       }    2.5708     25.708     {'DLKcat'}
+    {'r_0109'      }    {'acetyl-CoA carboxylase, reaction'                }    {'E6R2T3;E6R880'}    15.796     157.96     {'DLKcat'}
+    {'r_0112'      }    {'acetyl-CoA synthetase'                           }    {'E6QYP9'       }    3.6511     36.511     {'DLKcat'}
+    {'r_0209'      }    {'arginyl-tRNA synthetase'                         }    {'E6R9T2'       }    0.1718      1.718     {'DLKcat'}
+    {'r_0233'      }    {'C-22 sterol desaturase (NADP)'                   }    {'E6R7T9'       }    0.0148      0.148     {'DLKcat'}
+    {'r_0313'      }    {'cysteinyl-tRNA synthetase'                       }    {'E6R1B1'       }    0.0637      0.637     {'DLKcat'}
+    {'r_0467'      }    {'glucose-6-phosphate isomerase'                   }    {'E6QZC4'       }    4.1433     414.33     {'DLKcat'}
+    {'r_0472'      }    {'glutamate synthase (NADH2)'                      }    {'E6RCF1'       }     6.226      62.26     {'DLKcat'}
+    {'r_0486'      }    {'glyceraldehyde-3-phosphate dehydrogenase'        }    {'E6RAC7'       }    16.924     1692.4     {'DLKcat'}
+    {'r_0534_EXP_2'}    {'hexokinase (D-glucose:ATP)'                      }    {'E6R0S9'       }    13.802     1380.2     {'DLKcat'}
+    {'r_0538'      }    {'histidinol-phosphate transaminase'               }    {'E6QZM5'       }    0.1255      1.255     {'DLKcat'}
+    {'r_0886'      }    {'phosphofructokinase'                             }    {'E6R4V9'       }    12.392     1239.2     {'DLKcat'}
+    {'r_0893'      }    {'phosphoglycerate mutase'                         }    {'E6R4N5'       }     2.851      285.1     {'DLKcat'}
+    {'r_0958_EXP_3'}    {'pyruvate carboxylase'                            }    {'E6R8M7'       }    10.763     107.63     {'DLKcat'}
+    {'r_0959'      }    {'pyruvate decarboxylase'                          }    {'E6R4X3'       }    134.53     1345.3     {'DLKcat'}
+    {'r_0962'      }    {'pyruvate kinase'                                 }    {'E6R3H0'       }     12.85       1285     {'DLKcat'}
+    {'r_0996'      }    {'shikimate dehydrogenase'                         }    {'E6R0Z8'       }    3.9822     39.822     {'DLKcat'}
+    {'r_0997'      }    {'shikimate kinase'                                }    {'E6R0Z8'       }    3.7787     37.787     {'DLKcat'}
+    {'r_1054'      }    {'triose-phosphate isomerase'                      }    {'E6R685'       }     42.13      421.3     {'DLKcat'}
+    {'r_1057'      }    {'tryptophanyl-tRNA synthetase'                    }    {'E6R526'       }    0.1547      1.547     {'DLKcat'}
+    {'r_1166_EXP_1'}    {'glucose transport'                               }    {'E6RFT0'       }    41.258     412.58     {'DLKcat'}
+    {'r_2115'      }    {'alcohol dehydrogenase, (acetaldehyde to ethanol)'}    {'E6R6H0'       }    10.492     1049.2     {'DLKcat'}
+	
+	
+## ec_Model_merged_wostd
+
+Growth rate: 0.059731 /hour.
+>> ecModel = setProtPoolSize(ecModel);
+[ecModel, tunedKcats] = sensitivityTuning(ecModel);
+Iteration 1: Growth: 0.059731
+Iteration 2: Growth: 0.15607
+Iteration 3: Growth: 0.20111
+Iteration 4: Growth: 0.26796
+Iteration 5: Growth: 0.37059
+Iteration 6: Growth: 0.44153
+>> struct2table(tunedKcats)
+ans =
+  4×6 table
+          rxns                                   rxnNames                               enzymes       oldKcat     newKcat       source  
+    ________________    ___________________________________________________________    __________    _________    ________    __________
+    {'r_0362_EXP_1'}    {'dolichyl-phosphate-mannose--protein mannosyltransferase'}    {'E6R3P8'}    0.0053667    0.053667    {'brenda'}
+    {'r_0510'      }    {'glycogen (starch) synthase'                             }    {'E6RBI4'}       0.0183        1.83    {'brenda'}
+    {'r_0558'      }    {'hydroxymethylglutaryl CoA reductase'                    }    {'E6R7I5'}        0.023        0.23    {'brenda'}
+    {'r_1166_EXP_8'}    {'glucose transport'                                      }    {'E6RFT0'}       41.258      412.58    {'DLKcat'}
+	

@@ -1,0 +1,13 @@
+Strain_Condition	Type	Yield
+1.Parental	ATP_yield	0.0365446700540272
+1.Parental	NADH_yield	0.0132880019694774
+1.Parental	NADPH_yield	0.0079136249203017
+2.Parental_acetic_acid	ATP_yield	0.155944543843226
+2.Parental_acetic_acid	NADH_yield	0.0582503550073825
+2.Parental_acetic_acid	NADPH_yield	0.0263697161886102
+3.ATS	ATP_yield	0.0353062950621776
+3.ATS	NADH_yield	0.0068427994668948
+3.ATS	NADPH_yield	0.00545262131748294
+4.AST_acetic_acid	ATP_yield	0.213368714547052
+4.AST_acetic_acid	NADH_yield	0.314132938945362
+4.AST_acetic_acid	NADPH_yield	0.466811735725634
