@@ -2,6 +2,6 @@
 
 This repository is related to the study regarding the evaluation of the mechanisms underlying the response of *Papiliotrema laurentii* to acetic acid stress.
 
-The publication can be found at
+The publication can be found at ... (currently under review).
 
 Eduardo Almeida
